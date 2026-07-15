@@ -63,7 +63,12 @@ export default function Home() {
   async function pesquisar(event) {
     event.preventDefault();
     const termo = digitado.trim();
-    if (termo.length < 3) { setMensagem('Digite pelo menos 3 caracteres para pesquisar.'); return; }
+    if (termo.length < 3) { setMensagem('Digite uma rua, bairro ou o código completo da obra.'); return; }
+    if (/^\d+$/.test(termo)) {
+      setLocal(null); setBusca(termo); setMensagem(`Resultado para o código de obra ${termo}.`);
+      document.getElementById('obras')?.scrollIntoView({ behavior: 'smooth' });
+      return;
+    }
     setCarregando(true); setMensagem(''); setLocal(null); setBusca(termo);
     try {
       const response = await fetch(`/api/geocodificar?q=${encodeURIComponent(termo)}`);
@@ -109,8 +114,8 @@ export default function Home() {
     <header><div className="nav"><strong>Fiscaliza <span>BNU</span></strong><nav><a href="#obras">Pesquisar obras</a><a href="#fonte">Sobre os dados</a></nav></div></header>
     <section className="hero">
       <div className="tag">OBRAS PÚBLICAS DE BLUMENAU</div><h1>O que está acontecendo<br/><em>perto de você?</em></h1>
-      <p>Digite o nome da sua rua ou bairro para localizar obras públicas próximas.</p>
-      <form className="search" onSubmit={pesquisar}><span aria-hidden="true">⌕</span><label className="srOnly" htmlFor="busca-obras">Pesquisar endereço</label><input id="busca-obras" value={digitado} onChange={(event) => setDigitado(event.target.value)} placeholder="Ex.: Rua Cuba, Garcia..." autoComplete="street-address"/><button type="submit" disabled={carregando}>{carregando ? 'Buscando...' : 'Buscar'}</button></form>
+      <p>Digite o nome da sua rua, bairro ou o código da obra para consultar as informações públicas.</p>
+      <form className="search" onSubmit={pesquisar}><span aria-hidden="true">⌕</span><label className="srOnly" htmlFor="busca-obras">Pesquisar rua, bairro ou código da obra</label><input id="busca-obras" value={digitado} onChange={(event) => setDigitado(event.target.value)} placeholder="Ex.: Rua Cuba, Garcia ou 3913..." autoComplete="off" inputMode="search"/><button type="submit" disabled={carregando}>{carregando ? 'Buscando...' : 'Buscar'}</button></form>
       <div className="sourceNote">Dados reais do Portal de Transparência em Obras Públicas · Sincronizados em {sincronizadoEm}</div>
     </section>
 
