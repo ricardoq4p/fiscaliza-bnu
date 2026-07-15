@@ -8,6 +8,11 @@ const RAIO_KM = 1;
 const normalizar = (texto = '') => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const titulo = (texto = '') => texto.toLocaleLowerCase('pt-BR').replace(/(^|\s)(\p{L})/gu, (_, espaco, letra) => `${espaco}${letra.toLocaleUpperCase('pt-BR')}`);
 const rotuloSituacao = (situacao) => situacao ? titulo(situacao) : 'Não informada';
+const orientacaoSituacao = {
+  'EM ANDAMENTO': { titulo: 'Acompanhe o avanço', texto: 'Compare o andamento observado no local com as medições e o prazo publicados no portal oficial.' },
+  'CONCLUÍDA': { titulo: 'Confira a entrega', texto: 'Observe acabamento, acessibilidade e se a obra entregue corresponde ao que foi anunciado.' },
+  'PARALISADA': { titulo: 'Procure o motivo', texto: 'Verifique no portal oficial a justificativa da paralisação e se existe previsão pública de retomada.' }
+};
 
 function distanciaKm(a, b) {
   const rad = (graus) => graus * Math.PI / 180;
@@ -77,6 +82,7 @@ export default function Home() {
   const totalPaginas = Math.max(1, Math.ceil(filtradas.length / POR_PAGINA));
   const obrasDaPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
   const sincronizadoEm = new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'America/Sao_Paulo' }).format(new Date(dados.sincronizadoEm));
+  const linkMapa = (obra) => `https://www.openstreetmap.org/?mlat=${obra.latitude}&mlon=${obra.longitude}#map=18/${obra.latitude}/${obra.longitude}`;
 
   return <main>
     <header><div className="nav"><strong>Fiscaliza <span>BNU</span></strong><nav><a href="#obras">Pesquisar obras</a><a href="#fonte">Sobre os dados</a></nav></div></header>
@@ -92,8 +98,20 @@ export default function Home() {
       <div className="sectionTitle"><div><h2>{local ? 'Obras próximas ao endereço' : 'Encontre uma obra'}</h2><p>{mensagem || 'Pesquise pelo endereço e refine por situação ou órgão responsável.'}</p></div></div>
       <div className="filters" aria-label="Filtros de obras"><label>Situação<select value={situacao} onChange={(event) => setSituacao(event.target.value)}><option>Todas</option>{situacoes.map((item) => <option key={item} value={item}>{rotuloSituacao(item)}</option>)}</select></label><label>Órgão responsável<select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label><button className="clear" type="button" onClick={limparFiltros}>Limpar busca</button><strong className="resultCount">{filtradas.length} {filtradas.length === 1 ? 'obra encontrada' : 'obras encontradas'}</strong></div>
 
-      {obrasDaPagina.length > 0 ? <><div className="grid">{obrasDaPagina.map((obra, indice) => <article className="obra" key={`${obra.codigo}-${indice}`}><div className="obraTop"><span className={`pill ${normalizar(obra.situacao).replace(/\s/g, '')}`}>{rotuloSituacao(obra.situacao)}</span><small>Código {obra.codigo || 'não informado'}</small></div>{Number.isFinite(obra.distancia) && <div className="distance">A aproximadamente {obra.distancia < 1 ? `${Math.round(obra.distancia * 1000)} m` : `${obra.distancia.toFixed(1).replace('.', ',')} km`} do endereço buscado</div>}<h3>{titulo(obra.descricao)}</h3><p className="address"><b>{titulo(obra.logradouro || 'Endereço não informado')}</b><span>Blumenau, SC</span></p><dl><div><dt>Tipo</dt><dd>{obra.intervencao || 'Não informado'}</dd></div><div><dt>Responsável</dt><dd>{obra.secretaria || 'Não informado'}</dd></div></dl><footer><span>Fonte oficial</span><a href={dados.fonte} target="_blank" rel="noreferrer">Consultar no EngeGOV ↗</a></footer></article>)}</div><nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav></> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Não há obra publicada nesse raio com os filtros selecionados.</p><button type="button" onClick={limparFiltros}>Limpar busca</button></div>}
+      {obrasDaPagina.length > 0 ? <><div className="grid">{obrasDaPagina.map((obra, indice) => {
+        const orientacao = orientacaoSituacao[obra.situacao] || { titulo: 'Confira a informação', texto: 'Use o código da obra para consultar documentos e detalhes no portal oficial.' };
+        return <article className="obra" key={`${obra.codigo}-${indice}`}>
+          <div className="obraTop"><span className={`pill ${normalizar(obra.situacao).replace(/\s/g, '')}`}>{rotuloSituacao(obra.situacao)}</span><small>Código {obra.codigo || 'não informado'}</small></div>
+          {Number.isFinite(obra.distancia) && <div className="distance">A aproximadamente {obra.distancia < 1 ? `${Math.round(obra.distancia * 1000)} m` : `${obra.distancia.toFixed(1).replace('.', ',')} km`} do endereço buscado</div>}
+          <h3>{titulo(obra.descricao)}</h3>
+          <p className="address"><b>{titulo(obra.logradouro || 'Endereço não informado')}</b><span>Blumenau, SC</span></p>
+          <dl><div><dt>Tipo</dt><dd>{obra.intervencao || 'Não informado'}</dd></div><div><dt>Responsável</dt><dd>{obra.secretaria || 'Não informado'}</dd></div></dl>
+          <details className="fiscaliza"><summary>Como fiscalizar esta obra</summary><div><strong>{orientacao.titulo}</strong><p>{orientacao.texto}</p><small>No EngeGOV, procure pelo código <b>{obra.codigo}</b> para ver contrato, valores, medições, prazos, empresa, aditivos e fotos.</small></div></details>
+          <footer><a href={linkMapa(obra)} target="_blank" rel="noreferrer">Ver no mapa</a><a href={dados.fonte} target="_blank" rel="noreferrer">Detalhes oficiais ↗</a></footer>
+        </article>;
+      })}</div><nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav></> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Não há obra publicada nesse raio com os filtros selecionados.</p><button type="button" onClick={limparFiltros}>Limpar busca</button></div>}
     </section>
+    <section className="citizenGuide"><div><h2>Fiscalizar pode ser simples</h2><div><article><b>1. Localize</b><p>Pesquise uma rua e veja primeiro as obras realmente mais próximas.</p></article><article><b>2. Observe</b><p>Compare a situação publicada com o que você vê no local.</p></article><article><b>3. Confira</b><p>Use o código para consultar contrato, valores, prazos, medições e fotos no EngeGOV.</p></article></div></div></section>
     <section className="about" id="fonte"><div><h2>De onde vêm essas informações?</h2><p>Os registros e as coordenadas das obras são publicados pela Prefeitura de Blumenau no EngeGOV. A localização do endereço pesquisado usa dados do OpenStreetMap; a distância é aproximada, em linha reta.</p><p><b>Importante:</b> consulte o portal oficial para documentos e informações detalhadas.</p><a href={dados.fonte} target="_blank" rel="noreferrer">Acessar a fonte oficial ↗</a></div></section>
     <footer className="footer"><b>Fiscaliza BNU</b><p>Informação pública em linguagem simples para fortalecer a participação cidadã.</p></footer>
   </main>;
