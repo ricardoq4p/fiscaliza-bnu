@@ -1,4 +1,5 @@
 import dados from '../../../data/obras.json';
+import detalhes from '../../../data/detalhes-obras.json';
 
 export const runtime = 'nodejs';
 
@@ -16,6 +17,44 @@ function contagemPor(campo) {
     acc[valor] = (acc[valor] || 0) + 1;
     return acc;
   }, {})).sort((a, b) => b[1] - a[1]);
+}
+
+function numeroMoeda(valor) {
+  if (!valor) return null;
+  const numero = Number(String(valor).replace(/\./g, '').replace(',', '.'));
+  return Number.isFinite(numero) ? numero : null;
+}
+
+function anoData(valor) {
+  return String(valor || '').match(/\d{2}\/\d{2}\/(\d{4})/)?.[1] || null;
+}
+
+function dataOrdenavel(valor) {
+  const partes = String(valor || '').match(/(\d{2})\/(\d{2})\/(\d{4})/);
+  return partes ? `${partes[3]}-${partes[2]}-${partes[1]}` : null;
+}
+
+function resumoContratos(situacoes) {
+  const permitidas = new Set(situacoes);
+  const cadastro = new Map(dados.obras.map((obra) => [obra.codigo, obra]));
+  const registros = Object.values(detalhes.obras || {}).filter((detalhe) => permitidas.has(cadastro.get(detalhe.codigo)?.situacao || 'NÃO INFORMADA'));
+  const somar = (campo) => registros.reduce((total, obra) => total + (numeroMoeda(obra[campo]) || 0), 0);
+  const porAno = registros.reduce((acc, obra) => {
+    const ano = anoData(obra.inicioObra) || anoData(obra.dataContrato);
+    if (ano) acc[ano] = (acc[ano] || 0) + 1;
+    return acc;
+  }, {});
+  const inicios = registros.map((obra) => obra.inicioObra || obra.dataContrato).filter(dataOrdenavel).sort((a, b) => dataOrdenavel(a).localeCompare(dataOrdenavel(b)));
+  const terminos = registros.map((obra) => obra.terminoContrato || obra.dataLimiteExecucao).filter(dataOrdenavel).sort((a, b) => dataOrdenavel(a).localeCompare(dataOrdenavel(b)));
+  return {
+    cobertura: registros.length,
+    inicioMaisAntigo: inicios[0] || null,
+    terminoMaisRecente: terminos.at(-1) || null,
+    valorContratado: somar('valorContratado'),
+    valorExecutado: somar('valorExecutado'),
+    saldoContrato: somar('saldoContrato'),
+    obrasPorAno: Object.entries(porAno).sort((a, b) => a[0].localeCompare(b[0])).map(([ano, quantidade]) => ({ ano, quantidade }))
+  };
 }
 
 function selecionarSituacoes(pergunta, situacoes) {
@@ -75,7 +114,8 @@ export async function POST(request) {
     }));
     const secretarias = contagemPor('secretaria').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
     const tipos = contagemPor('intervencao').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
-    const fatos = { total, situacoes: cards, maioresSecretarias: secretarias, principaisTipos: tipos, sincronizadoEm: dados.sincronizadoEm };
+    const contratos = resumoContratos(cards.map((card) => card.situacao));
+    const fatos = { total, situacoes: cards, maioresSecretarias: secretarias, principaisTipos: tipos, contratos, sincronizadoEm: dados.sincronizadoEm };
     let resumo = resumoLocal(cards, total);
     let modo = 'análise automática';
     try {
@@ -85,7 +125,7 @@ export async function POST(request) {
       console.error('Falha opcional na explicação por IA:', error.message);
     }
 
-    return Response.json({ titulo: 'Comparação solicitada', pergunta, resumo, modo, total, cards, secretarias, tipos, sincronizadoEm: dados.sincronizadoEm });
+    return Response.json({ titulo: 'Comparação solicitada', pergunta, resumo, modo, total, cards, secretarias, tipos, contratos, sincronizadoEm: dados.sincronizadoEm });
   } catch {
     return Response.json({ erro: 'Não foi possível analisar a solicitação.' }, { status: 400 });
   }

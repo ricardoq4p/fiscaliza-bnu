@@ -1,0 +1,18 @@
+{
+  "sincronizadoEm": "2026-07-15T14:28:53+00:00",
+  "total": 1,
+  "obras": {
+    "3913": {
+      "codigo": "3913",
+      "percentualExecutado": "34",
+      "valorContratado": "205.000,00",
+      "valorExecutado": "70.000,00",
+      "saldoContrato": "135.000,00",
+      "dataContrato": "27/03/2026",
+      "inicioObra": "30/03/2026",
+      "dataLimiteExecucao": "28/06/2026",
+      "terminoContrato": "22/12/2026",
+      "consultadoEm": "2026-07-15T14:28:53+00:00"
+    }
+  }
+}
