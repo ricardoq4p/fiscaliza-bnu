@@ -70,7 +70,9 @@ def main() -> None:
     lista = json.loads(LISTA.read_text(encoding="utf-8"))["obras"]
     atual = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"obras": {}}
     detalhes = atual.get("obras", {})
-    pendentes = [obra for obra in lista if obra.get("codigo") and obra["codigo"] not in detalhes]
+    codigos_validos = {obra["codigo"] for obra in lista if re.fullmatch(r"(?:\d+|C\d+)", obra.get("codigo", ""), re.I)}
+    detalhes = {codigo: detalhe for codigo, detalhe in detalhes.items() if codigo in codigos_validos}
+    pendentes = [obra for obra in lista if obra.get("codigo") in codigos_validos and obra["codigo"] not in detalhes]
     if not args.all:
         pendentes = pendentes[:max(args.limit, 0)]
     if not pendentes:

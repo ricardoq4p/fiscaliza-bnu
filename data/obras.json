@@ -1,7 +1,7 @@
 {
   "fonte": "https://engegov.blumenau.sc.gov.br/portal-engegov/dashboard.xhtml?cidade=4898",
   "sincronizadoEm": "2026-07-15T12:37:54+00:00",
-  "total": 485,
+  "total": 483,
   "obras": [
     {
       "codigo": "3913",
@@ -4832,22 +4832,6 @@
       "situacao": "CONCLUÍDA",
       "latitude": -26.8119065,
       "longitude": -49.0894261
-    },
-    {
-      "codigo": "LISTA DE OBRAS DISPONÍVEIS",
-      "secretaria": "",
-      "descricao": "",
-      "logradouro": "",
-      "intervencao": "",
-      "situacao": ""
-    },
-    {
-      "codigo": "Município Blumenau/Santa Catarina",
-      "secretaria": "",
-      "descricao": "",
-      "logradouro": "",
-      "intervencao": "",
-      "situacao": ""
     }
   ]
 }

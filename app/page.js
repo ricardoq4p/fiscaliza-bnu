@@ -68,7 +68,7 @@ export default function Home() {
     event.preventDefault();
     const termo = digitado.trim();
     if (termo.length < 3) { setMensagem('Digite uma rua, bairro ou o código completo da obra.'); return; }
-    if (/^\d+$/.test(termo)) {
+    if (/^(?:\d+|C\d+)$/i.test(termo)) {
       setLocal(null); setBusca(termo); setMensagem(`Resultado para o código de obra ${termo}.`);
       document.getElementById('obras')?.scrollIntoView({ behavior: 'smooth' });
       return;

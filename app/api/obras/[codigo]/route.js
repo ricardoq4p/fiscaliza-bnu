@@ -107,15 +107,17 @@ async function fetchDetails(codigo) {
 
 export async function GET(_request, context) {
   const { codigo } = await context.params;
-  if (!/^\d+$/.test(codigo) || !dados.obras.some((obra) => obra.codigo === codigo)) return NextResponse.json({ erro: 'Obra não encontrada.' }, { status: 404 });
-  const cached = cache.get(codigo);
+  const obra = /^(?:\d+|C\d+)$/i.test(codigo) && dados.obras.find((item) => item.codigo.toUpperCase() === codigo.toUpperCase());
+  if (!obra) return NextResponse.json({ erro: 'Obra não encontrada.' }, { status: 404 });
+  const codigoOficial = obra.codigo;
+  const cached = cache.get(codigoOficial);
   if (cached && Date.now() - cached.time < TTL) return NextResponse.json(cached.data);
   try {
-    const data = await fetchDetails(codigo);
-    cache.set(codigo, { time: Date.now(), data });
+    const data = await fetchDetails(codigoOficial);
+    cache.set(codigoOficial, { time: Date.now(), data });
     return NextResponse.json(data);
   } catch (error) {
-    console.error(`Falha ao consultar detalhes da obra ${codigo}:`, error);
+    console.error(`Falha ao consultar detalhes da obra ${codigoOficial}:`, error);
     return NextResponse.json({ erro: 'Os detalhes do EngeGOV estão temporariamente indisponíveis.' }, { status: 502 });
   }
 }

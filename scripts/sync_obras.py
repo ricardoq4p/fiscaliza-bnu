@@ -115,7 +115,7 @@ def converter(planilha: bytes, coordenadas: dict[str, tuple[float, float]]) -> l
     obras = []
     for row_index in range(1, sheet.nrows):
         row = {headers[column]: texto(sheet.cell_value(row_index, column)) for column in range(sheet.ncols)}
-        if any(row.values()):
+        if re.fullmatch(r"(?:\d+|C\d+)", row.get("codigo", ""), re.I):
             coordinate = coordenadas.get(normalizar(row.get("descricao")))
             if coordinate:
                 row["latitude"], row["longitude"] = coordinate
