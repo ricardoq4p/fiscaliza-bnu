@@ -70,8 +70,19 @@ async function importObras(client, payload) {
   try {
     for (const obra of payload.obras) {
       await client.query(`
-        INSERT INTO "Obra" ("codigo", "secretaria", "descricao", "logradouro", "intervencao", "situacao", "latitude", "longitude")
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+        INSERT INTO "Obra" (
+          "codigo",
+          "secretaria",
+          "descricao",
+          "logradouro",
+          "intervencao",
+          "situacao",
+          "latitude",
+          "longitude",
+          "criadoEm",
+          "atualizadoEm"
+        )
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, NOW(), NOW())
         ON CONFLICT ("codigo") DO UPDATE SET
           "secretaria" = EXCLUDED."secretaria",
           "descricao" = EXCLUDED."descricao",
@@ -141,9 +152,11 @@ async function importDetalhes(client, payload) {
           "inicioObra",
           "dataLimiteExecucao",
           "terminoContrato",
-          "consultadoEm"
+          "consultadoEm",
+          "criadoEm",
+          "atualizadoEm"
         )
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, NOW(), NOW())
         ON CONFLICT ("codigo") DO UPDATE SET
           "percentualExecutado" = EXCLUDED."percentualExecutado",
           "valorContratado" = EXCLUDED."valorContratado",
