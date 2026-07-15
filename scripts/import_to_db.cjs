@@ -4,6 +4,14 @@ const crypto = require('node:crypto');
 const dotenv = require('dotenv');
 const { Pool } = require('pg');
 
+function normalizeConnectionString(value) {
+  const url = new URL(value);
+  if (url.searchParams.get('sslmode') === 'require') {
+    url.searchParams.set('sslmode', 'verify-full');
+  }
+  return url.toString();
+}
+
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local'), override: false });
 dotenv.config({ path: path.resolve(process.cwd(), '.env'), override: false });
 
@@ -16,8 +24,7 @@ const obrasPath = path.join(root, 'data', 'obras.json');
 const detalhesPath = path.join(root, 'data', 'detalhes-obras.json');
 
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: process.env.DATABASE_URL.includes('sslmode=require') ? { rejectUnauthorized: false } : undefined,
+  connectionString: normalizeConnectionString(process.env.DATABASE_URL),
 });
 
 function parseJson(filePath) {
