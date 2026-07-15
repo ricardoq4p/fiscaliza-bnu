@@ -31,6 +31,10 @@ export default function Home() {
   const [situacao, setSituacao] = useState('Todas');
   const [secretaria, setSecretaria] = useState('Todas');
   const [pagina, setPagina] = useState(1);
+  const [detalhes, setDetalhes] = useState({});
+  const [obraAberta, setObraAberta] = useState(null);
+  const [carregandoDetalhes, setCarregandoDetalhes] = useState(null);
+  const [erroDetalhes, setErroDetalhes] = useState('');
 
   const situacoes = useMemo(() => [...new Set(dados.obras.map((obra) => obra.situacao).filter(Boolean))].sort(), []);
   const secretarias = useMemo(() => [...new Set(dados.obras.map((obra) => obra.secretaria).filter(Boolean))].sort(), []);
@@ -78,6 +82,23 @@ export default function Home() {
     }
   }
 
+  async function abrirDetalhes(codigo) {
+    if (obraAberta === codigo) { setObraAberta(null); return; }
+    setObraAberta(codigo); setErroDetalhes('');
+    if (detalhes[codigo]) return;
+    setCarregandoDetalhes(codigo);
+    try {
+      const response = await fetch(`/api/obras/${codigo}`);
+      const resultado = await response.json();
+      if (!response.ok) throw new Error(resultado.erro);
+      setDetalhes((atuais) => ({ ...atuais, [codigo]: resultado }));
+    } catch (error) {
+      setErroDetalhes(error.message || 'Não foi possível carregar os detalhes.');
+    } finally {
+      setCarregandoDetalhes(null);
+    }
+  }
+
   const limparFiltros = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSituacao('Todas'); setSecretaria('Todas'); };
   const totalPaginas = Math.max(1, Math.ceil(filtradas.length / POR_PAGINA));
   const obrasDaPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
@@ -107,7 +128,21 @@ export default function Home() {
           <p className="address"><b>{titulo(obra.logradouro || 'Endereço não informado')}</b><span>Blumenau, SC</span></p>
           <dl><div><dt>Tipo</dt><dd>{obra.intervencao || 'Não informado'}</dd></div><div><dt>Responsável</dt><dd>{obra.secretaria || 'Não informado'}</dd></div></dl>
           <details className="fiscaliza"><summary>Como fiscalizar esta obra</summary><div><strong>{orientacao.titulo}</strong><p>{orientacao.texto}</p><small>No EngeGOV, procure pelo código <b>{obra.codigo}</b> para ver contrato, valores, medições, prazos, empresa, aditivos e fotos.</small></div></details>
-          <footer><a href={linkMapa(obra)} target="_blank" rel="noreferrer">Ver no mapa</a><a href={dados.fonte} target="_blank" rel="noreferrer">Detalhes oficiais ↗</a></footer>
+          <button className="detailsButton" type="button" onClick={() => abrirDetalhes(obra.codigo)}>{carregandoDetalhes === obra.codigo ? 'Consultando EngeGOV...' : obraAberta === obra.codigo ? 'Ocultar contrato e andamento' : 'Ver contrato e andamento'}</button>
+          {obraAberta === obra.codigo && <section className="officialDetails" aria-live="polite">
+            {carregandoDetalhes === obra.codigo && <p>Buscando os dados mais recentes no portal oficial...</p>}
+            {erroDetalhes && <p className="detailsError">{erroDetalhes}</p>}
+            {detalhes[obra.codigo] && <>
+              <div className="progressTitle"><span>Execução publicada</span><b>{detalhes[obra.codigo].percentualExecutado || '0'}%</b></div>
+              <div className="progressTrack"><i style={{ width: `${Math.min(Number(String(detalhes[obra.codigo].percentualExecutado).replace(',', '.')) || 0, 100)}%` }}/></div>
+              <div className="moneyGrid"><div><small>Valor contratado</small><b>R$ {detalhes[obra.codigo].valorContratado || 'Não informado'}</b></div><div><small>Valor medido</small><b>R$ {detalhes[obra.codigo].valorExecutado || 'Não informado'}</b></div><div><small>Saldo do contrato</small><b>R$ {detalhes[obra.codigo].saldoContrato || 'Não informado'}</b></div></div>
+              <h4>Empresa e contrato</h4><div className="contractGrid"><div><small>Empresa</small><b>{detalhes[obra.codigo].empresa || 'Não informada'}</b></div><div><small>CNPJ</small><b>{detalhes[obra.codigo].cnpj || 'Não informado'}</b></div><div><small>Contrato</small><b>{detalhes[obra.codigo].contrato || 'Não informado'}</b></div><div><small>Licitação</small><b>{detalhes[obra.codigo].licitacao || 'Não informada'}</b></div><div><small>Início da obra</small><b>{detalhes[obra.codigo].inicioObra || 'Não informado'}</b></div><div><small>Limite de execução</small><b>{detalhes[obra.codigo].dataLimiteExecucao || 'Não informado'}</b></div><div><small>Término do contrato</small><b>{detalhes[obra.codigo].terminoContrato || 'Não informado'}</b></div><div><small>Ordem de serviço</small><b>{detalhes[obra.codigo].ordemServico || 'Não informada'}</b></div></div>
+              <div className="resource"><small>Origem do recurso</small><b>{detalhes[obra.codigo].tipoRecurso || 'Não informada'}</b></div>
+              {detalhes[obra.codigo].medicoes?.length > 0 && <><h4>Medições publicadas</h4>{detalhes[obra.codigo].medicoes.map((medicao) => <div className="measurement" key={medicao.numero}><b>Medição {medicao.numero}</b><span>{medicao.data}</span><span>{medicao.percentual} · R$ {medicao.valor}</span></div>)}</>}
+              <small className="detailSource">Consulta realizada no EngeGOV. Confirme documentos, aditivos, paralisações, etapas e fotos na fonte oficial.</small>
+            </>}
+          </section>}
+          <footer><a href={linkMapa(obra)} target="_blank" rel="noreferrer">Ver no mapa</a><a href={dados.fonte} target="_blank" rel="noreferrer">Abrir EngeGOV ↗</a></footer>
         </article>;
       })}</div><nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav></> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Não há obra publicada nesse raio com os filtros selecionados.</p><button type="button" onClick={limparFiltros}>Limpar busca</button></div>}
     </section>

@@ -15,6 +15,8 @@ npm run sync:data
 
 O sincronizador baixa a planilha oficial completa e as coordenadas publicadas no mapa do EngeGOV. A localização do endereço pesquisado usa o OpenStreetMap/Nominatim. O processo não altera dados nem envia formulários de contato.
 
+Ao clicar em **Ver contrato e andamento**, a rota `/api/obras/[codigo]` consulta somente a obra escolhida no EngeGOV e apresenta valores, percentual executado, empresa, contrato, prazos, recurso e medições. A resposta é mantida em cache por uma hora para reduzir acessos ao portal oficial.
+
 ## Desenvolvimento
 
 ```bash
