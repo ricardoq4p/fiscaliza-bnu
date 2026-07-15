@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import https from 'node:https';
-import dados from '../../../../data/obras.json';
+import { getObraByCodigo } from '../../../../lib/obras-data';
 
 const PORTAL = 'https://engegov.blumenau.sc.gov.br/portal-engegov/dashboard.xhtml?cidade=4898';
 const cache = new Map();
@@ -107,7 +107,7 @@ async function fetchDetails(codigo) {
 
 export async function GET(_request, context) {
   const { codigo } = await context.params;
-  const obra = /^(?:\d+|C\d+)$/i.test(codigo) && dados.obras.find((item) => item.codigo.toUpperCase() === codigo.toUpperCase());
+  const obra = /^(?:\d+|C\d+)$/i.test(codigo) ? await getObraByCodigo(codigo) : null;
   if (!obra) return NextResponse.json({ erro: 'Obra não encontrada.' }, { status: 404 });
   const codigoOficial = obra.codigo;
   const cached = cache.get(codigoOficial);

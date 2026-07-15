@@ -1,0 +1,49 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Obra {
+  codigo       String       @id
+  secretaria   String?
+  descricao    String
+  logradouro   String?
+  intervencao  String?
+  situacao     String?
+  latitude     Float?
+  longitude    Float?
+  criadoEm     DateTime     @default(now())
+  atualizadoEm DateTime     @updatedAt
+  detalhe      ObraDetalhe?
+}
+
+model ObraDetalhe {
+  codigo              String    @id
+  percentualExecutado String?
+  valorContratado     Decimal?  @db.Decimal(15, 2)
+  valorExecutado      Decimal?  @db.Decimal(15, 2)
+  saldoContrato       Decimal?  @db.Decimal(15, 2)
+  dataContrato        DateTime?
+  inicioObra          DateTime?
+  dataLimiteExecucao  DateTime?
+  terminoContrato     DateTime?
+  consultadoEm        DateTime?
+  criadoEm            DateTime  @default(now())
+  atualizadoEm        DateTime  @updatedAt
+  obra                Obra      @relation(fields: [codigo], references: [codigo], onDelete: Cascade)
+}
+
+model SyncRun {
+  id            String   @id @default(cuid())
+  tipo          String
+  fonte         String?
+  status        String
+  totalLidos    Int?
+  totalGravados Int?
+  mensagem      String?
+  iniciadoEm    DateTime @default(now())
+  finalizadoEm  DateTime?
+}

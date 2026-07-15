@@ -1,5 +1,4 @@
-import dados from '../../../data/obras.json';
-import detalhes from '../../../data/detalhes-obras.json';
+import { getDetalhesDataset, getObrasDataset } from '../../../lib/obras-data';
 
 export const runtime = 'nodejs';
 
@@ -27,7 +26,7 @@ const rotulos = {
   'NÃO INFORMADA': 'Sem situação informada'
 };
 
-function contagemPor(campo) {
+function contagemPor(dados, campo) {
   return Object.entries(dados.obras.reduce((acc, obra) => {
     const valor = obra[campo] || 'NÃO INFORMADA';
     acc[valor] = (acc[valor] || 0) + 1;
@@ -36,21 +35,25 @@ function contagemPor(campo) {
 }
 
 function numeroMoeda(valor) {
+  if (typeof valor === 'number') return Number.isFinite(valor) ? valor : null;
   if (!valor) return null;
   const numero = Number(String(valor).replace(/\./g, '').replace(',', '.'));
   return Number.isFinite(numero) ? numero : null;
 }
 
 function anoData(valor) {
+  if (valor instanceof Date) return String(valor.getUTCFullYear());
   return String(valor || '').match(/\d{2}\/\d{2}\/(\d{4})/)?.[1] || null;
 }
 
 function dataOrdenavel(valor) {
+  if (valor instanceof Date) return valor.toISOString().slice(0, 10);
   const partes = String(valor || '').match(/(\d{2})\/(\d{2})\/(\d{4})/);
   return partes ? `${partes[3]}-${partes[2]}-${partes[1]}` : null;
 }
 
 function dataBrasilParaDate(valor) {
+  if (valor instanceof Date) return Number.isNaN(valor.getTime()) ? null : valor;
   const partes = String(valor || '').match(/(\d{2})\/(\d{2})\/(\d{4})/);
   if (!partes) return null;
   const data = new Date(Date.UTC(Number(partes[3]), Number(partes[2]) - 1, Number(partes[1])));
@@ -93,7 +96,7 @@ function obraDentroDoPeriodo(obra, periodo, referencia) {
   return dataBase >= inicioJanela && dataBase <= referencia;
 }
 
-function resumoContratos(situacoes, periodo) {
+function resumoContratos(dados, detalhes, situacoes, periodo) {
   const permitidas = new Set(situacoes);
   const cadastro = new Map(dados.obras.map((obra) => [obra.codigo, obra]));
   const referencia = dados.sincronizadoEm ? new Date(dados.sincronizadoEm) : new Date();
@@ -187,18 +190,23 @@ export async function POST(request) {
     const pergunta = String(corpo?.pergunta || '').trim().slice(0, 400);
     if (pergunta.length < 5) return Response.json({ erro: 'Escreva uma pergunta um pouco mais detalhada.' }, { status: 400 });
 
+    const [dados, detalhes] = await Promise.all([
+      getObrasDataset(),
+      getDetalhesDataset(),
+    ]);
+
     const total = dados.obras.length;
-    const todasSituacoes = contagemPor('situacao');
+    const todasSituacoes = contagemPor(dados, 'situacao');
     const cards = selecionarSituacoes(pergunta, todasSituacoes).map(([situacao, quantidade]) => ({
       situacao,
       rotulo: rotulos[situacao] || situacao,
       quantidade,
       percentual: Number(((quantidade / total) * 100).toFixed(1))
     }));
-    const secretarias = contagemPor('secretaria').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
-    const tipos = contagemPor('intervencao').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
+    const secretarias = contagemPor(dados, 'secretaria').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
+    const tipos = contagemPor(dados, 'intervencao').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
     const periodo = extrairPeriodo(pergunta);
-    const contratos = resumoContratos(cards.map((card) => card.situacao), periodo);
+    const contratos = resumoContratos(dados, detalhes, cards.map((card) => card.situacao), periodo);
     const fatos = { total, situacoes: cards, maioresSecretarias: secretarias, principaisTipos: tipos, contratos, periodo, sincronizadoEm: dados.sincronizadoEm };
     let resumo = resumoLocalComContratos(cards, total, contratos);
     let modo = 'análise automática';
