@@ -1,0 +1,3887 @@
+{
+  "fonte": "https://engegov.blumenau.sc.gov.br/portal-engegov/dashboard.xhtml?cidade=4898",
+  "sincronizadoEm": "2026-07-15T12:20:52+00:00",
+  "total": 485,
+  "obras": [
+    {
+      "codigo": "3913",
+      "secretaria": "SEPLAN",
+      "descricao": "REVISÃO DO PROJETO EXECUTIVO DE ARQUITETURA E DO ORÇAMENTO DE OBRA DA PASSARELA METÁLICA PARA PEDESTRES E CICLISTAS DA PRAINHA, CONECTANDO A PRAÇA JUSCELINO KUBITSCHEK DE OLIVEIRA AO MIRANTE DA RUA ITAJAÍ, NO BAIRRO CENTRO, MUNICÍPIO DE BLUMENAU/SC.",
+      "logradouro": "RUA PARAGUAY",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3857",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DOS PROJETOS DE MACRODRENAGENS DE 06 (SEIS) REGIÕES DO MUNICÍPIO DE BLUMENAU - LOTE 04",
+      "logradouro": "VÁRIAS REGIÕES",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3856",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DOS PROJETOS DE MACRODRENAGENS DE 06 (SEIS) REGIÕES DO MUNICÍPIO DE BLUMENAU - LOTE 03",
+      "logradouro": "VÁRIAS REGIÕES",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3852",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DOS PROJETOS DE MACRODRENAGENS DE 04 (QUATRO) REGIÕES DO MUNICÍPIO DE BLUMENAU - LOTE 02",
+      "logradouro": "VÁRIAS REGIÕES",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3849",
+      "secretaria": "SEMOB",
+      "descricao": "REQUALIFICAÇÃO VIÁRIA DO PAVIMENTO DA RUA SANTA TEREZINHA",
+      "logradouro": "RUA SANTA TEREZINHA",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3808",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO E DRENAGEM VIA PROJETADA 64 (TRECHO 01)",
+      "logradouro": "VIA PROJETADA 64",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3800",
+      "secretaria": "SEMUS",
+      "descricao": "ELABORAÇÃO DE PROJETO ARQUITETONICO E COMPLEMENTARES EXECUTIVOS PARA NOVO ESF ALFREDO HOESS",
+      "logradouro": "RUA EMIL MANKE SÊNIOR, Nº 676, BAIRRO VILA ITOUPAVA, BLUMENAU - SC",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3777",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO E DRENAGEM DA ACHILES JACOBSEN",
+      "logradouro": "ACHILES JACOBSEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3764",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM CONCRETO E DRENAGEM PLUVIAL DA RUA GENESIO LINK",
+      "logradouro": "RUA GENESIO LINK",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3714",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO E DRENAGEM RUA HERMANN HEIN - TRECHO FINAL",
+      "logradouro": "RUA HERMANN HEIN",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3693",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO EMERGENCIAL DE GALERIA DE DRENAGEM NO RIBEIRÃO DO TIGRE NA RUA FIDES DEEKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FIDES DEEKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3668",
+      "secretaria": "SEMOB",
+      "descricao": "T2A_VIII RECUPERAÇÃO DE PAVIMENTAÇÃO ASFÁLTICA DA RUA FRANZ VOLLES",
+      "logradouro": "RUA FRANZ VOLLES",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3666",
+      "secretaria": "SEMOB",
+      "descricao": "T2A_VII MELHORIA DE CIRCULAÇÃO VIÁRIA DO NOVO ACESSO À RUA FRANZ VOLLES",
+      "logradouro": "RUA FRANZ VOLLES",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3663",
+      "secretaria": "SEMOB",
+      "descricao": "T2A_V - RUA ARI BARROSO",
+      "logradouro": "RUA ARI BARROSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3662",
+      "secretaria": "SEMOB",
+      "descricao": "T2A_IV REURBANIZAÇÃO RUA FREDERICO JENSEN",
+      "logradouro": "RUA FREDERICO JENSEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3660",
+      "secretaria": "SEMOB",
+      "descricao": "T2A_III REURBANIZAÇÃO RUA GUSTAVO HENSCHEL",
+      "logradouro": "RUA GUSTAVO HENSCHEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3657",
+      "secretaria": "SEMOB",
+      "descricao": "T2A_II REURBANIZAÇÃO RUA GUILHERME SCHARF [OBRA REPROGRAMADA]",
+      "logradouro": "GUILHERME SCHARF",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3649",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA RECIFE - TRECHO FINAL E RUA CARIJÓS",
+      "logradouro": "RUA RECIFE",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3638",
+      "secretaria": "SEMUS",
+      "descricao": "CONSTRUÇÃO NOVO ESF EVACIR BARTH",
+      "logradouro": "RUA JULIO MICHEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3623",
+      "secretaria": "SEMOB",
+      "descricao": "COMPLEMENTAÇÃO DE DRENAGEM PLUVIAL E IMPLANTAÇÃO DE PASSEIO E CICLOVIA NA RUA 1º DE JANEIRO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 1º DE JANEIRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3615",
+      "secretaria": "SEMOB",
+      "descricao": "IMPLANTAÇÃO DE ESTACIONAMENTO DE VEÍCULOS DO PARQUE ALCÂNTARO CORRÊA - ETAPA 1A [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 1 DE JANEIRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3590",
+      "secretaria": "SEMUS",
+      "descricao": "AMPLIAÇÃO E REFORMA DO ESF NORBERTO SPRUNG",
+      "logradouro": "RUA PROF. HERMAN LANGE",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3587",
+      "secretaria": "SEMED",
+      "descricao": "AMPLIAÇÃO DA ÁREA ADMINISTRATIVA DO CEI EMILIA PISKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HERMAN PISKE, 250",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3581",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE CONTENÇÃO DE ENCOSTA NA MARGEM DO RIO ITAJAÍ-AÇÚ NA RUA ARNOLD HEMMER",
+      "logradouro": "RUA ARNOLD HEMMER",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3567",
+      "secretaria": "SEMOB",
+      "descricao": "SUPERVISÃO DAS OBRAS DE IMPLANTAÇÃO DO CORREDOR ESTRUTURAL NORTE, INCLUINDO CONTROLE TECNOLÓGICO, CONTROLE AMBIENTAL E CONTROLE FÍSICO FINANCEIRO",
+      "logradouro": "RUA DR PEDRO ZIMMERMANN",
+      "intervencao": "Supervisão",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3566",
+      "secretaria": "SEMOB",
+      "descricao": "SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DA OBRA DE AMPLIAÇÃO DA CAPTAÇÃO E ADUÇÃO DE ÁGUA BRUTA DO SISTEMA DE ABASTECIMENTO DE BLUMENAU - ETA II [OBRA REPROGRAMADA]",
+      "logradouro": "RUA OSWALDO DAY",
+      "intervencao": "Supervisão",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3565",
+      "secretaria": "SEPLAN",
+      "descricao": "PARQUE LINEAR TESTO SALTO [OBRA REPROGRAMADA]",
+      "logradouro": "FRANCISCO CORREA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3564",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO EM CONCRETO RUA MARILÂNDIA - TRECHO INICIAL",
+      "logradouro": "RUA MARILÂNDIA",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3560",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO DA RUA ARNO COUTINHO - CONTINUAÇÃO [OBRA REPROGRAMADA]",
+      "logradouro": "ARNO COUTINHO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3557",
+      "secretaria": "SEPLAN",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA ELABORAÇÃO E FORNECIMENTO DE PROJETOS BÁSICOS E EXECUTIVOS DE ARQUITETURA E ENGENHARIA, REFERENTE A ARQUITETURA PAISAGÍSTICA, TERRAPLENAGEM, DRENAGEM, SINALIZAÇÃO VIÁRIA, PAVIMENTAÇÃO E OBRAS COMPLEMENTARES PARA A RUA ERWIN MANZKE, RUA WUNDERWALD, RUA WILHELM WUDTKE E RUA PAUL DRAEGER, NO DISTRITO DE VILA ITOUPAVA.",
+      "logradouro": "ERWIN MANZKE",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3553",
+      "secretaria": "SEPARC",
+      "descricao": "LEVANTAMENTO TOPOGRÁFICO GEOREFERENCIADO E PROJETO DE DESMEMBRAMENTO DE IMÓVEL PÚBLICO [OBRA REPROGRAMADA]",
+      "logradouro": "RUE GERTRUD SIERICH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3551",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA DONATO CORREA - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DONATO CORREA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3548",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA CUSTÓDIO SEVERINO CARDOSO TRECHO FINAL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CUSTÓDIO SEVERINO CARDOSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3539",
+      "secretaria": "SEMOB",
+      "descricao": "ROTATÓRIA DA RUA 1º DE JANEIRO COM A MARGINAL DA BR 470",
+      "logradouro": "PRIMEIRO DE JANEIRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3523",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ANTÔNIO PROTÁSIO OLIVEIRA",
+      "logradouro": "RUA ANTÔNIO PROTÁSIO OLIVEIRA",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3521",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO PARA ALARGAMENTO DE TRECHO EM CURVA DA RUA PROGRESSO",
+      "logradouro": "RUA PROGRESSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3498",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA CYRO DOS ANJOS",
+      "logradouro": "RUA CYRO DOS ANJOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3495",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO ASFÁLTICA E DRENAGEM PLUVIAL DA RUA REINHOLD OTTO - TRECHO 1 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA REINHOLD OTTO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3482",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ADOLFO SCHUMACHER",
+      "logradouro": "RUA ADOLFO SHUMACHER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3480",
+      "secretaria": "SEPLAN",
+      "descricao": "QUADRAS ESPORTIVAS E INSTALAÇÃO DE BRINQUEDOS RUA AMSTERDAM [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CURT SCHEIDMANTEL, 511",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3461",
+      "secretaria": "SEMOB",
+      "descricao": "RUA RODOLFO BRETZKE CONTENÇÕES [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RODOLFO BRETZKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3459",
+      "secretaria": "SEMOB",
+      "descricao": "AMPLIAÇÃO DA CAPTAÇÃO DE ÁGUA BRUTA DA ETA II [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BAHIA, 1530 - SALTO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3458",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA 11 DE JUNHO E RUA BOAVENTURA AMORIN [OBRA REPROGRAMADA]",
+      "logradouro": "11 DE JUNHO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3456",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO TRECHO FINAL DA RUA RODOLFO BRETZKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RODOLFO BRETZKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3451",
+      "secretaria": "SEMED",
+      "descricao": "ADAPTAÇÕES PARA ACESSIBILIDADE, ESTACIONAMENTO, MUROS E CALÇADA NO CEI OLGA BREHMER [OBRA REPROGRAMADA]",
+      "logradouro": "R. JOSÉ REUTER, 128",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3442",
+      "secretaria": "SEMOB",
+      "descricao": "VIA PROJETADA DE ACESSO AO PARQUE ALCÂNTARO CORRÊA (CONTINUAÇÃO) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 1º DE JANEIRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3439",
+      "secretaria": "SEMOB",
+      "descricao": "T1C AUMENTO DE CAPACIDADE E REQUALIFICAÇÃO DA RUA DOUTOR PEDRO ZIMMERMANN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DOUTOR PEDRO ZIMMERMANN",
+      "intervencao": "Execução de Obra",
+      "situacao": "PARALISADA"
+    },
+    {
+      "codigo": "3438",
+      "secretaria": "SEMOB",
+      "descricao": "T1B_III REURBANIZAÇÃO DA RUA 1° DE JANEIRO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 1° DE JANEIRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "PARALISADA"
+    },
+    {
+      "codigo": "3436",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA 02 DE SETEMBRO, RUA DAS MISSÕES E AVENIDA BRASIL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DAS MISSÕES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3432",
+      "secretaria": "SEMOB",
+      "descricao": "T1A - EXECUÇÃO DE OBRA DE MELHORIA DE CIRCULAÇÃO VIÁRIA E REURBANIZAÇÃO DA RUA 2 DE SETEMBRO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 2 DE SETEMBRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3422",
+      "secretaria": "SEMED",
+      "descricao": "FECHAMENTO DE QUADRA POLIESPORTIVA COBERTA E DA QUADRA DE GRAMA DA EIM WILLY MULLER",
+      "logradouro": "RUA AUGUSTO BAUER, 1294",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3419",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO DA RUA CAMBORIÚ E RUA DESEMBARGADOR PEDRO SILVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CAMBORIÚ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3417",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO DA RUA DR. SAPELT E RUA TIMBÓ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA TIMBO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3413",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO ASFÁLTICA DA ALAMEDA RIO BRANCO [OBRA REPROGRAMADA]",
+      "logradouro": "ALAMEDA RIO BRANCO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3411",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DO PAVIMENTO ASFÁLTICO E MELHORIA DA DRENAGEM DA RUA SÃO BENTO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SÃO BENTO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3406",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA DOS CAÇADORES [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DOS CAÇADORES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3405",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA RUA LUXEMBURGO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUXEMBURGO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3400",
+      "secretaria": "SEMOB",
+      "descricao": "ROTATÓRIA RUA ANTÔNIO TREISS [OBRA REPROGRAMADA]",
+      "logradouro": "ANTÔNIO TREISS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3399",
+      "secretaria": "SECTUR",
+      "descricao": "REFORMA FROHSINN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GERTRUD SIERICH, 940",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3398",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM CONCRETO DA RUA GERTRUD SIERICH E TRECHO DA RUA EDUARDO LAGINSKI [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GERTRUD SIERICH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3397",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA JOHANN SACHSE E PROF. MAX HUMPL [OBRA REPROGRAMADA]",
+      "logradouro": "JOHANN SACHSE",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3395",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ERWIN GLAU - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ERWIN GLAU",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3393",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA GILBERTO AMADO - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GILBERTO AMADO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3392",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA LIMA BARRETO - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LIMA BARRETO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3390",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA RAUL ALEXANDRE PISKE - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RAUL ALEXANDRE PISKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3388",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA HENRIQUE GRIEBEL - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "HENRIQUE GRIEBEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3387",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA FLÁVIO ROSA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOÃO PESSOA, 825 - VELHA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3386",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA JAMAICA - REGIME MUTIRÃO",
+      "logradouro": "JAMAICA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3384",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA PAULO HERMANN GIESELER - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "PAULO HERMANN GIESELER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3378",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA PEDRO NAVA - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PEDRO NAVA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3368",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA BÁLTICO - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BÁLTICO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3362",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA JOSÉ JOOS - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSÉ JOOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3361",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ANGELINA - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANGELINA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3360",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA IRAJÁ - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA IRAJÁ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3359",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA CARLOS LANGE - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CARLOS LANGE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3354",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA NORMA HADLICH - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA NORMA HADLICH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3353",
+      "secretaria": "SEMOB",
+      "descricao": "SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS DE URBANIZAÇÃO DA MARGEM ESQUERDA DO RIO ITAJAÍ-AÇU NO CENTRO DE BLUMENAU [OBRA REPROGRAMADA]",
+      "logradouro": "RUA URUGUAI",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3352",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA FRANCISCO SALVADOR RODRIGUES - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANCISCO SALVADOR RODRIGUES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3351",
+      "secretaria": "SEPLAN",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA ELABORAÇÃO DOS PROJETOS BÁSICOS E EXECUTIVOS DE ENGENHARIA, INCLUINDO OBRAS DE ARTES ESPECIAIS, DAS VIAS PROJETADAS Nº 37, Nº 47, Nº 48, Nº 65A, Nº 90 E Nº 109, DESCRITAS NO ANEXO II DO DECRETO 9.155/2010, E CONFORME DEMAIS ANEXOS CONSTANTES NESTE EDITAL - SEPLAN [OBRA REPROGRAMADA]",
+      "logradouro": "VARIOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3348",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA EURICO ROTHBARTH - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA EURICO ROTHBARTH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3342",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE QUADRAS E SANITÁRIO NA EBM NORMA DIGNART HUBER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AQUIDABA, 77",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3338",
+      "secretaria": "SEPLAN",
+      "descricao": "PROJETOS PARA REFORMA EDIFÍCIO CALIFORNIA [OBRA REPROGRAMADA]",
+      "logradouro": "DR. AMADEU DA LUZ, 100",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3337",
+      "secretaria": "SEMUS",
+      "descricao": "REFORMA ESF GILSON PIVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JARDIM GERMÂNICO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3334",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DOS ESTUDOS E PROJETOS DE RECUPERAÇÃO E REFORMA DA PONTE LAURO MÜLLER [OBRA REPROGRAMADA]",
+      "logradouro": "PONTE LAURO MÜLLER",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3310",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO E DRENAGEM DA RUA ARNOLDO BECK (TRECHO 02) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARNOLDO BECK",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3292",
+      "secretaria": "SMTT",
+      "descricao": "EXECUÇÃO DE RAMAL DE LIGAÇÃO DE ESGOTO E PISO DO SETOR ADMINISTRATIVO TERMINAL URBANO DA FONTE LUMINOSA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AMAZONAS,540",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3289",
+      "secretaria": "SEMUS",
+      "descricao": "ADAPTAÇÃO DO ESF ORLANDO MARGARIDA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DOIS DE SETEMBRO 1618",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3271",
+      "secretaria": "SEPLAN",
+      "descricao": "OBRA - AMPLIAÇÃO ESCOLA Nº 1 [OBRA REPROGRAMADA]",
+      "logradouro": "DR PEDRO ZIMMERMANN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3263",
+      "secretaria": "SEMOB",
+      "descricao": "ROTATÓRIA ENTRE AS RUAS JULIO MICHEL, HERMANN TRIBESS E FRITZ SPERNAU [OBRA REPROGRAMADA]",
+      "logradouro": "JULIO MICHEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3254",
+      "secretaria": "SEPLAN",
+      "descricao": "RESGATE E AMPLIAÇÃO DO ANTIGO PORTO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA XV DE NOVEMBRO",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3247",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA RUA DAS BROMELIAS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DAS BROMELIAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3246",
+      "secretaria": "SEMOB",
+      "descricao": "CONSTRUÇÃO DE MURO DE CERCAMENTO NOS CONDOMÍNIOS MORADA DAS NASCENTES I E II [OBRA REPROGRAMADA]",
+      "logradouro": "SANTA MARIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3242",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA MANOEL MELLO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOÃO BISEWSKI",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3241",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO E DRENAGEM DA RUA FRANCISCO MARTINHO DA SILVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANCISCO MARTINHO DA SILVA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3240",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA RUA PRIMAVERA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PRIMAVERA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3221",
+      "secretaria": "PRÓ FAMÍLIA",
+      "descricao": "CONSTRUÇÃO DE VESTIÁRIO NA SECRETARIA DA FAMÍLIA (PRÓ-FAMÍLIA)",
+      "logradouro": "R. ITAPIRANGA, 368",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3216",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. EMÍLIO ALCÂNTARA VIANNA (NOVA CONTRATAÇÃO) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA EMÍLIO ALCANTARA VIANNA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3214",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO E DRENAGEM RUA ANCHIETA - TRECHO 3C [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANCHIETA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3200",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA RUA JULIO MICHEL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JULIO MICHEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3199",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO E DRENAGEM DA RUA HENRIQUE METTE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HENRIQUE METTE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3179",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO DA RUA CARLOS SPLITTER TRECHO FINAL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CARLOS SPLITTER",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3178",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE ESCOLA DE EDUCAÇÃO INFANTIL/PRE-INFANCIA - RUA ANTONIO TREIS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTONIO TREIS",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3157",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA MARGARIDA BONIFÁCIA DE JESUS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MARGARIDA BONIFÁCIA DE JESUS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3150",
+      "secretaria": "SEMOB",
+      "descricao": "ROTATÓRIA DA RUA GENERAL OSÓRIO COM A RUA MARGARIDA WALDRICH [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GENERAL OSÓRIO",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3145",
+      "secretaria": "SEMOB",
+      "descricao": "IMPLANTAÇÃO DE PASSEIO E ADEQUAÇÃO DE RAIO DE CURVA NA RUA PROGRESSO",
+      "logradouro": "RUA PROGRESSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3132",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO DE CONCRETO DA RUA SILVIO WALDEMAR DA SILVA",
+      "logradouro": "RUA SILVIO WALDEMAR DA SILVA",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3118",
+      "secretaria": "SEMOB",
+      "descricao": "ALARGAMENTO DO TRECHO FINAL DA RUA HELMUTH GOLL COM ACESSIBILIDADE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HELMUTH GOLL",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3117",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA DAS VIOLETAS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DAS VIOLETAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3111",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DAS OBRAS DE REVITALIZAÇÃO DA PRAINHA - PRAÇA PRESIDENTE JUSCELINO KUBITSCHEK DE OLIVEIRA - CONTINUAÇÃO [OBRA REPROGRAMADA]",
+      "logradouro": "AV. BRASIL, S/Nº",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3106",
+      "secretaria": "SEPLAN",
+      "descricao": "CORETO PRAÇA DA PREFEITURA DE BLUMENAU [OBRA REPROGRAMADA]",
+      "logradouro": "PRAÇA VICTOR KONDER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3104",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA BADEN-POWELL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PASTOR OSWALD HESSE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3097",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA AVENIDA LISBOA E RUA FRANCISCO VALDHIECK [OBRA REPROGRAMADA]",
+      "logradouro": "AVENIDA LISBOA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3082",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE IMPLANTAÇÃO DE PASSEIO NA RUA RUY BARBOSA",
+      "logradouro": "RUA RUY BARBOSA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3080",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO E DRENAGEM DA RUA LUIZ MASKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUIZ MASKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3076",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE ESCOLA DE EDUCAÇÃO INFANTIL/PRÒ-INFÃNCIA - RUA JARDIM GERMANICO 2022 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JARDIM GERMANICO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3064",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA E AMPLIAÇÃO DA ESCOLA, CONSTRUÇÃO DOS MUROS DE FECHAMENTO, QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM BILÍNGUE ANNEMARIE TECHENTIN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSEPHINA RAUSCH REITER, 158",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3057",
+      "secretaria": "SEMOB",
+      "descricao": "ESTUDOS E PROJETOS DE REFORMA DA PONTE ALDO P. DE ANDRADE E PASSAGEM INFERIOR NA RUA TOCANTINS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA TOCANTINS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3043",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA E AMPLIAÇÃO DA ESCOLA, CONSTRUÇÃO DA QUADRA COBERTA COM VESTIÁRIO E MUROS DE CONTENÇÃO NA EBM LORE SITA BOLLMANN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WALTER KNAESEL, S/N",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3042",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA DE QUADRA EXISTENTE E CONSTRUÇÃO DE MUROS DE CONTENÇÃO E FECHAMENTO NA EBM BILINGUE PROF. FERNANDO OSTERMANN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA OTTO STUTZER, 43",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3040",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIARIO E QUADRA DE AREIA NA EBM BILÍNGUE PATRICIA H. F. PEGORIM [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUIZ KRUTZSCH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3039",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA DA QUADRA COBERTA NA EBM BILINGUE PROFª ALICE THIELE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOÃO SCHETZ, 273",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3038",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DOS MUROS DE FECHAMENTO COM CERCA, QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM BILÍNGUE PROFESSORA NEMESIA MARGARIDA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA OSCAR JOÃO RAUSCH, 100",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3036",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO E REFORMA DA QUADRA EXISTENTE DA EBM BILÍNGUE PROF. RODOLFO HOLLENWEGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PROFº HERMANN LANGE, 2230",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3035",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO NA EBM WILHELM THEODOR SCHURMANN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PEROLA DO VALE, 377",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3034",
+      "secretaria": "SEMED",
+      "descricao": "PAVIMENTAÇÃO E AMPLIAÇÃO DO PATIO E ESTACIONAMENTO E CONSTRUÇÃO DE QUADRA COBERTA COM VESTIARIO NA EBM PROFº FRIEDRICH K. KEMMELMEIER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RICARDO GEORG, 2000",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3033",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO E REFORMA DA QUADRA EXISTENTE NA EBM LEOBERTO LEAL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOHANN SACHSE, 2602",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3032",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO E REFORMA DA QUADRA EXISTENTE DA EBM PROFª ZULMA SOUZA DA SILVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FLORANIA, 464",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "3031",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA DO GINÁSIO E BANHEIRO EXISTENTE, CONSTRUÇÃO DE QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM VISCONDE DE TAUNAY [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANZ VOLLES, 1930",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "3012",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA DO GINÁSIO, MELHORIAS NA INSTITUIÇÃO DE ENSINO E CONSTRUÇÃO DOS MUROS, QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM VIDAL RAMOS CONSTRUÇÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTONIO TREIS, 144",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2994",
+      "secretaria": "SEMOB",
+      "descricao": "URBANIZAÇÃO MARGEM ESQUERDA [OBRA REPROGRAMADA]",
+      "logradouro": "MARGEM ESQUERDA DO RIO ITAJAI AÇU",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2992",
+      "secretaria": "SEMOB",
+      "descricao": "RECUPERAÇÃO DA PONTE DESEMBARGADOR PEDRO SILVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA XV DE NOVEMBRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2988",
+      "secretaria": "SMC",
+      "descricao": "EXECUÇÃO DA REFORMA DAS SALAS DA SECRETARIA DE CULTURA E RELAÇÕES INSTITUCIONAIS",
+      "logradouro": "R. XV DE NOVEMBRO, 161 - CENTRO",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2972",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA COBERTURA E INSTALAÇÃO PREVENTIVA DE INCÊNDIO (VITAIS) [OBRA REPROGRAMADA]",
+      "logradouro": "VARIOS ENDEREÇOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2970",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE PAVIMENTAÇÃO E DRENAGEM DA RUA SÉRGIO VESTRUPP [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SÉRGIO VESTRUPP",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2969",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PONTE NA RUA ERICH OTTO",
+      "logradouro": "RUA ERICH OTTO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2966",
+      "secretaria": "SEMOB",
+      "descricao": "GERENCIAMENTO, SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS DE CONSTRUÇÃO DO CENTRO DE CONVENÇÕES DE BLUMENAU",
+      "logradouro": "VILA GERMÂNICA",
+      "intervencao": "Supervisão",
+      "situacao": "PARALISADA"
+    },
+    {
+      "codigo": "2964",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA RUA GUSTAVO ZIMMERMANN [OBRA REPROGRAMADA]",
+      "logradouro": "GUSTAVO ZIMMERMANN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2963",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO E DRENAGEM RUA GODO DEEKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GODO DEEKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2962",
+      "secretaria": "SEMUS",
+      "descricao": "REFORMA VIGILÂNCIA SANITÁRIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALWIN SCHRADER",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2958",
+      "secretaria": "SEMOB",
+      "descricao": "INFRAESTRUTURA VIÁRIA RUA FREDERICO JENSEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FREDERICO JENSEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2957",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO ESCOLA 06 SALAS DE AULA - FNDE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ERVIN MANSKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "PARALISADA"
+    },
+    {
+      "codigo": "2955",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE PAVIMENTAÇÃO E DRENAGEM DA RUA ELSA METTE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ELSA METTE",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2952",
+      "secretaria": "SMTT",
+      "descricao": "FAIXAS ELEVADAS - LOTE 2 [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2945",
+      "secretaria": "SEMOB",
+      "descricao": "PONTE RUA HELMUND TRAPP MODULAR 9M (DIVISA POMERODE) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HELMUND TRAPP",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2941",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA E AMPLIAÇÃO, CONSTRUÇÃO DOS MUROS DE CONTENÇÃO E FECHAMENTO E QUADRA COBERTA COM VESTIÁRIO DA E.B.M. BILÍNGUE PROFº. OSCAR UNBEHAUN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GAROPABA, 213",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2936",
+      "secretaria": "SEMOB",
+      "descricao": "GERENCIAMENTO, SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DE OBRAS DE ARTE ESPECIAL E DE CONTENÇÃO EM BLUMENAU - PROGRAMA PLANO 1000 [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSAS RUAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2933",
+      "secretaria": "SEMOB",
+      "descricao": "GERENCIAMENTO, SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DE OBRAS VIÁRIAS E DE MACRODRENAGEM EM BLUMENAU [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSAS RUAS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2923",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO DRENAGEM E SINALIZAÇÃO DA RUA ERICH MEYER - TRECHO 01 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ERICH MEYER",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2922",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM PLUVIAL E PAVIMENTAÇÃO COM LAJOTAS SEXTAVADAS RUA JOÃO NUSS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOÃO NUSS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2917",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO DE MURO (FUNDOS EBM PROFº JOÃO JOAQUIM FRONZA) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PHILIPP BAUER, 1391",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2914",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO DA PONTE DOS ARCOS [OBRA REPROGRAMADA]",
+      "logradouro": "Ponte Eng. Antônio Vitorino Ávila Filho",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2911",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE MACRODRENAGEM COM RECUPERAÇÃO DE PAVIMENTO NA R. DIVINÓPOLIS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DIVINÓPOLIS",
+      "intervencao": "Execução de Obra",
+      "situacao": "PARALISADA"
+    },
+    {
+      "codigo": "2910",
+      "secretaria": "SEPLAN",
+      "descricao": "ELABORAÇÃO DE LEVANTAMENTOS, ANTEPROJETOS, ESTUDO DE IMPACTO DE VIZINHANÇA - EIV E O ESTUDO AMBIENTAL SIMPLIFICADO - EAS , PARA EMBASAMENTO DOS PROJETOS DE ENGENHARIA DA VIA PROJETADA Nº 128, COM PONTE; DA VIA PROJETADA Nº 04 E DAS ALÇAS DE ACESSO PARA A RUA 2 DE SETEMBRO COM TRANSPOSIÇÃO SUPERIOR PARA A RUA 4 DE FEVEREIRO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SANTA CATARINA",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2904",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA OSNI AMARO DE SOUZA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA TERESINA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2903",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE IMPLANTAÇÃO DA PAVIMENTAÇÃO DA RUA ARNOLDO BECK [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARNOLDO BECK",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2902",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO, DRENAGEM E SINALIZAÇÃO DA RUA TEREZA FISCHER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA TERESA FISCHER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2901",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO, DRENAGEM E SINALIZAÇÃO DA RUA PAULO ZINGEL FILHO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PAULO ZINGEL FILHO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2899",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA PROFº JOSÉ FERREIRA DA SILVA - REV_01 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA REPÚBLICA ARGENTINA, SN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2898",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA JOSIL SEBASTIÃO OLINGER REVISÃO 1 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALFREDO KAESTNER, SN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2896",
+      "secretaria": "SEMOB",
+      "descricao": "IMPLANTAÇÃO DA PAVIMENTAÇÃO DA RUA JOSÉ REUTER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSÉ REUTER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2894",
+      "secretaria": "SEMOB",
+      "descricao": "IMPLANTAÇÃO DA PAVIMENTAÇÃO RUA PAULO ZINGEL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PAULO ZINGEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2891",
+      "secretaria": "SEMOB",
+      "descricao": "MELHORIA DA DRENAGEM PLUVIAL E PAVIMENTAÇÃO ASFÁLTICA DA RUA ARARANGUÁ - MACRODRENAGEM [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARARANGUÁ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2890",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA MAX HERING [OBRA REPROGRAMADA]",
+      "logradouro": "MAX HERING",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2887",
+      "secretaria": "SEMOB",
+      "descricao": "MELHORIAS NA INFRAESTRUTURA DO PARQUE VILA GERMÂNICA [OBRA REPROGRAMADA]",
+      "logradouro": "RIA ALBERTO STEIN 199",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2885",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE MACRODRENAGEM E REPAVIMENTAÇÃO PARCIAL DA RUA PAULO KUEHNRICH [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PAULO KUEHNRICH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2881",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA UDO DEEKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ENGENHEIRO UDO DEEKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2877",
+      "secretaria": "SEMOB",
+      "descricao": "CONTENÇÃO DE ENCOSTAS DA RUA OTILIA PASSOLD, NO BAIRRO VILA ITOUPAVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA OTILIA PASSOLD",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2875",
+      "secretaria": "SEMOB",
+      "descricao": "CONTENÇÃO DE ENCOSTAS DA RUA CAÇAPAVA, NO BAIRRO GARCIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CAÇAPAVA",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2869",
+      "secretaria": "SEMUS",
+      "descricao": "ESF FRANZ ZIMDARS (2022) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ERWIN MANZKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2867",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA HERMELINO BORGES DE JESUS E CANTEIRO CENTRAL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARTHUR RABE, 258",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2865",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA PARAÍBA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PARAÍBA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2860",
+      "secretaria": "SEMED",
+      "descricao": "OBRA - PAC 2 - CRECHE/PRÉ-ESCOLA MCMV 001- RUA ELVIRA BORNHOFEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ELVIRA BORNHOFEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2859",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA COBERTURA CEI ANTON MAX SPRANGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WALTER WACHOLZ, 55",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2854",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA 7 DE SETEMBRO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 7 DE SETEMBRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2852",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA SANTA TEREZINHA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SANTA TEREZINHA",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2851",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PONTE E ACESSOS NA RUA HELMUND TRAPP [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HELMUND TRAPP",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2850",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DA PONTE E ACESSOS NA RUA HERMANN BAEHR [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HERMANN BAEHR",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2849",
+      "secretaria": "SEPLAN",
+      "descricao": "CENTRO COMUNITÁRIO ESPORTIVO FORTALEZA [OBRA REPROGRAMADA]",
+      "logradouro": "FORTALEZA, BLUMENAU - SC, 89053-188",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2846",
+      "secretaria": "SECTUR",
+      "descricao": "SKATEPARK PARQUE DAS ITOUPAVAS",
+      "logradouro": "RUA PRIMEIRO DE JANEIRO, 2087",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2844",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO ESCOLAS DE EDUCAÇÃO INFANTIL/PRÒ-INFÃNCIA - RUA DA GLÓRIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DA GLORIA, 1419",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2839",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO ESCOLAS DE EDUCAÇÃO INFANTIL/PRÒ-INFÃNCIA - RUA ANTONIO TREIS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTONIO TREIS",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2838",
+      "secretaria": "SEMOB",
+      "descricao": "CONTRATAÇÃO DE APOIO OPERACIONAL PARA O FONPLATA [OBRA REPROGRAMADA]",
+      "logradouro": "BLUMENAU",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2837",
+      "secretaria": "SEMOB",
+      "descricao": "VIA PROJETADA DE ACESSO AO PARQUE ALCÂNTARO CORRÊA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 1º DE JANEIRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2835",
+      "secretaria": "SEMOB",
+      "descricao": "REVISÃO E COMPLEMENTAÇÃO DOS PROJETOS DE ENGENHARIA DO CORREDOR ESTRUTURAL NORTE",
+      "logradouro": "RUA PEDRO ZIMMERMANN",
+      "intervencao": "Supervisão",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2834",
+      "secretaria": "SEMUS",
+      "descricao": "NOVO AMBULATÓRIO GERAL DO SALTO",
+      "logradouro": "VICTÓRIO FURLAN",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2833",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA DE CONTENÇÃO NA RUA ANTÔNIO TREISS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTÔNIO TREISS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2829",
+      "secretaria": "SEMOB",
+      "descricao": "SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS REMANESCENTES DE IMPLANTAÇÃO DO TERMINAL ÁGUA VERDE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GENERA OSÓRIO",
+      "intervencao": "Supervisão",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2828",
+      "secretaria": "SEMED",
+      "descricao": "TERRAPLENAGEM DE TERRENO DA ESCOLA BILÍNGUE DA VILA ITOUPAVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ERWIN MANSKE, 5.517",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2826",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM VISCONDE DE TAUNAY [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANZ VOLLES, 1930",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2825",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM VIDAL RAMOS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTÔNIO TREIS, 144",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2824",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM LEOBERTO LEAL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOHANN SACHSE, 2602",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2823",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PROF. RODOLFO HOLLENWEGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PROFESSOR HERMANN LANGE, 2230",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2822",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PROF. FRIEDRICH K. KEMMELMEIER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RICARDO GEORG, 2000",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2821",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PATRÍCIA HELENA FINARDI PEGORIM [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUIZ KRUTZSCH, 474",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2820",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM DUQUE DE CAXIAS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DR PEDRO ZIMMERMANN, 12406",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2819",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM OLGA RUTZEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FREDERICO JENSEN, 1039",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2818",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PROFª ALICE THIELE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOÃO SCHETZ, 273",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2817",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PEDRO I [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DR PEDRO ZIMMERMANN, 2461",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2816",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM HENRIQUE ALFARTH [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RUI BARBOSA, 1616",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2815",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM HELLA ALTENBURG [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PLÁTANO, 233",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2814",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM ALMIRANTE TAMANDARÉ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SANTE FÉ, 66",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2813",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM PEDRO II [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HELMUTH GOLL, 579",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2812",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM GAL. LÚCIO ESTEVES [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BENJAMIN CONSTANT, 630",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2811",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM LORE SITA BOLLMANN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WALTER KNAESEL, S/N",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2810",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM JOÃO JOAQUIM FRONZA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PHILIPP BAUER, 1391",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2809",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM ANNEMARIE TECHENTIN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOHANN G. H. HADLICH, S/N",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2808",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM MACHADO DE ASSIS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ENGENHEIRO PAUL WERNER, 1334",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2807",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM PROFª ZULMA SOUZA DA SILVA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FLORANIA, 464",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2806",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM PROF. OSCAR UNBEHAUN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GAROPABA, 213",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2805",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM NORMA DIGNART HUBER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AQUIDABÁ, 77",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2804",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM FRANCISCO LANSER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALFREDO LANSER, 133",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2803",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM FELIPE SCHMIDT [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FREDERICO JENSEN, 3139",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2802",
+      "secretaria": "SEMED",
+      "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES- CEI DR. ARÃO REBELO E EBM CONSELHEIRO MAFRA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANZ MUELLER, 2113",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2798",
+      "secretaria": "SEMED",
+      "descricao": "AMPLIAÇÃO DO CEI ARNO BERNARDES [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PAULA HOELTGEBAUN, 88",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2787",
+      "secretaria": "SEMOB",
+      "descricao": "RECUPERAÇÃO E PAVIMENTAÇÃO ASFÁLTICA DA RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA CONTINUAÇÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2786",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DA RECUPERAÇÃO ASFÁLTICA DO SITIO AEROPORTUÁRIO DO MUNICIPIO [OBRA REPROGRAMADA]",
+      "logradouro": "AEROPORTO MUNICIPAL DE BLUMENAU",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2785",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA JOÃO FRANCISCO RAMOS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSÉ SEIBT",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2784",
+      "secretaria": "SEMOB",
+      "descricao": "CONTENÇÃO NA RUA ARNOLDO HEMMER [OBRA REPROGRAMADA]",
+      "logradouro": "ARNOLDO HEMMER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2782",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS NA RUA ARARANGUÁ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARARANGUÁ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2778",
+      "secretaria": "SEMOB",
+      "descricao": "CONTENÇÃO NA RUA HELMUTH GOLL [OBRA REPROGRAMADA]",
+      "logradouro": "HELMUTH GOLL",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2776",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA JACOB LITZENBERGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JACOB LITZENBERGER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2772",
+      "secretaria": "SEMOB",
+      "descricao": "REURBANIZAÇÃO DOS PASSEIOS DA RUA HENRIQUE CONRAD - CONTINUAÇÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HENRIQUE CONRAD",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2770",
+      "secretaria": "SEMUS",
+      "descricao": "REFORMA ESF ARÃO REBELLO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANZ MULLER, 1950",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2769",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DO BALIZAMENTO DO SITIO AEROPORTUÁRIO DO MUNICIPIO [OBRA REPROGRAMADA]",
+      "logradouro": "AERPORTO REGIONAL DE BLUMENAU",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2766",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DO CERCAMENTO DO SITIO AEROPORTUÁRIO DO MUNICIPIO [OBRA REPROGRAMADA]",
+      "logradouro": "AEROPORTO REGIONAL DE BLUMENAU",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2765",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PONTE NA RUA MAIKE ANDRESEN DEEKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MAIKE ANDRESEN DEEEKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2764",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. ZELINDE CARDOSO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ZELINDE CARDOSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2763",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. JOSÉ FISCHER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSÉ FISCHER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2762",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. JOSÉ DE SOUZA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSÉ DE SOUZA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2761",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. ALWIN VENSKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALWIN VENSKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2760",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. FRANCISCO BENIGNO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANCISCO BENIGNO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2758",
+      "secretaria": "SEPLAN",
+      "descricao": "AMPLIAÇÃO DA CAPACIDADE DA AV. MARTIN LUTHER [OBRA REPROGRAMADA]",
+      "logradouro": "AVENIDA MARTIN LUTHER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2755",
+      "secretaria": "SEMUS",
+      "descricao": "REFORMA E AMPLIAÇÃO ESF ARMANDO ODEBRECHT [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PROF. JACOB INEICHEN, 55 - BLUMENAU / SC",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2751",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. RICHARD HASS",
+      "logradouro": "RUA RICHARD HASS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2749",
+      "secretaria": "SEMUS",
+      "descricao": "REFORMA E AMPLIAÇÃO AMBULATÓRIO GERAL DR. DIOGO VERGARA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WERNER DUWE, SNº , BLUMENAU-SC.",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2748",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM CONCRETO - R. LARANJEIRA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LARANJEIRA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2747",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. RODOLFO FROTSCHNER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RODOLFO FROTSCHNER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2746",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. JOSÉ RAUTENBERG [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSÉ RAUTENBERG",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2745",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. EMÍLIO PADARATZ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA EMÍLIO PADARATZ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2744",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. NAZARE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA NAZARÉ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2743",
+      "secretaria": "SEMUS",
+      "descricao": "REFORMA E AMPLIAÇÃO ESF. AFONSO RABE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUIZ ELEODORO DA SILVA, 417",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2742",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM LAJOTAS DA RUA FRIDOLINO DE SOUZA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRIDOLINO DE SOUZA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2741",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DOS PROJETOS BÁSICO E EXECUTIVOS DA REFORMA E RECUPERAÇÃO DA PONTE ADOLFO KONDER E DA PASSAGEM INFERIOR [OBRA REPROGRAMADA]",
+      "logradouro": "AV. PRES. CASTELO BRANCO / RUA REPÚBLICA ARGENTINA",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2730",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA GERAL DA ESCOLA BÁSICA MUNICIPAL CONSELHEIRO MAFRA E O CENTRO DE EDUCAÇÃO INFANTIL DR. ARÃO REBELLO. [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANZ MULLER, 2.113",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2723",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA E ADEQUAÇÃO DO CENTRO EDUCACIONAL INFANTIL AUGUSTO KOESTER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALMIRANTE BARROSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2722",
+      "secretaria": "SEMOB",
+      "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 04 - RUA AMAZONAS (ENTRE A RUA GERTRUD METZGER E TERMINAL GARCIA)_R1 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AMAZONAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2711",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. HELMUND TRAPP [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HELMUND TRAPP",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2709",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. JOSEPHINA RAUSCH REITER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSEPHINA RAUSCH REITER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2703",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. LUIZ KRUTZSCH [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUIZ KRUTZSCH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2702",
+      "secretaria": "SEMED",
+      "descricao": "CONSTRUÇÃO COBERTURA QUADRA EM PRÉ-MOLDADO DA ESCOLA ISOLADA MUNICIPAL WILLY MULLER. [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AUGUSTO BAUER, 1294",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2701",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA GERAL E AMPLIAÇÃO - EIM WILLY MULLER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AUGUSTO BAUER, 1294",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2695",
+      "secretaria": "SEMOB",
+      "descricao": "INTERLIGAÇÃO DA RUA ANCHIETA E RUA PAULO SCHEIDEMANTEL COM PONTE E ROTATÓRIA NA RUA ANCHIETA - CONTINUIDADE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANCHIETA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2691",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA GERAL EBM ALBERTO STEIN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GENERAL OSÓRIO, 1785",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2690",
+      "secretaria": "SEMOB",
+      "descricao": "MACRODRENAGEM - RUA DOS CAÇADORES COM ROTATÓRIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DOS CAÇADORES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2688",
+      "secretaria": "SEMED",
+      "descricao": "QUADRA COBERTA COM VESTIÁRIO - EBM PROFESSORA ADELAIDE STARKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SÃO BERNARDO, 700",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2686",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA COBERTURA - EBM LORE SITA BOLLMANN",
+      "logradouro": "RUA WALTER KNAESEL, S/N",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2675",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Estrutural e Geral da Escola Básica Municipal e Centro de Educação Infantil Wilhelm Theodor Schurmann [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PEROLA DO VALE , 377",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2670",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. WALTER BERNER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WALTER BERNER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2669",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA E AMPLIAÇÃO - EBM PROF.ª HELENA WINCKLER",
+      "logradouro": "RUA JOÃO BISEWSKI, 100",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2665",
+      "secretaria": "SEMOB",
+      "descricao": "TERMINAL INTEGRADO OESTE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GENERAL OSÓRIO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2664",
+      "secretaria": "SEMED",
+      "descricao": "AMPLIAÇÃO - CEI PROFª MARIA ZIMMERMANN",
+      "logradouro": "RUA HENRIQUE WATSON, 70",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2663",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA E AMPLIAÇÃO - CEI DANIEL BRESSANINI",
+      "logradouro": "RUA NÉSIO ANTUNES DA SILVA, 111",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2662",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA DE MURO - CEI MANOEL DA LUZ RAMPELOTTI",
+      "logradouro": "RUA BENJAMIN CONSTANT, 736",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2660",
+      "secretaria": "SEMED",
+      "descricao": "CEI ALBERTO STEIN - AMPLIAÇÃO",
+      "logradouro": "RUA MARIA BUGMANN, 88",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2657",
+      "secretaria": "SEPLAN",
+      "descricao": "PRAÇA ESCOLA RODOLFO HOLLENWEGER [OBRA REPROGRAMADA]",
+      "logradouro": "R. PROF. HERMAN LANGE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2645",
+      "secretaria": "SEPLAN",
+      "descricao": "EXECUÇÃO DA REFORMA DA ESCOLA Nº01 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DR. PEDRO ZIMMERMANN 8107",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2641",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA DA COBERTURA, INSTALAÇÃO ELÉTRICA E AMPLIAÇÃO SALA, COZINHA E REFEITÓRIO - CEI FRANZ VOLLES [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LEÕNCIO JOÃO DESCHAMPS, 163",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2640",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA DA COBERTURA ,COZINHA,REFEITÓRIO E ÁREA SERVIÇO - CEI PROFª MARTINHA RÉGIS MORETTO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ENGENHEIRO ODEBRECHT, 961",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2639",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA - MACHADO DE ASSIS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ENGº PAUL WERNER, 1.334",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2638",
+      "secretaria": "SEMED",
+      "descricao": "REFORMA GINÁSIO - GENERAL LÚCIO ESTEVES [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BENJAMIN CONSTAANT, 630",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2636",
+      "secretaria": "SMTT",
+      "descricao": "REVITALIZAÇÃO RUA ITAJAÍ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ITAJAÍ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2631",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - BAHIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BAHIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2623",
+      "secretaria": "SEMOB",
+      "descricao": "RECUPERAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA E DRENAGEM DE TRECHO DA RUA ENGENHEIRO UDO DEEKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ENGENHEIRO UDO DEEKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2621",
+      "secretaria": "SECTUR",
+      "descricao": "REQUALIFICAÇÃO CURT HERING [OBRA REPROGRAMADA]",
+      "logradouro": "CURT HERING",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2620",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 04 - ENTRE RUA DEP. ANTONIO HEIL E RUA REP. ARGENTINA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DAS MISSÕES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2619",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 03 - ENTRE RUA FRITZ SPERNAU E RUA DEP. ANTONIO HEIL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DAS MISSÕES",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2618",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 02 - ENTRE RUA GUSTAVO KIRSTEN E RUA FRITZ SPERNAU [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 2 DE SETEMBRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2617",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 01 - ENTRE PONTE SANTA CATARINA E RUA GUSTAVO KIRSTEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 2 DE SETEMBRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2610",
+      "secretaria": "SEMOB",
+      "descricao": "ESPAÇO CULTURAL CENTRO HISTÓRICO BLUMENAU [OBRA REPROGRAMADA]",
+      "logradouro": "RUA XV DE NOVEMBRO, 161",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2605",
+      "secretaria": "SEMUS",
+      "descricao": "ADAPTAÇÃO DA BASE DO SAMU E SALA DE ODONTOLOGIA ESF ANTONIO AUGUSTO SCHWEIGERT [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BAHIA 4001",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2600",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA DA RUA CONDE DE MOTA MAIA - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CONDE DE MOTA MAIA",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2599",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS DA RUA MANOEL HENRIQUE DE OLIVEIRA - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MANOEL HENRIQUE DE OLIVEIRA",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2598",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA DA RUA AGRIPINO GRIECO - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AGRIPINO GRIECO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2597",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA NA RUA IDA STEIN - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA IDA STEIN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2596",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA NA RUA DOS CONDES - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DOS CONDES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2594",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM PLUVIAL E PAVIMENTAÇÃO ASFÁLTICA NA RUA GELÁSIO WOSCZAK - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GELÁSIO WOSCZAK",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2593",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RUA ITAJAÍ (LADO ÍMPAR) (ENTRE RUA XV DE NOVEMBRO E SESI) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ITAJAI",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2592",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RUA ENG. UDO DEEKE - TRECHO ENTRE RUA DR. PEDRO ZIMERMANN E A BR-470 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ENG. UDO DEEKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2590",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RUA BAHIA - TRECHO ENTRE RUA SÃO PAULO E PONTE DO SALTO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BAHIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2589",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. CONDE DE SÃO SIMÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CONDE DE SÃO SIMÃO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2588",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. GAÚCHA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GAUCHA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2587",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. FRANCISCO W. SENIOR [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANCISCO WUERGES SENIOR",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2584",
+      "secretaria": "SEPLAN",
+      "descricao": "OBRA - CONSTRUÇÃO DE ÁREA DE LAZER NA RUA AMSTERDÃ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CURT SCHEIDMANTEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2583",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - RUA JOAQUIM NABUCO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOAQUIM NABUCO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2582",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - RUA JOAO BISEWSKI [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOAO BISEWSKI",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2581",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - RUA JOSE SEIBT [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSE SEIBT",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2580",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - PARQUE TERMINAL DA VELHA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUCIE HERKENHOFF",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2579",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - PRAÇA PAPA JOAO PAULO I [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AMAZONAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2577",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - LARGO VIENA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LARGO VIENA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2576",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - RUA CARLOS KRETZ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CARLOS KRETZ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2575",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - LOTEAMENTO FRITZ KOEGLER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ECLAIR MARTINS DA SILVA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2574",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - RUA 25 DE AGOSTO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 25 DE AGOSTO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2573",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - PRAÇA FIDELIS - ROTARY [OBRA REPROGRAMADA]",
+      "logradouro": "RUA THEODORO PASSOLD",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2572",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - ESCOLA N° 1 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DR. PEDRO ZIMMERMANN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2571",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - RUA ANGELA GRASMANN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANGELA GRASMANN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2569",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - RUA DAS BROMÉLIAS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DAS BROMÉLIAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2567",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. WALTER KOPPER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WALTER KOPPER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2566",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. BRUNO SEIBT [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BRUNO SEIBT",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2565",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. RICARDO BELZ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RICARDO BELZ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2564",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. LEONORA ZIMMER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LEONORA ZIMMER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2563",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. JÚLIO MOSER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JÚLIO MOSER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2562",
+      "secretaria": "SEMOB",
+      "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. KAMESUKE YONAMINE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA KAMESUKE YONAMINE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2561",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA BROMBERG [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PROFESSOR HERIBERTO MULLER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2560",
+      "secretaria": "SEPLAN",
+      "descricao": "ATI - PÉROLA DO VALE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PÉROLA DO VALE, 377",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2559",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE PASSAGEM INFERIOR EM CONCRETO ARMADO SOB BR-470",
+      "logradouro": "RUA THEODORO NUSS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2558",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA JENSEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ERICH MEYER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2557",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA VITÓRIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRITZ SPERNAU",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2556",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA UNIÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ERNST KAESTNER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2555",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS SEXTAVADAS - RUA EDMUND KNOTH [OBRA REPROGRAMADA]",
+      "logradouro": "RUA EDMUND KNOTH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2554",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA LINDA SETTER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LINDA SETTER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2553",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA ANTÔNIO SETTER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTÔNIO SETTER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2551",
+      "secretaria": "SEPLAN",
+      "descricao": "EXECUÇÃO DA PRAÇA RENATO LUIZ MABA, BAIRRO FIDÉLIS",
+      "logradouro": "MARA APARECIDA FREITAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2550",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA ANTONIO MONTAGNA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTONIO MONTAGNA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2549",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO E DRENAGEM DA RUA GRÃO PARA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GRÃO PARA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2542",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA MAX SCHREIBER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MAX SCHREIBER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2541",
+      "secretaria": "SEMOB",
+      "descricao": "RUA CARLOS SPLITTER - TRECHO 2 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CARLOS SPLITTER",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2540",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA MALVINAS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MALVINAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2539",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA AUGUSTO GROH [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AUGUSTO GROH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2538",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA LUXEMBURGO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUXEMBURGO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2536",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE DRENAGEM DE TRECHO DA RUA DIVINÓPOLIS E RUA DOS CAÇADORES COM ROTATÓRIA",
+      "logradouro": "RUA DIVINÓPOLIS E RUA DOS CAÇADORES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2535",
+      "secretaria": "SMC",
+      "descricao": "REFORMA E ADAPTAÇÃO DE ESPAÇOS CULTURAIS DA FUNDAÇÃO CULTURAL DE BLUMENAU, ARQUIVO MUNICIPAL",
+      "logradouro": "ALAMEDA DUQUE DE CAXIAS,64",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2532",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO ASFÁLTICA RUA THEODORO NUSS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA THEODORO NUSS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2531",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 02 - PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS NO MUNICÍPIO DE BLUMENAU",
+      "logradouro": "RUA ZELINDE CARDOSO, RUA ALWIN VENSKE, RUA FRANCISCO BENIGNO (TRECHO FINAL), RUA JOSÉ FISCHER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2530",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 01 - PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS NO MUNICÍPIO DE BLUMENAU [OBRA REPROGRAMADA]",
+      "logradouro": "BAIRROS VELHA, VELHA GRANDE, VELHA CENTRAL, GLÓRIA E PROGRESSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2524",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE CONTENÇÃO - MURO DE GABIÃO - RUA ANTÔNIO ZENDRON [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANTÔNIO ZENDRON",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2521",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 3 - PROJETO DE ESTRUTURAS DE CONTENÇÃO",
+      "logradouro": "CEI JOHANNA CONRAD, RUA CAÇAPAVA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2520",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 2 - PROJETO PONTES EM CONCRETO INCLUSIVE A INFRAESTRUTURA DAS VIAS DE LIGAÇÃO E DE ACESSO EM DIVERSOS LOCAIS NO MUNICÍPIO DE BLUMENAU",
+      "logradouro": "RUA 7 DE SETEMBRO, RUA SANTA TEREZINHA, RUA MAIKE ANDRESEN DEEKE,",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2519",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 1 - PROJETO PONTES EM CONCRETO INCLUSIVE A INFRAESTRUTURA DAS VIAS DE LIGAÇÃO E DE ACESSO EM DIVERSOS LOCAIS NO MUNICÍPIO DE BLUMENAU",
+      "logradouro": "RUA BRUNO KIMMICHS, RUA BRUNO KIMMICHS, RUA HERMANN BAER, RUA PARAÍBA, RUA ENG. UDO DEEKE E RUA HELMUND TRAPP",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2518",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RECUPERAÇÃO - RUA PROF. JACOB INEICHEN - TRECHO ENTRE RUA FREDERICO JENSEN E RUA JOSÉ JANUÁRIO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PROF. JACOB INEICHEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2517",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RECUPERAÇÃO - RUA GUSTAVO ZIMMERMANN - TRECHO ENTRE RUA GUILHERME SCHARF E RUA FELIPE JENSEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GUSTAVO ZIMMERMANN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2516",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RECUPERAÇÃO - RUA FREDERICO JENSEN - TRECHO ENTRE A RUA ARI BARROSO E A RUA PROF. JACOB INEICHEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FREDERICO JENSEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2515",
+      "secretaria": "SEMOB",
+      "descricao": "PAC II - RECUPERAÇÃO - RUA ARI BARROSO - TRECHO ENTRE TERMINAL ATERRO E RUA ARI BARROSO E ENTRE BR-470 E RUA FREDERICO JENSEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARI BARROSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2514",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 04 - MURO DE GABIÃO - RUA RUY BARBOSA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA RUY BARBOSA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2513",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 03 - MURO DE GABIÃO - RUA JULIO HEIDEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JULIO HEIDEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2512",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA MARIA DA SILVA OLIVEIRA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MARIA DA SILVA OLIVEIRA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2511",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 02 - MURO DE GABIÃO - RUA SANTA MARIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SANTA MARIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2510",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 01 - MURO DE GABIÃO - RUA PROGRESSO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PROGRESSO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2507",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA PELOTAS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PELOTAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2502",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA JOÃO KRAUSE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOÃO KRAUSE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2501",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA BRUNO STARKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BRUNO STARKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2497",
+      "secretaria": "SEMOB",
+      "descricao": "MURO DE CONTENÇÃO DA RUA DARIO JOÃO VIEIRA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA DARIO JOÃO VIEIRA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2496",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM BLOCO INTERTRAVADO DA RUA CAMPO MOURÃO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CAMPO MOURÃO",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2495",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE ESTUDOS E PROJETOS DE REVITALIZAÇÃO DA PRAINHA",
+      "logradouro": "PRAÇA VICTOR KONDER Nº. 02",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2494",
+      "secretaria": "SMC",
+      "descricao": "REFORMA E ADAPTAÇÃO DE ESPAÇOS CULTURAIS DA FUNDAÇÃO CULTURAL DE BLUMENAU, BIBLIOTECA MUNICIPAL DR. FRITZ MULLER E AUDITÓRIO EDITH GAERTNER",
+      "logradouro": "RUA XV DE NOVEMBRO, 161",
+      "intervencao": "Execução de Obra",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2492",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA 7 DE SETEMBRO, PAULO ZIMMERMANN E SÃO JOSÉ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 7 DE SETEMBRO, PAULO ZIMMERMANN E SÃO JOSÉ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2489",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO VIA EXPRESSA PAUL FRITZ KUENRICH [OBRA REPROGRAMADA]",
+      "logradouro": "VIA EXPRESSA PAUL FRITZ KUENRICH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2488",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA BOLÍVIA RUA GUATEMALA RUA VITÓRIO ALCÂNTARA RUA MÉXICO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BOLÍVIA RUA GUATEMALA RUA VITÓRIO ALCÂNTARA RUA MÉXICO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2487",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA PHILLIPP BAULER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PHILLIPP BAULER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2486",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA JULIO MICHEL RUA HERMANN TRIBESS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JULIO MICHEL RUA HERMANN TRIBESS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2485",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA JOSÉ REUTER TRECHO 01 E 02 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOSÉ REUTER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2483",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA JOÃO PESSOA TRECHO 01 E 02, RUA MARECHAL DEODORO, RUA GUSTAVO BUDAG, RUA CARIUS E RUA CANINDÉ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JOÃO PESSOA, RUA MARECHAL DEODORO, RUA GUSTAVO BUDAG, RUA CARIUS E RUA CANINDÉ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2482",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA HEINRICH HOSANG [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HEINRICH HOSANG",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2481",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA FREI ESTANISLAU SCHAETTE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FREI ESTANISLAU SCHAETTE PROJETO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2480",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA FRANZ VOLLES [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FRANZ VOLLES",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2479",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA EMILLIO TALLMANN E RUA RUY BARBOSA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA EMILLIO TALLMANN E RUA RUY BARBOSA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2477",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA BAHIA (TRECHO: SÃO PAULO ATE RUA DR. FRITZ MULLER) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BAHIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2476",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA ARI BARROSO E ENGENHEIRO UDO DEEKE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARI BARROSO E ENGENHEIRO UDO DEEKE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2473",
+      "secretaria": "SEMUDES",
+      "descricao": "EXECUÇÃO DA MODERNIZAÇÃO DE AMPLIAÇÃO E REFORMA DO BANCO DE ALIMENTOS [OBRA REPROGRAMADA]",
+      "logradouro": "R. Eng. Udo Deeke, 1650 - Salto Norte Blumenau - SC 89065-101 Brasil",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2471",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA ALMIRANTE BARROSO E GUSTAVO SALINGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALMIRANTE BARROSO E GUSTAVO SALINGER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2470",
+      "secretaria": "SEMOB",
+      "descricao": "REVITALIZAÇÃO RUA 1 DE JANEIRO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA 1 DE JANEIRO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2469",
+      "secretaria": "SEMOB",
+      "descricao": "READEQUAÇÃO DE PROJETOS PARA CONSTRUÇÃO DO CENTRO DE CONVENÇÕES VILA GERMÂNICA",
+      "logradouro": "RUA HUMBERTO DE CAMPOS",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2468",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO DA RUA ITAPUÍ, RUA CARLOS SPLITTER E RUA MARIO CABRAL E SILVA - TRECHO 1 [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CARLOS SPLITTER",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2467",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 04 - VILA VITÓRIA",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2466",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 03 - VILA UNIÃO",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2465",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 02 - VILA JENSEN",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2464",
+      "secretaria": "SEMOB",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS DE SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS DE DUPLICAÇÃO DA PONTE ADOLFO KONDER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA REPUBLICA ARGENTINA",
+      "intervencao": "Supervisão",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2463",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 01 - VILA BROMBERG [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2461",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 3 - CONTRATAÇÃO DE PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS E LOCAIS NO MUNICÍPIO DE BLUMENAU /",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2460",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 2 - CONTRATAÇÃO DE PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS E LOCAIS NO MUNICÍPIO DE BLUMENAU",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2459",
+      "secretaria": "SEMOB",
+      "descricao": "LOTE 1 - CONTRATAÇÃO DE PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS E LOCAIS NO MUNICÍPIO DE BLUMENAU [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2458",
+      "secretaria": "SEMOB",
+      "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 03 - ALAMEDA RIO BRANCO E RUA HERMANN HUSCHER (ENTRE RUA CEL. VIDAL RAMOS E RUA GERTRUD METZGER) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HERMANN HUSCHER/ALAMEDA RIO BRANCO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2457",
+      "secretaria": "SEMOB",
+      "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 05 - RUA GERTRUD METZGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GERTRUD MEZTGER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2454",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA MARCONI [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MARCONI",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2452",
+      "secretaria": "SEMOB",
+      "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 01 - RUA AMAZONAS (ENTRE RUA 7 DE SETEMBRO E RUA GERTRUD METZGER) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA AMAZONAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2451",
+      "secretaria": "SEMOB",
+      "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 03 - CORREDOR ALAMEDA RIO BRANCO (ENTRE RUA CEL. VIDAL RAMOS E RUA 7 DE SETEMBRO) [OBRA REPROGRAMADA]",
+      "logradouro": "ALAMEDA RIO BRANCO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2446",
+      "secretaria": "SEMOB",
+      "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 01 - CORREDOR ALAMEDA DUQUE DE CAXIAS [OBRA REPROGRAMADA]",
+      "logradouro": "ALAMEDA DUQUE DE CAXIAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2439",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO ASFÁLTICA DA VIA DE LIGAÇÃO DA PRAÇA DUQUE DE CAXIAS [OBRA REPROGRAMADA]",
+      "logradouro": "PRAÇA DUQUE DE CAXIAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2434",
+      "secretaria": "SMTT",
+      "descricao": "Contratação de estudos, levantamentos e projetos executivos de engenharia para o Cercamento e Balizamento Noturno do Aeroporto de Blumenau (SSBL)",
+      "logradouro": "RUA DR PEDRO ZIMERMANN, 4505",
+      "intervencao": "Projeto",
+      "situacao": "EM ANDAMENTO"
+    },
+    {
+      "codigo": "2433",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO ASFÁLTICA DA RUA CAIÇARA E RUA IPIRANGA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CAIÇARA E RUA IPIRANGA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2432",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO ASFÁLTICA NA RUA CARLOS KRUEGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CARLOS KRUEGER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2428",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO ASFÁLTICA NA RUA THEODOR KLEINE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA THEODOR KLEIN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2423",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETOS DE REVITALIZAÇÃO DO PAVIMENTO DE VIAS MUNICIPAIS - LOTE 03 [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2422",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETOS DE REVITALIZAÇÃO DO PAVIMENTO DE VIAS MUNICIPAIS - LOTE 02 [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2421",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETOS DE REVITALIZAÇÃO DO PAVIMENTO DE VIAS MUNICIPAIS - LOTE 01 [OBRA REPROGRAMADA]",
+      "logradouro": "DIVERSOS",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2420",
+      "secretaria": "SEMOB",
+      "descricao": "AMPLIAÇÃO DA PONTE ADOLFO KONDER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA REPÚBLICA ARGENTINA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2418",
+      "secretaria": "SEMOB",
+      "descricao": "MELHORIA E AMPLIAÇÃO DE PASSEIOS E DO SISTEMA CICLOVIÁRIO DA RUA JULIO MICHEL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JULIO MICHEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2416",
+      "secretaria": "SEMUS",
+      "descricao": "ESF JOÃO ROSA CAMARGO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BAHIA 4001",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2415",
+      "secretaria": "SEMUS",
+      "descricao": "AMBULATÓRIO GERAL MARIO JORGE VIEIRA (AG FORTALEZA) [OBRA REPROGRAMADA]",
+      "logradouro": "RUA PAULA HOELTGEBAUM, Nº 170",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2411",
+      "secretaria": "SEMOB",
+      "descricao": "INTERLIGAÇÃO DA RUA ANCHIETA E RUA PAULO SCHEIDEMANTEL COM PONTE E ROTATÓRIA NA RUA ANCHIETA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANCHIETA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2410",
+      "secretaria": "SEMOB",
+      "descricao": "ALARGAMENTO DA PONTE DESEMBARGADOR PEDRO SILVA COM AMPLIAÇÃO DA CAPACIDADE VIÁRIA ENTRE ALAMEDA DUQUE DE CAXIAS E AVENIDA PRESIDENTE CASTELO BRANCO [OBRA REPROGRAMADA]",
+      "logradouro": "ENTRE ALAMEDA DUQUE DE CAXIAS E AVENIDA PRESIDENTE CASTELO BRANCO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2409",
+      "secretaria": "SEMOB",
+      "descricao": "TERRAPLENAGEM, DRENAGEM, PAVIMENTAÇÃO ASFÁLTICA E SINALIZAÇÃO VIÁRIA RUA MARTIN JENSEN [OBRA REPROGRAMADA]",
+      "logradouro": "TV MARTIN JENSEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2408",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE PAVIMETAÇÃO ASFÁLTICA NA RUA GUILHERME SCHARF [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GUILHERME SCHARF",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2406",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO EM BLOCO INTERTRAVADO DA RUA WALTER KNAESEL [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WALTER KNAESEL",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2403",
+      "secretaria": "SEMOB",
+      "descricao": "INTERSEÇÃO VIÁRIA RUAS FREDERICO JENSEN X PROFESSOR JACOB INEICHEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA FREDERICO JENSEN X RUA PROFESSOR JACOB INEICHEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2402",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO PARA PAVIMENTAÇÃO COM LAJOTAS SEXTAVADAS, SINALIZAÇÃO E DRENAGEM DA RUA GONÇALVES DIAS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GONÇALVES DIAS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2401",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE PAVIMENTAÇÃO COM LAJOTAS, SINALIZAÇÃO E DRENAGEM DA RUA ALASKA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALASKA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2400",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO PAVIMENTAÇÃO ASFÁLTICA, SINALIZAÇÃO E DRENAGEM DA RUA CONDE DE MESQUITA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA CONDE DE MESQUITA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2399",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO PAVIMENTAÇÃO ASFÁLTICA, SINALIZAÇÃO E DRENAGEM DA RUA OSVALDO DE ANDRADE [OBRA REPROGRAMADA]",
+      "logradouro": "RUA OSVALDO DE ANDRADE",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2398",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE PAVIMENTAÇÃO ASFÁLTICA, SINALIZAÇÃO E DRENAGEM DA RUA ARNOLDO VAN DEN BYLAARDT [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ARNOLDO VAN DEN BYLAARDT",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2397",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE INFRAESTRURA VIÁRIA - RUA GENERAL OSÓRIO [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GENERAL OSÓRIO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2396",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO PARA PAVIMENTAÇÃO LAJOTAS SEXTAVADAS, SINALIZAÇÃO E DRENAGEM DA RUA WALTRAUD VOIGT [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WALTRAUD VOIGT",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2394",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO E DRENAGEM PLUVIAL DA RUA GUILHERME LUEDERS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GUILHERME LUEDERS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2392",
+      "secretaria": "SEMOB",
+      "descricao": "OBRA DE ESTABILIZAÇÃO DE ENCOSTA NA RUA WILSON BORHOFFEN [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WILSON BORHOFFEN",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2389",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA GOVERNADOR PEDRO IVO CAMPOS",
+      "logradouro": "RUA GOVERNADOR PEDRO IVO CAMPOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2388",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA JORGE ROBERTO DOS PASSOS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA JORGE ROBERTO DOS PASSOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2387",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA GOVERNADOR CELSO RAMOS [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GOVERNADOR CELSO RAMOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2386",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA LUIZ DE OLIVEIRA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA LUIZ DE OLIVEIRA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2385",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA ANNA HEIDRICH [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ANNA HEIDRICH",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2383",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA GERMANO KRUEGER [OBRA REPROGRAMADA]",
+      "logradouro": "RUA GERMANO KRUEGER",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2372",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE MELHORIA E AMPLIAÇÃO DO CORREDOR ESTRUTURAL SUL - MARIA CAVILHA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MARIA CAVILHA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2370",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA MATOS COSTA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA MATOS COSTA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2368",
+      "secretaria": "SEMOB",
+      "descricao": "EXECUÇÃO DOS SERVIÇOS DE DUPLICAÇÃO DA RUA HUMBERTO DE CAMPOS - TRECHO 4: ENTRE A RUA MARECHAL DEODORO E A RUA 7 DE SETEMBRO, COM EXTENSÃO DE 1,3 KM [OBRA REPROGRAMADA]",
+      "logradouro": "RUA HUMBERTO DE CAMPOS",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2364",
+      "secretaria": "SEMOB",
+      "descricao": "RECUPERAÇÃO E PAVIMENTAÇÃO ASFÁLTICA DA RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA",
+      "logradouro": "RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2358",
+      "secretaria": "SEMOB",
+      "descricao": "Pavimentação em lajotas e drenagem da Rua Carlos H. Mulhmann [OBRA REPROGRAMADA]",
+      "logradouro": "Rua Carlos H. Mulhmann",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2351",
+      "secretaria": "SEMOB",
+      "descricao": "Rua Bernardo Scheidemantel",
+      "logradouro": "Rua Bernardo Scheidemantel",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2350",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DO PROJETO (BÁSICO E EXECUTIVO) DO PARQUE LINEAR DO FORTALEZA",
+      "logradouro": "RUA DOIS DE SETEMBRO, N 26",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2348",
+      "secretaria": "SEMOB",
+      "descricao": "VIA EXPRESSA [OBRA REPROGRAMADA]",
+      "logradouro": "VIA EXPRESSA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2347",
+      "secretaria": "SEMOB",
+      "descricao": "ELABORAÇÃO DE PROJETOS DE ENGENHARIA (BÁSICO E EXECUTIVO) PARA IMPLANTAÇÃO DO PARQUE LINEAR DA BACIA DO RIBEIRÃO DA VELHA [OBRA REPROGRAMADA]",
+      "logradouro": "AVENIDA PRESIDENTE CASTELO BRANCO, S/Nº",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2345",
+      "secretaria": "SEMOB",
+      "descricao": "RUA BAHIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA BAHIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2340",
+      "secretaria": "SEMOB",
+      "descricao": "Rua Wilhelm Knaesel Senior [OBRA REPROGRAMADA]",
+      "logradouro": "Rua Wilhelm Knaesel Senior",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2339",
+      "secretaria": "SEMOB",
+      "descricao": "Rua Braço do Sul [OBRA REPROGRAMADA]",
+      "logradouro": "Rua Braço do sul",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2333",
+      "secretaria": "SEMOB",
+      "descricao": "Implantação e Pavimentação da Rotatória do Corredor Norte (Trecho 2B) e Pavimentação da Rua Mario Giese [OBRA REPROGRAMADA]",
+      "logradouro": "Rua Dr. Pedro Zimmermann",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2329",
+      "secretaria": "SEMOB",
+      "descricao": "PROJETO DE CICLOVIA E PASSEIO COMPARTILHADO DA RUA ITAJAÍ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ITAJAI",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2328",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA SAXÔNIA [OBRA REPROGRAMADA]",
+      "logradouro": "RUA SAXÔNIA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2325",
+      "secretaria": "SEMOB",
+      "descricao": "TERRAPLANGEM, DRENAGEM, PAVIMENTAÇÃO ASFÁLTICA E SINALIZAÇÃO VIÁRIA",
+      "logradouro": "RUA MAURINO VALENTIN JACINTO",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2320",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA WILLY SCHULZ [OBRA REPROGRAMADA]",
+      "logradouro": "RUA WILLY SCHULZ",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2319",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA LARANJEIRA",
+      "logradouro": "RUA LARANJEIRA",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2318",
+      "secretaria": "SEMOB",
+      "descricao": "ROTATÓRIA RUA PROGRESSO X RUA SANTA MARIA [OBRA REPROGRAMADA]",
+      "logradouro": "Rua Progresso",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2316",
+      "secretaria": "SEMOB",
+      "descricao": "ENTRONCAMENTO RUA DAS MISSÕES X DEP. ANTONIO HEIL [OBRA REPROGRAMADA]",
+      "logradouro": "Rua das Missões",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2314",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA JOÃO BISEWSKI",
+      "logradouro": "RUA JOÃO BISEWSKI",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2313",
+      "secretaria": "SEMOB",
+      "descricao": "INTERSECÃO VIÁRIA RUA JOHANN OHF X JOSÉ REUTER",
+      "logradouro": "RUA JOHANN OHF",
+      "intervencao": "Execução de Obra",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "2312",
+      "secretaria": "SEMOB",
+      "descricao": "PAVIMENTAÇÃO RUA ALFREDO HERING [OBRA REPROGRAMADA]",
+      "logradouro": "RUA ALFREDO HERING",
+      "intervencao": "Projeto",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1043",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de terraplanagem, drenagem, pavimentação asfáltica e sinalização viária da Rua Antônio Bitelbrunn",
+      "logradouro": "Rua Antonio Bittelbrunn",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1042",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Zenaide Santos de Souza",
+      "logradouro": "Rua Zenaide Santos de Souza",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1041",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua Rio Bonito",
+      "logradouro": "Rua Rio Bonito",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1040",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Erich Belz",
+      "logradouro": "Rua Erich Belz",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1039",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da rua Rodolfo Bretzke",
+      "logradouro": "Rua Rodolfo Bretzke",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1038",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação asfáltica e sinalização viária da Rua Vale do Selke",
+      "logradouro": "Rua Vale do Selke",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1037",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua João José Ferreira e Transversais",
+      "logradouro": "Rua João José Ferreira",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1036",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação asfáltica e sinalização viária na Rua Norberto Seara Heusi",
+      "logradouro": "Rua Norberto Seara Heusi",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1035",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua João José Ferreira e Transversais",
+      "logradouro": "Rua João José Ferreira",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1034",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Joel Bernardes",
+      "logradouro": "Rua Joel Bernardes",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1033",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Ananias da Silva",
+      "logradouro": "Rua Ananias da Silva",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1032",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Nestor Justino da Silva",
+      "logradouro": "Rua Nestor Justino da Silva",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1031",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua Augustinho Rodolfo da Silva",
+      "logradouro": "Rua Augustinho Rodolfo da Silva",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1030",
+      "secretaria": "SEMOB",
+      "descricao": "Implantação de novos abrigos para passageiros do transporte coletivo e calçadas em 113 pontos de parada, no Município de Blumenau",
+      "logradouro": "Diversas Vias",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1029",
+      "secretaria": "SEMOB",
+      "descricao": "Implantação e pavimentação do prolongamento da Rua Humberto de Campos - VP 07",
+      "logradouro": "Rua Humberto de Campos",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1027",
+      "secretaria": "SEMOB",
+      "descricao": "Execução dos serviços de implantação e pavimentação do Binário da Rua Chile e da Rua República Argentina",
+      "logradouro": "Rua República Argentina",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1026",
+      "secretaria": "SEMOB",
+      "descricao": "Execução de obras de terraplanagen, drenagem, pavimentação asfáltica e sinalização viária na Rua Arnoldo Hemmer",
+      "logradouro": "Rua Arnoldo Hemmer",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1025",
+      "secretaria": "SEMED",
+      "descricao": "Projeto EBM Quintino Bocaiuva: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
+      "logradouro": "Rua Valter Wacholz, 265",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1024",
+      "secretaria": "SEMED",
+      "descricao": "Projeto EBM Profª Nemesia Margarida: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
+      "logradouro": "Rua Oscar João Rausch, 100",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1023",
+      "secretaria": "SEMED",
+      "descricao": "Projeto EBM Profª Adelaide Starke: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
+      "logradouro": "Rua São Bernardo, 700",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1022",
+      "secretaria": "SEMED",
+      "descricao": "Projeto EBM Lauro Muller: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
+      "logradouro": "Rua Heinrich Hemmer, 2876",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1021",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Cobertura, parte elétrica e forro na EBM Vidal Ramos",
+      "logradouro": "Rua Antônio Treis, 144",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1020",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Cobertura elétrica, forro de PVC e esquadrias na EIM Capitão Euclides de Castro",
+      "logradouro": "Rua Jordão, 2.269",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1019",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Cobertura e construção de cobertura metálica, nivelamento do contra piso e assentamento de novo piso cerâmico, instalações de calhas, rufos, e portas do CEI Frei Odorico Durieux",
+      "logradouro": "Rua Jacob Ineichen, s/n",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1018",
+      "secretaria": "SEMED",
+      "descricao": "Construção de quadra poliesportiva na EBM Bilíngue Profª Hella Altenburg",
+      "logradouro": "Rua Plátano, 233",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1017",
+      "secretaria": "SEMED",
+      "descricao": "Reforma geral na EBM Bilíngue Prof. Fernando Ostermann",
+      "logradouro": "Rua Otto Stutzer, 43",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1016",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Cobertura em estrutura metálica na EBM Conselheiro Mafra e CEI Dr.Arão Rebello",
+      "logradouro": "Rua Franz Muller, 2.113",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1015",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Cobertura, elétrica e forro da EBM Anita Garibaldi",
+      "logradouro": "Rua Dr. Pedro Zimmermann, 5.900",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1014",
+      "secretaria": "SEMED",
+      "descricao": "Execução de estrutura de contenção e drenagem de taludes no CEI Elfrida Fischer Vieira (Jardim Germânico)",
+      "logradouro": "Rua Jardim Germânico, s/n",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1013",
+      "secretaria": "SEMUS",
+      "descricao": "REFORÇO ESTRUTURAL E REFORMA DA POLICLÍNICA LINDOLF BELL",
+      "logradouro": "RUA DOIS DE NOVEMBRO 1298",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1012",
+      "secretaria": "SEMUS",
+      "descricao": "CONSTRUÇÃO DO AMBULATORIO GERAL ESCOLA AGRICOLA",
+      "logradouro": "RUA NORBERTO SEARA HEUSI",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1011",
+      "secretaria": "SEMUDES",
+      "descricao": "CONSTRUÇÃO DO CENTRO DE REFERÊNCIA EM ASSISTENCIA SOCIAL - CRAS",
+      "logradouro": "RUA MARGARIDA WALDRICH, 230",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1010",
+      "secretaria": "SEMUS",
+      "descricao": "REFORMA E ADAPTAÇÃO DA UNIDADE DE SAÚDE LÉO DE CARVALHO",
+      "logradouro": "RUA ENGENHEIRO ODEBRECHT 961",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1009",
+      "secretaria": "SEMED",
+      "descricao": "Reforma de Cobertura, elétrica e forro da EBM Paulina Wagner",
+      "logradouro": "Rua Ana Felisbino, 125",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1008",
+      "secretaria": "SEMED",
+      "descricao": "Construção da Quadra Poliesportiva na EBM Almirante Tamandaré",
+      "logradouro": "Rua: Santa Fé, 66",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1007",
+      "secretaria": "SEMUS",
+      "descricao": "ADAPTAÇÃO DE EDIFICAÇÃO PARA ESF GENERAL OSÓRIO I E II",
+      "logradouro": "RUA GENERAL OSORIO 660",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1006",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Cobertura, elétrica e forro na EBM General Lúcio Esteves",
+      "logradouro": "Rua: Benjamin Constant, 630",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1005",
+      "secretaria": "SEMUS",
+      "descricao": "ADAPTAÇÃO E ADEQUAÇÃO DA EDIFICAÇÃO PARA CENTRO DE ATENÇÃO PSICOSSOCIAL",
+      "logradouro": "RUA NORBERTO SEARA HEUSI",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1004",
+      "secretaria": "SEMED",
+      "descricao": "Reforma e Ampliação na EBM Bilíngue Pastor Faulhaber",
+      "logradouro": "Rua Pastor Oswaldo Hesse, 1.090",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1003",
+      "secretaria": "SECTUR",
+      "descricao": "RECUPERAÇÃO DA PISTA DE ESPORTES RADICAIS PARQUE RAMIRO RUEDIGER",
+      "logradouro": "Alberto Stein, 416",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "C1002",
+      "secretaria": "SEMED",
+      "descricao": "Reforma Geral Prédio Manutenção/Depósito - SEMED",
+      "logradouro": "Rua Carl Dettmer, n. 137",
+      "intervencao": "",
+      "situacao": "CONCLUÍDA"
+    },
+    {
+      "codigo": "LISTA DE OBRAS DISPONÍVEIS",
+      "secretaria": "",
+      "descricao": "",
+      "logradouro": "",
+      "intervencao": "",
+      "situacao": ""
+    },
+    {
+      "codigo": "Município Blumenau/Santa Catarina",
+      "secretaria": "",
+      "descricao": "",
+      "logradouro": "",
+      "intervencao": "",
+      "situacao": ""
+    }
+  ]
+}

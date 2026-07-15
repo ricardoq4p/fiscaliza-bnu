@@ -1,80 +1,84 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import dados from '../data/obras.json';
 
-const obras = [
-  { id: 1, nome: 'Ampliação da Escola Municipal', bairro: 'Garcia', rua: 'Rua Amazonas', categoria: 'Educação', status: 'Em andamento', fisico: 72, pago: 68, valor: 'R$ 4,2 milhões', atualizacao: 34 },
-  { id: 2, nome: 'Nova Unidade de Saúde', bairro: 'Fortaleza', rua: 'Rua Francisco Vahldieck', categoria: 'Saúde', status: 'Em andamento', fisico: 64, pago: 61, valor: 'R$ 6,8 milhões', atualizacao: 8 },
-  { id: 3, nome: 'Pavimentação e drenagem urbana', bairro: 'Itoupava Central', rua: 'Rua Dr. Pedro Zimmermann', categoria: 'Mobilidade', status: 'Atrasada', fisico: 48, pago: 57, valor: 'R$ 3,1 milhões', atualizacao: 71 },
-  { id: 4, nome: 'Reforma de Centro de Educação Infantil', bairro: 'Velha', rua: 'Rua dos Caçadores', categoria: 'Educação', status: 'Concluída', fisico: 100, pago: 100, valor: 'R$ 1,9 milhão', atualizacao: 12 },
-  { id: 5, nome: 'Construção de ponte municipal', bairro: 'Ponta Aguda', rua: 'Rua República Argentina', categoria: 'Mobilidade', status: 'Em andamento', fisico: 39, pago: 35, valor: 'R$ 12,4 milhões', atualizacao: 19 },
-  { id: 6, nome: 'Revitalização de praça pública', bairro: 'Água Verde', rua: 'Rua General Osório', categoria: 'Lazer', status: 'Paralisada', fisico: 31, pago: 46, valor: 'R$ 980 mil', atualizacao: 96 }
-];
+const POR_PAGINA = 12;
 
-const normalizar = (texto) => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const normalizar = (texto = '') => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const titulo = (texto = '') => texto.toLocaleLowerCase('pt-BR').replace(/(^|\s)(\p{L})/gu, (_, espaco, letra) => `${espaco}${letra.toLocaleUpperCase('pt-BR')}`);
+const rotuloSituacao = (situacao) => situacao ? titulo(situacao) : 'Não informada';
 
 export default function Home() {
   const [busca, setBusca] = useState('');
-  const [bairro, setBairro] = useState('Todos');
-  const [status, setStatus] = useState('Todos');
+  const [situacao, setSituacao] = useState('Todas');
+  const [secretaria, setSecretaria] = useState('Todas');
+  const [pagina, setPagina] = useState(1);
 
-  const bairros = useMemo(() => [...new Set(obras.map((obra) => obra.bairro))].sort(), []);
+  const situacoes = useMemo(() => [...new Set(dados.obras.map((obra) => obra.situacao).filter(Boolean))].sort(), []);
+  const secretarias = useMemo(() => [...new Set(dados.obras.map((obra) => obra.secretaria).filter(Boolean))].sort(), []);
+  const contagens = useMemo(() => dados.obras.reduce((acc, obra) => {
+    acc[obra.situacao || 'NÃO INFORMADA'] = (acc[obra.situacao || 'NÃO INFORMADA'] || 0) + 1;
+    return acc;
+  }, {}), []);
+
   const filtradas = useMemo(() => {
     const termo = normalizar(busca.trim());
-    return obras.filter((obra) => {
-      const conteudo = normalizar(`${obra.nome} ${obra.bairro} ${obra.rua} ${obra.categoria}`);
+    return dados.obras.filter((obra) => {
+      const conteudo = normalizar(`${obra.codigo} ${obra.descricao} ${obra.logradouro} ${obra.secretaria} ${obra.intervencao} ${obra.situacao}`);
       return (!termo || conteudo.includes(termo))
-        && (bairro === 'Todos' || obra.bairro === bairro)
-        && (status === 'Todos' || obra.status === status);
+        && (situacao === 'Todas' || obra.situacao === situacao)
+        && (secretaria === 'Todas' || obra.secretaria === secretaria);
     });
-  }, [busca, bairro, status]);
+  }, [busca, situacao, secretaria]);
 
-  const limparFiltros = () => {
-    setBusca('');
-    setBairro('Todos');
-    setStatus('Todos');
-  };
+  useEffect(() => setPagina(1), [busca, situacao, secretaria]);
 
-  const emAndamento = obras.filter((obra) => obra.status === 'Em andamento').length;
-  const concluidas = obras.filter((obra) => obra.status === 'Concluída').length;
-  const atencao = obras.filter((obra) => obra.status === 'Atrasada' || obra.status === 'Paralisada' || obra.atualizacao > 60).length;
+  const totalPaginas = Math.max(1, Math.ceil(filtradas.length / POR_PAGINA));
+  const obrasDaPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
+  const sincronizadoEm = new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'America/Sao_Paulo' }).format(new Date(dados.sincronizadoEm));
+  const limparFiltros = () => { setBusca(''); setSituacao('Todas'); setSecretaria('Todas'); };
 
   return <main>
-    <header><div className="nav"><strong>Fiscaliza <span>BNU</span></strong><nav>Visão geral　 Explorar obras　 Metodologia</nav></div></header>
+    <header><div className="nav"><strong>Fiscaliza <span>BNU</span></strong><nav><a href="#obras">Pesquisar obras</a><a href="#fonte">Sobre os dados</a></nav></div></header>
+
     <section className="hero">
-      <div className="tag">TRANSPARÊNCIA PARA TODOS</div>
-      <h1>Descubra as obras públicas<br/><em>perto de você.</em></h1>
-      <p>Pesquise pelo nome da sua rua ou bairro e acompanhe a situação, a execução e os pagamentos das obras de Blumenau.</p>
-      <div className="search"><span aria-hidden="true">⌕</span><label className="srOnly" htmlFor="busca-obras">Pesquisar obras</label><input id="busca-obras" value={busca} onChange={(event) => setBusca(event.target.value)} placeholder="Digite uma rua, bairro ou nome da obra..."/></div>
-      <div className="demo">ⓘ Versão demonstrativa — os dados exibidos são fictícios.</div>
+      <div className="tag">OBRAS PÚBLICAS DE BLUMENAU</div>
+      <h1>O que está acontecendo<br/><em>perto de você?</em></h1>
+      <p>Digite o nome da sua rua, bairro ou uma palavra da obra para consultar informações publicadas pela Prefeitura.</p>
+      <div className="search"><span aria-hidden="true">⌕</span><label className="srOnly" htmlFor="busca-obras">Pesquisar obras</label><input id="busca-obras" value={busca} onChange={(event) => setBusca(event.target.value)} placeholder="Ex.: Rua Amazonas, Garcia, escola..." autoComplete="off"/></div>
+      <div className="sourceNote">Dados reais do Portal de Transparência em Obras Públicas · Sincronizados em {sincronizadoEm}</div>
     </section>
 
-    <section className="content">
+    <section className="content" id="obras">
       <div className="cards">
-        <article><small>OBRAS CADASTRADAS</small><b>{obras.length}</b><span>Na base demonstrativa</span></article>
-        <article><small>EM ANDAMENTO</small><b>{emAndamento}</b><span>Com execução ativa</span></article>
-        <article><small>CONCLUÍDAS</small><b>{concluidas}</b><span>Entregues à população</span></article>
-        <article className="warn"><small>PRECISAM DE ATENÇÃO</small><b>{atencao}</b><span>Atrasadas, paralisadas ou desatualizadas</span></article>
+        <article><small>TODAS AS OBRAS</small><b>{dados.total}</b><span>Registros publicados</span></article>
+        <article><small>EM ANDAMENTO</small><b>{contagens['EM ANDAMENTO'] || 0}</b><span>Obras e projetos ativos</span></article>
+        <article><small>CONCLUÍDAS</small><b>{contagens['CONCLUÍDA'] || 0}</b><span>Marcadas como finalizadas</span></article>
+        <article className="warn"><small>PARALISADAS</small><b>{contagens.PARALISADA || 0}</b><span>Precisam de atenção</span></article>
       </div>
 
-      <div className="sectionTitle"><div><h2>Obras na sua região</h2><p>Use um ou mais filtros para encontrar rapidamente o que procura.</p></div></div>
+      <div className="sectionTitle"><div><h2>Encontre uma obra</h2><p>Pesquise pelo endereço e refine por situação ou órgão responsável.</p></div></div>
       <div className="filters" aria-label="Filtros de obras">
-        <label>Bairro<select value={bairro} onChange={(event) => setBairro(event.target.value)}><option>Todos</option>{bairros.map((item) => <option key={item}>{item}</option>)}</select></label>
-        <label>Situação<select value={status} onChange={(event) => setStatus(event.target.value)}><option>Todos</option><option>Em andamento</option><option>Atrasada</option><option>Paralisada</option><option>Concluída</option></select></label>
+        <label>Situação<select value={situacao} onChange={(event) => setSituacao(event.target.value)}><option>Todas</option>{situacoes.map((item) => <option key={item} value={item}>{rotuloSituacao(item)}</option>)}</select></label>
+        <label>Órgão responsável<select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label>
         <button className="clear" type="button" onClick={limparFiltros}>Limpar filtros</button>
         <strong className="resultCount">{filtradas.length} {filtradas.length === 1 ? 'obra encontrada' : 'obras encontradas'}</strong>
       </div>
 
-      {filtradas.length > 0 ? <div className="grid">{filtradas.map((obra) => <article className="obra" key={obra.id}>
-        <div className="obraTop"><span className={`pill ${normalizar(obra.status).replace(/\s/g, '')}`}>{obra.status}</span><small>{obra.categoria}</small></div>
-        <h3>{obra.nome}</h3>
-        <p className="address"><b>{obra.rua}</b><span>{obra.bairro}, Blumenau</span></p>
-        <div className="metrics"><div><label>Execução física <b>{obra.fisico}%</b></label><i><u style={{ width: `${obra.fisico}%` }}/></i></div><div><label>Pagamento <b>{obra.pago}%</b></label><i><u style={{ width: `${obra.pago}%` }}/></i></div></div>
-        {obra.pago === 100 && obra.status !== 'Concluída' && <div className="alert">⚠ Pagamento concluído, obra ainda em andamento</div>}
-        {obra.atualizacao > 60 && <div className="alert">⚠ Sem atualização há mais de 60 dias</div>}
-        <footer><div><small>VALOR ATUAL</small><b>{obra.valor}</b></div><button type="button">Ver detalhes →</button></footer>
-      </article>)}</div> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Tente pesquisar outra rua ou remover algum filtro.</p><button type="button" onClick={limparFiltros}>Limpar filtros</button></div>}
+      {obrasDaPagina.length > 0 ? <>
+        <div className="grid">{obrasDaPagina.map((obra, indice) => <article className="obra" key={`${obra.codigo}-${indice}`}>
+          <div className="obraTop"><span className={`pill ${normalizar(obra.situacao).replace(/\s/g, '')}`}>{rotuloSituacao(obra.situacao)}</span><small>Código {obra.codigo || 'não informado'}</small></div>
+          <h3>{titulo(obra.descricao)}</h3>
+          <p className="address"><b>{titulo(obra.logradouro || 'Endereço não informado')}</b><span>Blumenau, SC</span></p>
+          <dl><div><dt>Tipo</dt><dd>{obra.intervencao || 'Não informado'}</dd></div><div><dt>Responsável</dt><dd>{obra.secretaria || 'Não informado'}</dd></div></dl>
+          <footer><span>Fonte oficial</span><a href={dados.fonte} target="_blank" rel="noreferrer">Consultar no EngeGOV ↗</a></footer>
+        </article>)}</div>
+        <nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav>
+      </> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Confira o nome da rua ou tente remover algum filtro.</p><button type="button" onClick={limparFiltros}>Limpar filtros</button></div>}
     </section>
-    <footer className="footer"><b>Fiscaliza BNU</b><p>Dados públicos com contexto para fortalecer a participação cidadã.</p></footer>
+
+    <section className="about" id="fonte"><div><h2>De onde vêm essas informações?</h2><p>Os registros são publicados pela Prefeitura de Blumenau no Portal de Transparência em Obras Públicas (EngeGOV). O Fiscaliza BNU organiza a listagem oficial para facilitar a pesquisa por cidadãos.</p><p><b>Importante:</b> situação, descrição e endereço são apresentados como constam na fonte. Consulte o portal oficial para documentos e informações detalhadas.</p><a href={dados.fonte} target="_blank" rel="noreferrer">Acessar a fonte oficial ↗</a></div></section>
+    <footer className="footer"><b>Fiscaliza BNU</b><p>Informação pública em linguagem simples para fortalecer a participação cidadã.</p></footer>
   </main>;
 }
