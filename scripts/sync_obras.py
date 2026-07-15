@@ -54,19 +54,78 @@ def baixar_planilha() -> bytes:
         return response.read()
 
 
-def converter(planilha: bytes) -> list[dict[str, str]]:
+def baixar_coordenadas() -> dict[str, tuple[float, float]]:
+    """Lê, em uma única resposta Ajax, os marcadores do mapa público."""
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(CookieJar()))
+    with opener.open(PORTAL_URL, timeout=45) as response:
+        page = response.read()
+
+    document = html.fromstring(page)
+    form = document.get_element_by_id("frmObrasGeorreferenciadas")
+    view_state = form.xpath('.//input[@name="javax.faces.ViewState"]/@value')[0]
+    button = form.xpath('.//button/@name')[0]
+    action = urllib.parse.urljoin(PORTAL_URL, form.attrib["action"])
+    payload = urllib.parse.urlencode({
+        "frmObrasGeorreferenciadas": "frmObrasGeorreferenciadas",
+        button: button,
+        "javax.faces.ViewState": view_state,
+    }).encode()
+    with opener.open(urllib.request.Request(action, data=payload, method="POST"), timeout=60) as response:
+        map_page = response.read()
+
+    map_document = html.fromstring(map_page)
+    map_view_state = map_document.xpath('//input[@name="javax.faces.ViewState"]/@value')[0]
+    ajax_payload = urllib.parse.urlencode({
+        "javax.faces.partial.ajax": "true",
+        "javax.faces.source": "frmMapaObras:console",
+        "javax.faces.partial.execute": "frmMapaObras:console",
+        "javax.faces.partial.render": "frmMapaObras:gmapObras frmMapaObras:pnlNumObrasMapa",
+        "javax.faces.behavior.event": "change",
+        "javax.faces.partial.event": "change",
+        "frmMapaObras": "frmMapaObras",
+        "frmMapaObras:console": "4",
+        "javax.faces.ViewState": map_view_state,
+    }).encode()
+    ajax_request = urllib.request.Request(action, data=ajax_payload, method="POST", headers={
+        "Faces-Request": "partial/ajax",
+        "X-Requested-With": "XMLHttpRequest",
+    })
+    with opener.open(ajax_request, timeout=90) as response:
+        source = response.read().decode("utf-8")
+
+    marker_pattern = re.compile(
+        r"new google\.maps\.Marker\(\{position:new google\.maps\.LatLng\(([-\d.]+),\s*([-\d.]+)\),"
+        r"id:'[^']+',title:\"((?:\\.|[^\"])*)\",icon:"
+    )
+    coordinates = {}
+    for latitude, longitude, raw_title in marker_pattern.findall(source):
+        title = json.loads(f'"{raw_title}"')
+        coordinates[normalizar(title)] = (float(latitude), float(longitude))
+    return coordinates
+
+
+def normalizar(value: object) -> str:
+    normalized = unicodedata.normalize("NFD", texto(value))
+    return "".join(character for character in normalized if not unicodedata.combining(character)).casefold()
+
+
+def converter(planilha: bytes, coordenadas: dict[str, tuple[float, float]]) -> list[dict[str, object]]:
     sheet = xlrd.open_workbook(file_contents=planilha).sheet_by_index(0)
     headers = [chave(sheet.cell_value(0, column)) for column in range(sheet.ncols)]
     obras = []
     for row_index in range(1, sheet.nrows):
         row = {headers[column]: texto(sheet.cell_value(row_index, column)) for column in range(sheet.ncols)}
         if any(row.values()):
+            coordinate = coordenadas.get(normalizar(row.get("descricao")))
+            if coordinate:
+                row["latitude"], row["longitude"] = coordinate
             obras.append(row)
     return obras
 
 
 def main() -> None:
-    obras = converter(baixar_planilha())
+    coordenadas = baixar_coordenadas()
+    obras = converter(baixar_planilha(), coordenadas)
     payload = {
         "fonte": PORTAL_URL,
         "sincronizadoEm": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -76,6 +135,7 @@ def main() -> None:
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{len(obras)} obras salvas em {OUTPUT}")
+    print(f"{sum('latitude' in obra for obra in obras)} obras com coordenadas oficiais")
     if obras:
         print("Campos:", ", ".join(obras[0]))
 

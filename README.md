@@ -1,6 +1,6 @@
 # Fiscaliza BNU
 
-Interface cidadã para pesquisar as obras públicas de Blumenau por rua, bairro, descrição, situação e órgão responsável.
+Interface cidadã para pesquisar as obras públicas de Blumenau por endereço, descrição, situação e órgão responsável. A busca por endereço ordena as obras georreferenciadas mais próximas em um raio de 1 km.
 
 ## Dados
 
@@ -13,7 +13,7 @@ python -m pip install -r requirements-data.txt
 npm run sync:data
 ```
 
-O sincronizador faz uma consulta à página pública e baixa uma vez a planilha oficial completa. Ele não altera dados nem envia formulários de contato.
+O sincronizador baixa a planilha oficial completa e as coordenadas publicadas no mapa do EngeGOV. A localização do endereço pesquisado usa o OpenStreetMap/Nominatim. O processo não altera dados nem envia formulários de contato.
 
 ## Desenvolvimento
 

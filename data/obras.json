@@ -1,6 +1,6 @@
 {
   "fonte": "https://engegov.blumenau.sc.gov.br/portal-engegov/dashboard.xhtml?cidade=4898",
-  "sincronizadoEm": "2026-07-15T12:20:52+00:00",
+  "sincronizadoEm": "2026-07-15T12:37:54+00:00",
   "total": 485,
   "obras": [
     {
@@ -9,7 +9,9 @@
       "descricao": "REVISÃO DO PROJETO EXECUTIVO DE ARQUITETURA E DO ORÇAMENTO DE OBRA DA PASSARELA METÁLICA PARA PEDESTRES E CICLISTAS DA PRAINHA, CONECTANDO A PRAÇA JUSCELINO KUBITSCHEK DE OLIVEIRA AO MIRANTE DA RUA ITAJAÍ, NO BAIRRO CENTRO, MUNICÍPIO DE BLUMENAU/SC.",
       "logradouro": "RUA PARAGUAY",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.919143004803786,
+      "longitude": -49.06014595705566
     },
     {
       "codigo": "3857",
@@ -17,7 +19,9 @@
       "descricao": "ELABORAÇÃO DOS PROJETOS DE MACRODRENAGENS DE 06 (SEIS) REGIÕES DO MUNICÍPIO DE BLUMENAU - LOTE 04",
       "logradouro": "VÁRIAS REGIÕES",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.883885652303125,
+      "longitude": -49.08442023973389
     },
     {
       "codigo": "3856",
@@ -25,7 +29,9 @@
       "descricao": "ELABORAÇÃO DOS PROJETOS DE MACRODRENAGENS DE 06 (SEIS) REGIÕES DO MUNICÍPIO DE BLUMENAU - LOTE 03",
       "logradouro": "VÁRIAS REGIÕES",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.92508360533949,
+      "longitude": -49.06733993272705
     },
     {
       "codigo": "3852",
@@ -33,7 +39,9 @@
       "descricao": "ELABORAÇÃO DOS PROJETOS DE MACRODRENAGENS DE 04 (QUATRO) REGIÕES DO MUNICÍPIO DE BLUMENAU - LOTE 02",
       "logradouro": "VÁRIAS REGIÕES",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.89265080426914,
+      "longitude": -49.0700865147583
     },
     {
       "codigo": "3849",
@@ -41,7 +49,9 @@
       "descricao": "REQUALIFICAÇÃO VIÁRIA DO PAVIMENTO DA RUA SANTA TEREZINHA",
       "logradouro": "RUA SANTA TEREZINHA",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9786464,
+      "longitude": -49.0783865
     },
     {
       "codigo": "3808",
@@ -49,7 +59,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO E DRENAGEM VIA PROJETADA 64 (TRECHO 01)",
       "logradouro": "VIA PROJETADA 64",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.913616378968413,
+      "longitude": -49.088843389632416
     },
     {
       "codigo": "3800",
@@ -57,7 +69,9 @@
       "descricao": "ELABORAÇÃO DE PROJETO ARQUITETONICO E COMPLEMENTARES EXECUTIVOS PARA NOVO ESF ALFREDO HOESS",
       "logradouro": "RUA EMIL MANKE SÊNIOR, Nº 676, BAIRRO VILA ITOUPAVA, BLUMENAU - SC",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.721138236040186,
+      "longitude": -49.061251027169796
     },
     {
       "codigo": "3777",
@@ -65,7 +79,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO E DRENAGEM DA ACHILES JACOBSEN",
       "logradouro": "ACHILES JACOBSEN",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.845911016971513,
+      "longitude": -49.15815703499527
     },
     {
       "codigo": "3764",
@@ -73,7 +89,9 @@
       "descricao": "PAVIMENTAÇÃO EM CONCRETO E DRENAGEM PLUVIAL DA RUA GENESIO LINK",
       "logradouro": "RUA GENESIO LINK",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8842281,
+      "longitude": -49.1571845
     },
     {
       "codigo": "3714",
@@ -81,7 +99,9 @@
       "descricao": "PAVIMENTAÇÃO E DRENAGEM RUA HERMANN HEIN - TRECHO FINAL",
       "logradouro": "RUA HERMANN HEIN",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.727508850018175,
+      "longitude": -49.06545720923157
     },
     {
       "codigo": "3693",
@@ -89,7 +109,9 @@
       "descricao": "EXECUÇÃO EMERGENCIAL DE GALERIA DE DRENAGEM NO RIBEIRÃO DO TIGRE NA RUA FIDES DEEKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA FIDES DEEKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.898361914670392,
+      "longitude": -49.08235695558238
     },
     {
       "codigo": "3668",
@@ -97,7 +119,9 @@
       "descricao": "T2A_VIII RECUPERAÇÃO DE PAVIMENTAÇÃO ASFÁLTICA DA RUA FRANZ VOLLES",
       "logradouro": "RUA FRANZ VOLLES",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8367644,
+      "longitude": -49.1019984
     },
     {
       "codigo": "3666",
@@ -105,7 +129,9 @@
       "descricao": "T2A_VII MELHORIA DE CIRCULAÇÃO VIÁRIA DO NOVO ACESSO À RUA FRANZ VOLLES",
       "logradouro": "RUA FRANZ VOLLES",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8367644,
+      "longitude": -49.1019984
     },
     {
       "codigo": "3663",
@@ -113,7 +139,9 @@
       "descricao": "T2A_V - RUA ARI BARROSO",
       "logradouro": "RUA ARI BARROSO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.86265132146045,
+      "longitude": -49.09957310000001
     },
     {
       "codigo": "3662",
@@ -121,7 +149,9 @@
       "descricao": "T2A_IV REURBANIZAÇÃO RUA FREDERICO JENSEN",
       "logradouro": "RUA FREDERICO JENSEN",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.860792372349724,
+      "longitude": -49.091251941650405
     },
     {
       "codigo": "3660",
@@ -129,7 +159,9 @@
       "descricao": "T2A_III REURBANIZAÇÃO RUA GUSTAVO HENSCHEL",
       "logradouro": "RUA GUSTAVO HENSCHEL",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8478664,
+      "longitude": -49.0932376
     },
     {
       "codigo": "3657",
@@ -137,7 +169,9 @@
       "descricao": "T2A_II REURBANIZAÇÃO RUA GUILHERME SCHARF [OBRA REPROGRAMADA]",
       "logradouro": "GUILHERME SCHARF",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.849089004558483,
+      "longitude": -49.08189904346923
     },
     {
       "codigo": "3649",
@@ -145,7 +179,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA RECIFE - TRECHO FINAL E RUA CARIJÓS",
       "logradouro": "RUA RECIFE",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9271004,
+      "longitude": -49.0790554
     },
     {
       "codigo": "3638",
@@ -153,7 +189,9 @@
       "descricao": "CONSTRUÇÃO NOVO ESF EVACIR BARTH",
       "logradouro": "RUA JULIO MICHEL",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8820682664399,
+      "longitude": -49.054022287280276
     },
     {
       "codigo": "3623",
@@ -161,7 +199,9 @@
       "descricao": "COMPLEMENTAÇÃO DE DRENAGEM PLUVIAL E IMPLANTAÇÃO DE PASSEIO E CICLOVIA NA RUA 1º DE JANEIRO [OBRA REPROGRAMADA]",
       "logradouro": "RUA 1º DE JANEIRO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.86039550840516,
+      "longitude": -49.08019899694213
     },
     {
       "codigo": "3615",
@@ -169,7 +209,9 @@
       "descricao": "IMPLANTAÇÃO DE ESTACIONAMENTO DE VEÍCULOS DO PARQUE ALCÂNTARO CORRÊA - ETAPA 1A [OBRA REPROGRAMADA]",
       "logradouro": "RUA 1 DE JANEIRO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.860368098127175,
+      "longitude": -49.08061991401671
     },
     {
       "codigo": "3590",
@@ -177,7 +219,9 @@
       "descricao": "AMPLIAÇÃO E REFORMA DO ESF NORBERTO SPRUNG",
       "logradouro": "RUA PROF. HERMAN LANGE",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8267456,
+      "longitude": -49.0620231
     },
     {
       "codigo": "3587",
@@ -185,7 +229,9 @@
       "descricao": "AMPLIAÇÃO DA ÁREA ADMINISTRATIVA DO CEI EMILIA PISKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA HERMAN PISKE, 250",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8558411,
+      "longitude": -49.0561209
     },
     {
       "codigo": "3581",
@@ -193,7 +239,9 @@
       "descricao": "EXECUÇÃO DE CONTENÇÃO DE ENCOSTA NA MARGEM DO RIO ITAJAÍ-AÇÚ NA RUA ARNOLD HEMMER",
       "logradouro": "RUA ARNOLD HEMMER",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8891484,
+      "longitude": -49.1558214
     },
     {
       "codigo": "3567",
@@ -201,7 +249,9 @@
       "descricao": "SUPERVISÃO DAS OBRAS DE IMPLANTAÇÃO DO CORREDOR ESTRUTURAL NORTE, INCLUINDO CONTROLE TECNOLÓGICO, CONTROLE AMBIENTAL E CONTROLE FÍSICO FINANCEIRO",
       "logradouro": "RUA DR PEDRO ZIMMERMANN",
       "intervencao": "Supervisão",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.7952084,
+      "longitude": -49.0866348
     },
     {
       "codigo": "3566",
@@ -209,7 +259,9 @@
       "descricao": "SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DA OBRA DE AMPLIAÇÃO DA CAPTAÇÃO E ADUÇÃO DE ÁGUA BRUTA DO SISTEMA DE ABASTECIMENTO DE BLUMENAU - ETA II [OBRA REPROGRAMADA]",
       "logradouro": "RUA OSWALDO DAY",
       "intervencao": "Supervisão",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.882459747698686,
+      "longitude": -49.097439391198726
     },
     {
       "codigo": "3565",
@@ -217,7 +269,9 @@
       "descricao": "PARQUE LINEAR TESTO SALTO [OBRA REPROGRAMADA]",
       "logradouro": "FRANCISCO CORREA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8530686,
+      "longitude": -49.1536854
     },
     {
       "codigo": "3564",
@@ -225,7 +279,9 @@
       "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO EM CONCRETO RUA MARILÂNDIA - TRECHO INICIAL",
       "logradouro": "RUA MARILÂNDIA",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.974817216068836,
+      "longitude": -49.07432728339767
     },
     {
       "codigo": "3560",
@@ -233,7 +289,9 @@
       "descricao": "PAVIMENTAÇÃO DA RUA ARNO COUTINHO - CONTINUAÇÃO [OBRA REPROGRAMADA]",
       "logradouro": "ARNO COUTINHO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.813992762838772,
+      "longitude": -49.10793319881135
     },
     {
       "codigo": "3557",
@@ -241,7 +299,9 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA ELABORAÇÃO E FORNECIMENTO DE PROJETOS BÁSICOS E EXECUTIVOS DE ARQUITETURA E ENGENHARIA, REFERENTE A ARQUITETURA PAISAGÍSTICA, TERRAPLENAGEM, DRENAGEM, SINALIZAÇÃO VIÁRIA, PAVIMENTAÇÃO E OBRAS COMPLEMENTARES PARA A RUA ERWIN MANZKE, RUA WUNDERWALD, RUA WILHELM WUDTKE E RUA PAUL DRAEGER, NO DISTRITO DE VILA ITOUPAVA.",
       "logradouro": "ERWIN MANZKE",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.708111031117532,
+      "longitude": -49.07766759464855
     },
     {
       "codigo": "3553",
@@ -249,7 +309,9 @@
       "descricao": "LEVANTAMENTO TOPOGRÁFICO GEOREFERENCIADO E PROJETO DE DESMEMBRAMENTO DE IMÓVEL PÚBLICO [OBRA REPROGRAMADA]",
       "logradouro": "RUE GERTRUD SIERICH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9169933,
+      "longitude": -49.0575478
     },
     {
       "codigo": "3551",
@@ -257,7 +319,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA DONATO CORREA - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA DONATO CORREA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9033966,
+      "longitude": -49.1491514
     },
     {
       "codigo": "3548",
@@ -265,7 +329,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA CUSTÓDIO SEVERINO CARDOSO TRECHO FINAL [OBRA REPROGRAMADA]",
       "logradouro": "RUA CUSTÓDIO SEVERINO CARDOSO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.93930986634818,
+      "longitude": -49.05345968830795
     },
     {
       "codigo": "3539",
@@ -273,7 +339,9 @@
       "descricao": "ROTATÓRIA DA RUA 1º DE JANEIRO COM A MARGINAL DA BR 470",
       "logradouro": "PRIMEIRO DE JANEIRO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.859506677413926,
+      "longitude": -49.078205925903305
     },
     {
       "codigo": "3523",
@@ -281,7 +349,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ANTÔNIO PROTÁSIO OLIVEIRA",
       "logradouro": "RUA ANTÔNIO PROTÁSIO OLIVEIRA",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.93405876938999,
+      "longitude": -49.10593442547531
     },
     {
       "codigo": "3521",
@@ -289,7 +359,9 @@
       "descricao": "EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO PARA ALARGAMENTO DE TRECHO EM CURVA DA RUA PROGRESSO",
       "logradouro": "RUA PROGRESSO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.98070273745224,
+      "longitude": -49.074946306745915
     },
     {
       "codigo": "3498",
@@ -297,7 +369,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA CYRO DOS ANJOS",
       "logradouro": "RUA CYRO DOS ANJOS",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.850725895971912,
+      "longitude": -49.06992576945038
     },
     {
       "codigo": "3495",
@@ -305,7 +379,9 @@
       "descricao": "PAVIMENTAÇÃO ASFÁLTICA E DRENAGEM PLUVIAL DA RUA REINHOLD OTTO - TRECHO 1 [OBRA REPROGRAMADA]",
       "logradouro": "RUA REINHOLD OTTO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8018199,
+      "longitude": -49.0813704
     },
     {
       "codigo": "3482",
@@ -313,7 +389,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ADOLFO SCHUMACHER",
       "logradouro": "RUA ADOLFO SHUMACHER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.91568278791122,
+      "longitude": -49.111457093836975
     },
     {
       "codigo": "3480",
@@ -321,7 +399,9 @@
       "descricao": "QUADRAS ESPORTIVAS E INSTALAÇÃO DE BRINQUEDOS RUA AMSTERDAM [OBRA REPROGRAMADA]",
       "logradouro": "RUA CURT SCHEIDMANTEL, 511",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.859532,
+      "longitude": -49.1270074
     },
     {
       "codigo": "3461",
@@ -329,7 +409,9 @@
       "descricao": "RUA RODOLFO BRETZKE CONTENÇÕES [OBRA REPROGRAMADA]",
       "logradouro": "RUA RODOLFO BRETZKE",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.946345244276134,
+      "longitude": -49.13222458558726
     },
     {
       "codigo": "3459",
@@ -337,7 +419,9 @@
       "descricao": "AMPLIAÇÃO DA CAPTAÇÃO DE ÁGUA BRUTA DA ETA II [OBRA REPROGRAMADA]",
       "logradouro": "RUA BAHIA, 1530 - SALTO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8896516,
+      "longitude": -49.0912573
     },
     {
       "codigo": "3458",
@@ -345,7 +429,9 @@
       "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA 11 DE JUNHO E RUA BOAVENTURA AMORIN [OBRA REPROGRAMADA]",
       "logradouro": "11 DE JUNHO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8879091,
+      "longitude": -49.0808014
     },
     {
       "codigo": "3456",
@@ -353,7 +439,9 @@
       "descricao": "PAVIMENTAÇÃO TRECHO FINAL DA RUA RODOLFO BRETZKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA RODOLFO BRETZKE",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.945641464935793,
+      "longitude": -49.13378380167694
     },
     {
       "codigo": "3451",
@@ -361,7 +449,9 @@
       "descricao": "ADAPTAÇÕES PARA ACESSIBILIDADE, ESTACIONAMENTO, MUROS E CALÇADA NO CEI OLGA BREHMER [OBRA REPROGRAMADA]",
       "logradouro": "R. JOSÉ REUTER, 128",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9346102,
+      "longitude": -49.12940589999999
     },
     {
       "codigo": "3442",
@@ -369,7 +459,9 @@
       "descricao": "VIA PROJETADA DE ACESSO AO PARQUE ALCÂNTARO CORRÊA (CONTINUAÇÃO) [OBRA REPROGRAMADA]",
       "logradouro": "RUA 1º DE JANEIRO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.86031067028368,
+      "longitude": -49.08111344047545
     },
     {
       "codigo": "3439",
@@ -377,7 +469,9 @@
       "descricao": "T1C AUMENTO DE CAPACIDADE E REQUALIFICAÇÃO DA RUA DOUTOR PEDRO ZIMMERMANN [OBRA REPROGRAMADA]",
       "logradouro": "RUA DOUTOR PEDRO ZIMMERMANN",
       "intervencao": "Execução de Obra",
-      "situacao": "PARALISADA"
+      "situacao": "PARALISADA",
+      "latitude": -26.7952084,
+      "longitude": -49.0866348
     },
     {
       "codigo": "3438",
@@ -385,7 +479,9 @@
       "descricao": "T1B_III REURBANIZAÇÃO DA RUA 1° DE JANEIRO [OBRA REPROGRAMADA]",
       "logradouro": "RUA 1° DE JANEIRO",
       "intervencao": "Execução de Obra",
-      "situacao": "PARALISADA"
+      "situacao": "PARALISADA",
+      "latitude": -26.872516667381674,
+      "longitude": -49.08730064112243
     },
     {
       "codigo": "3436",
@@ -393,7 +489,9 @@
       "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA 02 DE SETEMBRO, RUA DAS MISSÕES E AVENIDA BRASIL [OBRA REPROGRAMADA]",
       "logradouro": "RUA DAS MISSÕES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9032833,
+      "longitude": -49.0632384
     },
     {
       "codigo": "3432",
@@ -401,7 +499,9 @@
       "descricao": "T1A - EXECUÇÃO DE OBRA DE MELHORIA DE CIRCULAÇÃO VIÁRIA E REURBANIZAÇÃO DA RUA 2 DE SETEMBRO [OBRA REPROGRAMADA]",
       "logradouro": "RUA 2 DE SETEMBRO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.886781,
+      "longitude": -49.0832732
     },
     {
       "codigo": "3422",
@@ -409,7 +509,9 @@
       "descricao": "FECHAMENTO DE QUADRA POLIESPORTIVA COBERTA E DA QUADRA DE GRAMA DA EIM WILLY MULLER",
       "logradouro": "RUA AUGUSTO BAUER, 1294",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.7195795,
+      "longitude": -49.0566343
     },
     {
       "codigo": "3419",
@@ -417,7 +519,9 @@
       "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO DA RUA CAMBORIÚ E RUA DESEMBARGADOR PEDRO SILVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA CAMBORIÚ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.911073,
+      "longitude": -49.0747374
     },
     {
       "codigo": "3417",
@@ -425,7 +529,9 @@
       "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO DA RUA DR. SAPELT E RUA TIMBÓ [OBRA REPROGRAMADA]",
       "logradouro": "RUA TIMBO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9087988,
+      "longitude": -49.0749757
     },
     {
       "codigo": "3413",
@@ -433,7 +539,9 @@
       "descricao": "REVITALIZAÇÃO ASFÁLTICA DA ALAMEDA RIO BRANCO [OBRA REPROGRAMADA]",
       "logradouro": "ALAMEDA RIO BRANCO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.923107780537773,
+      "longitude": -49.060625401049805
     },
     {
       "codigo": "3411",
@@ -441,7 +549,9 @@
       "descricao": "REVITALIZAÇÃO DO PAVIMENTO ASFÁLTICO E MELHORIA DA DRENAGEM DA RUA SÃO BENTO [OBRA REPROGRAMADA]",
       "logradouro": "RUA SÃO BENTO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9045118,
+      "longitude": -49.0431577
     },
     {
       "codigo": "3406",
@@ -449,7 +559,9 @@
       "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA DOS CAÇADORES [OBRA REPROGRAMADA]",
       "logradouro": "RUA DOS CAÇADORES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9251771,
+      "longitude": -49.1193011
     },
     {
       "codigo": "3405",
@@ -457,7 +569,9 @@
       "descricao": "PRAÇA RUA LUXEMBURGO [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUXEMBURGO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9083259,
+      "longitude": -49.1505699
     },
     {
       "codigo": "3400",
@@ -465,7 +579,9 @@
       "descricao": "ROTATÓRIA RUA ANTÔNIO TREISS [OBRA REPROGRAMADA]",
       "logradouro": "ANTÔNIO TREISS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.901552981282528,
+      "longitude": -49.043897449185195
     },
     {
       "codigo": "3399",
@@ -473,7 +589,9 @@
       "descricao": "REFORMA FROHSINN [OBRA REPROGRAMADA]",
       "logradouro": "RUA GERTRUD SIERICH, 940",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9158979,
+      "longitude": -49.057636
     },
     {
       "codigo": "3398",
@@ -481,7 +599,9 @@
       "descricao": "PAVIMENTAÇÃO EM CONCRETO DA RUA GERTRUD SIERICH E TRECHO DA RUA EDUARDO LAGINSKI [OBRA REPROGRAMADA]",
       "logradouro": "RUA GERTRUD SIERICH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9169933,
+      "longitude": -49.0575478
     },
     {
       "codigo": "3397",
@@ -489,7 +609,9 @@
       "descricao": "REVITALIZAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA DA RUA JOHANN SACHSE E PROF. MAX HUMPL [OBRA REPROGRAMADA]",
       "logradouro": "JOHANN SACHSE",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8654082,
+      "longitude": -49.1231065
     },
     {
       "codigo": "3395",
@@ -497,7 +619,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ERWIN GLAU - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA ERWIN GLAU",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8397393,
+      "longitude": -49.1081454
     },
     {
       "codigo": "3393",
@@ -505,7 +629,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA GILBERTO AMADO - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA GILBERTO AMADO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8509342,
+      "longitude": -49.0742794
     },
     {
       "codigo": "3392",
@@ -513,7 +639,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA LIMA BARRETO - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA LIMA BARRETO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.850734,
+      "longitude": -49.0751022
     },
     {
       "codigo": "3390",
@@ -521,7 +649,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA RAUL ALEXANDRE PISKE - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RAUL ALEXANDRE PISKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8554918,
+      "longitude": -49.0637924
     },
     {
       "codigo": "3388",
@@ -529,7 +659,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA HENRIQUE GRIEBEL - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "HENRIQUE GRIEBEL",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8196044,
+      "longitude": -49.0930247
     },
     {
       "codigo": "3387",
@@ -537,7 +669,9 @@
       "descricao": "PRAÇA FLÁVIO ROSA [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOÃO PESSOA, 825 - VELHA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9144659,
+      "longitude": -49.0767594
     },
     {
       "codigo": "3386",
@@ -545,7 +679,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA JAMAICA - REGIME MUTIRÃO",
       "logradouro": "JAMAICA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9216358,
+      "longitude": -49.1461047
     },
     {
       "codigo": "3384",
@@ -553,7 +689,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA PAULO HERMANN GIESELER - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "PAULO HERMANN GIESELER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7953865,
+      "longitude": -49.0818668
     },
     {
       "codigo": "3378",
@@ -561,7 +699,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA PEDRO NAVA - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA PEDRO NAVA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8512079,
+      "longitude": -49.0741343
     },
     {
       "codigo": "3368",
@@ -569,7 +709,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA BÁLTICO - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA BÁLTICO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7645549,
+      "longitude": -49.0769471
     },
     {
       "codigo": "3362",
@@ -577,7 +719,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA JOSÉ JOOS - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSÉ JOOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7924474,
+      "longitude": -49.0816715
     },
     {
       "codigo": "3361",
@@ -585,7 +729,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA ANGELINA - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANGELINA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.911947982633944,
+      "longitude": -49.13672322460632
     },
     {
       "codigo": "3360",
@@ -593,7 +739,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA IRAJÁ - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA IRAJÁ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8760401,
+      "longitude": -49.0712724
     },
     {
       "codigo": "3359",
@@ -601,7 +749,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA CARLOS LANGE - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA CARLOS LANGE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8838431,
+      "longitude": -49.1023751
     },
     {
       "codigo": "3354",
@@ -609,7 +759,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA NORMA HADLICH - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA NORMA HADLICH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.806466790539126,
+      "longitude": -49.097064597269316
     },
     {
       "codigo": "3353",
@@ -617,7 +769,9 @@
       "descricao": "SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS DE URBANIZAÇÃO DA MARGEM ESQUERDA DO RIO ITAJAÍ-AÇU NO CENTRO DE BLUMENAU [OBRA REPROGRAMADA]",
       "logradouro": "RUA URUGUAI",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.917404,
+      "longitude": -49.064299
     },
     {
       "codigo": "3352",
@@ -625,7 +779,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA FRANCISCO SALVADOR RODRIGUES - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANCISCO SALVADOR RODRIGUES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8662678,
+      "longitude": -49.0904056
     },
     {
       "codigo": "3351",
@@ -633,7 +789,9 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA ELABORAÇÃO DOS PROJETOS BÁSICOS E EXECUTIVOS DE ENGENHARIA, INCLUINDO OBRAS DE ARTES ESPECIAIS, DAS VIAS PROJETADAS Nº 37, Nº 47, Nº 48, Nº 65A, Nº 90 E Nº 109, DESCRITAS NO ANEXO II DO DECRETO 9.155/2010, E CONFORME DEMAIS ANEXOS CONSTANTES NESTE EDITAL - SEPLAN [OBRA REPROGRAMADA]",
       "logradouro": "VARIOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.91393880283072,
+      "longitude": -49.069501502099605
     },
     {
       "codigo": "3348",
@@ -641,7 +799,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTA SEXTAVADA DE CONCRETO DA RUA EURICO ROTHBARTH - REGIME MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA EURICO ROTHBARTH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8496237,
+      "longitude": -49.1458382
     },
     {
       "codigo": "3342",
@@ -649,7 +809,9 @@
       "descricao": "CONSTRUÇÃO DE QUADRAS E SANITÁRIO NA EBM NORMA DIGNART HUBER [OBRA REPROGRAMADA]",
       "logradouro": "RUA AQUIDABA, 77",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.902669,
+      "longitude": -49.1029893
     },
     {
       "codigo": "3338",
@@ -657,7 +819,9 @@
       "descricao": "PROJETOS PARA REFORMA EDIFÍCIO CALIFORNIA [OBRA REPROGRAMADA]",
       "logradouro": "DR. AMADEU DA LUZ, 100",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.915034,
+      "longitude": -49.069592
     },
     {
       "codigo": "3337",
@@ -665,7 +829,9 @@
       "descricao": "REFORMA ESF GILSON PIVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA JARDIM GERMÂNICO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8555269,
+      "longitude": -49.0942258
     },
     {
       "codigo": "3334",
@@ -673,7 +839,9 @@
       "descricao": "ELABORAÇÃO DOS ESTUDOS E PROJETOS DE RECUPERAÇÃO E REFORMA DA PONTE LAURO MÜLLER [OBRA REPROGRAMADA]",
       "logradouro": "PONTE LAURO MÜLLER",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8811576,
+      "longitude": -49.1020182
     },
     {
       "codigo": "3310",
@@ -681,7 +849,9 @@
       "descricao": "PAVIMENTAÇÃO E DRENAGEM DA RUA ARNOLDO BECK (TRECHO 02) [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARNOLDO BECK",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.820032174628825,
+      "longitude": -49.07622143278809
     },
     {
       "codigo": "3292",
@@ -689,7 +859,9 @@
       "descricao": "EXECUÇÃO DE RAMAL DE LIGAÇÃO DE ESGOTO E PISO DO SETOR ADMINISTRATIVO TERMINAL URBANO DA FONTE LUMINOSA [OBRA REPROGRAMADA]",
       "logradouro": "RUA AMAZONAS,540",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.928211518506192,
+      "longitude": -49.05739937502441
     },
     {
       "codigo": "3289",
@@ -697,7 +869,9 @@
       "descricao": "ADAPTAÇÃO DO ESF ORLANDO MARGARIDA [OBRA REPROGRAMADA]",
       "logradouro": "RUA DOIS DE SETEMBRO 1618",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8958324,
+      "longitude": -49.0750427
     },
     {
       "codigo": "3271",
@@ -705,7 +879,9 @@
       "descricao": "OBRA - AMPLIAÇÃO ESCOLA Nº 1 [OBRA REPROGRAMADA]",
       "logradouro": "DR PEDRO ZIMMERMANN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7955841,
+      "longitude": -49.0866131
     },
     {
       "codigo": "3263",
@@ -713,7 +889,9 @@
       "descricao": "ROTATÓRIA ENTRE AS RUAS JULIO MICHEL, HERMANN TRIBESS E FRITZ SPERNAU [OBRA REPROGRAMADA]",
       "logradouro": "JULIO MICHEL",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.88046058434837,
+      "longitude": -49.06148955717774
     },
     {
       "codigo": "3254",
@@ -721,7 +899,9 @@
       "descricao": "RESGATE E AMPLIAÇÃO DO ANTIGO PORTO [OBRA REPROGRAMADA]",
       "logradouro": "RUA XV DE NOVEMBRO",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9198007,
+      "longitude": -49.0653675
     },
     {
       "codigo": "3247",
@@ -729,7 +909,9 @@
       "descricao": "PRAÇA RUA DAS BROMELIAS [OBRA REPROGRAMADA]",
       "logradouro": "RUA DAS BROMELIAS",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8547975,
+      "longitude": -49.045549
     },
     {
       "codigo": "3246",
@@ -737,7 +919,9 @@
       "descricao": "CONSTRUÇÃO DE MURO DE CERCAMENTO NOS CONDOMÍNIOS MORADA DAS NASCENTES I E II [OBRA REPROGRAMADA]",
       "logradouro": "SANTA MARIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.993815183265937,
+      "longitude": -49.093908973971566
     },
     {
       "codigo": "3242",
@@ -745,7 +929,9 @@
       "descricao": "PRAÇA MANOEL MELLO [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOÃO BISEWSKI",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9389119,
+      "longitude": -48.9769966
     },
     {
       "codigo": "3241",
@@ -753,7 +939,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO E DRENAGEM DA RUA FRANCISCO MARTINHO DA SILVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANCISCO MARTINHO DA SILVA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9069751,
+      "longitude": -49.0174805
     },
     {
       "codigo": "3240",
@@ -761,7 +949,9 @@
       "descricao": "PRAÇA RUA PRIMAVERA [OBRA REPROGRAMADA]",
       "logradouro": "RUA PRIMAVERA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8741138,
+      "longitude": -49.0603793
     },
     {
       "codigo": "3221",
@@ -769,7 +959,9 @@
       "descricao": "CONSTRUÇÃO DE VESTIÁRIO NA SECRETARIA DA FAMÍLIA (PRÓ-FAMÍLIA)",
       "logradouro": "R. ITAPIRANGA, 368",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.914726999934363,
+      "longitude": -49.08681081481933
     },
     {
       "codigo": "3216",
@@ -777,7 +969,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. EMÍLIO ALCÂNTARA VIANNA (NOVA CONTRATAÇÃO) [OBRA REPROGRAMADA]",
       "logradouro": "RUA EMÍLIO ALCANTARA VIANNA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.95083096405054,
+      "longitude": -49.131007853511804
     },
     {
       "codigo": "3214",
@@ -785,7 +979,9 @@
       "descricao": "PAVIMENTAÇÃO E DRENAGEM RUA ANCHIETA - TRECHO 3C [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANCHIETA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.95291471286215,
+      "longitude": -49.07349312278443
     },
     {
       "codigo": "3200",
@@ -793,7 +989,9 @@
       "descricao": "REVITALIZAÇÃO DA RUA JULIO MICHEL [OBRA REPROGRAMADA]",
       "logradouro": "RUA JULIO MICHEL",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.87954189860069,
+      "longitude": -49.06557724371643
     },
     {
       "codigo": "3199",
@@ -801,7 +999,9 @@
       "descricao": "PAVIMENTAÇÃO E DRENAGEM DA RUA HENRIQUE METTE [OBRA REPROGRAMADA]",
       "logradouro": "RUA HENRIQUE METTE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8587289,
+      "longitude": -49.1234042
     },
     {
       "codigo": "3179",
@@ -809,7 +1009,9 @@
       "descricao": "PAVIMENTAÇÃO DA RUA CARLOS SPLITTER TRECHO FINAL [OBRA REPROGRAMADA]",
       "logradouro": "RUA CARLOS SPLITTER",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.94771302489749,
+      "longitude": -49.060776438345336
     },
     {
       "codigo": "3178",
@@ -817,7 +1019,9 @@
       "descricao": "CONSTRUÇÃO DE ESCOLA DE EDUCAÇÃO INFANTIL/PRE-INFANCIA - RUA ANTONIO TREIS [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTONIO TREIS",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.901656,
+      "longitude": -49.0421476
     },
     {
       "codigo": "3157",
@@ -825,7 +1029,9 @@
       "descricao": "PAVIMENTAÇÃO RUA MARGARIDA BONIFÁCIA DE JESUS [OBRA REPROGRAMADA]",
       "logradouro": "RUA MARGARIDA BONIFÁCIA DE JESUS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.860369396415805,
+      "longitude": -49.107235312191776
     },
     {
       "codigo": "3150",
@@ -833,7 +1039,9 @@
       "descricao": "ROTATÓRIA DA RUA GENERAL OSÓRIO COM A RUA MARGARIDA WALDRICH [OBRA REPROGRAMADA]",
       "logradouro": "RUA GENERAL OSÓRIO",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.908952459830253,
+      "longitude": -49.12656070429077
     },
     {
       "codigo": "3145",
@@ -841,7 +1049,9 @@
       "descricao": "IMPLANTAÇÃO DE PASSEIO E ADEQUAÇÃO DE RAIO DE CURVA NA RUA PROGRESSO",
       "logradouro": "RUA PROGRESSO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.973551238375727,
+      "longitude": -49.076831515027635
     },
     {
       "codigo": "3132",
@@ -849,7 +1059,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO DE CONCRETO DA RUA SILVIO WALDEMAR DA SILVA",
       "logradouro": "RUA SILVIO WALDEMAR DA SILVA",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.925846307908703,
+      "longitude": -49.09781061656761
     },
     {
       "codigo": "3118",
@@ -857,7 +1069,9 @@
       "descricao": "ALARGAMENTO DO TRECHO FINAL DA RUA HELMUTH GOLL COM ACESSIBILIDADE [OBRA REPROGRAMADA]",
       "logradouro": "RUA HELMUTH GOLL",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.987581548664362,
+      "longitude": -49.083537861029825
     },
     {
       "codigo": "3117",
@@ -865,7 +1079,9 @@
       "descricao": "PAVIMENTAÇÃO RUA DAS VIOLETAS [OBRA REPROGRAMADA]",
       "logradouro": "RUA DAS VIOLETAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.851436168403435,
+      "longitude": -49.09557257372436
     },
     {
       "codigo": "3111",
@@ -873,7 +1089,9 @@
       "descricao": "EXECUÇÃO DAS OBRAS DE REVITALIZAÇÃO DA PRAINHA - PRAÇA PRESIDENTE JUSCELINO KUBITSCHEK DE OLIVEIRA - CONTINUAÇÃO [OBRA REPROGRAMADA]",
       "logradouro": "AV. BRASIL, S/Nº",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.920195897790475,
+      "longitude": -49.060539678018195
     },
     {
       "codigo": "3106",
@@ -881,7 +1099,9 @@
       "descricao": "CORETO PRAÇA DA PREFEITURA DE BLUMENAU [OBRA REPROGRAMADA]",
       "logradouro": "PRAÇA VICTOR KONDER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.914147,
+      "longitude": -49.0696496
     },
     {
       "codigo": "3104",
@@ -889,7 +1109,9 @@
       "descricao": "PRAÇA BADEN-POWELL [OBRA REPROGRAMADA]",
       "logradouro": "RUA PASTOR OSWALD HESSE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9280066,
+      "longitude": -49.0456324
     },
     {
       "codigo": "3097",
@@ -897,7 +1119,9 @@
       "descricao": "REVITALIZAÇÃO DA AVENIDA LISBOA E RUA FRANCISCO VALDHIECK [OBRA REPROGRAMADA]",
       "logradouro": "AVENIDA LISBOA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8840618,
+      "longitude": -49.0788567
     },
     {
       "codigo": "3082",
@@ -905,7 +1129,9 @@
       "descricao": "PROJETO DE IMPLANTAÇÃO DE PASSEIO NA RUA RUY BARBOSA",
       "logradouro": "RUA RUY BARBOSA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.973770153710582,
+      "longitude": -49.07856882465364
     },
     {
       "codigo": "3080",
@@ -913,7 +1139,9 @@
       "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO E DRENAGEM DA RUA LUIZ MASKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUIZ MASKE",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8356269,
+      "longitude": -49.1205122
     },
     {
       "codigo": "3076",
@@ -921,7 +1149,9 @@
       "descricao": "CONSTRUÇÃO DE ESCOLA DE EDUCAÇÃO INFANTIL/PRÒ-INFÃNCIA - RUA JARDIM GERMANICO 2022 [OBRA REPROGRAMADA]",
       "logradouro": "RUA JARDIM GERMANICO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8555269,
+      "longitude": -49.0942258
     },
     {
       "codigo": "3064",
@@ -929,7 +1159,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO DA ESCOLA, CONSTRUÇÃO DOS MUROS DE FECHAMENTO, QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM BILÍNGUE ANNEMARIE TECHENTIN [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSEPHINA RAUSCH REITER, 158",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.91561873337447,
+      "longitude": -49.150084450787354
     },
     {
       "codigo": "3057",
@@ -937,7 +1169,9 @@
       "descricao": "ESTUDOS E PROJETOS DE REFORMA DA PONTE ALDO P. DE ANDRADE E PASSAGEM INFERIOR NA RUA TOCANTINS [OBRA REPROGRAMADA]",
       "logradouro": "RUA TOCANTINS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.912322356950714,
+      "longitude": -49.069818912164315
     },
     {
       "codigo": "3043",
@@ -945,7 +1179,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO DA ESCOLA, CONSTRUÇÃO DA QUADRA COBERTA COM VESTIÁRIO E MUROS DE CONTENÇÃO NA EBM LORE SITA BOLLMANN [OBRA REPROGRAMADA]",
       "logradouro": "RUA WALTER KNAESEL, S/N",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.80554731116575,
+      "longitude": -49.08299672139586
     },
     {
       "codigo": "3042",
@@ -953,7 +1189,9 @@
       "descricao": "REFORMA DE QUADRA EXISTENTE E CONSTRUÇÃO DE MUROS DE CONTENÇÃO E FECHAMENTO NA EBM BILINGUE PROF. FERNANDO OSTERMANN [OBRA REPROGRAMADA]",
       "logradouro": "RUA OTTO STUTZER, 43",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8994715,
+      "longitude": -49.06546489999999
     },
     {
       "codigo": "3040",
@@ -961,7 +1199,9 @@
       "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIARIO E QUADRA DE AREIA NA EBM BILÍNGUE PATRICIA H. F. PEGORIM [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUIZ KRUTZSCH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8527535,
+      "longitude": -49.049099
     },
     {
       "codigo": "3039",
@@ -969,7 +1209,9 @@
       "descricao": "REFORMA DA QUADRA COBERTA NA EBM BILINGUE PROFª ALICE THIELE [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOÃO SCHETZ, 273",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9391199,
+      "longitude": -49.0559664
     },
     {
       "codigo": "3038",
@@ -977,7 +1219,9 @@
       "descricao": "CONSTRUÇÃO DOS MUROS DE FECHAMENTO COM CERCA, QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM BILÍNGUE PROFESSORA NEMESIA MARGARIDA [OBRA REPROGRAMADA]",
       "logradouro": "RUA OSCAR JOÃO RAUSCH, 100",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8781289,
+      "longitude": -49.1674758
     },
     {
       "codigo": "3036",
@@ -985,7 +1229,9 @@
       "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO E REFORMA DA QUADRA EXISTENTE DA EBM BILÍNGUE PROF. RODOLFO HOLLENWEGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA PROFº HERMANN LANGE, 2230",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.83052024126346,
+      "longitude": -49.06149007459105
     },
     {
       "codigo": "3035",
@@ -993,7 +1239,9 @@
       "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO NA EBM WILHELM THEODOR SCHURMANN [OBRA REPROGRAMADA]",
       "logradouro": "RUA PEROLA DO VALE, 377",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.834810730839173,
+      "longitude": -49.08319208017883
     },
     {
       "codigo": "3034",
@@ -1001,7 +1249,9 @@
       "descricao": "PAVIMENTAÇÃO E AMPLIAÇÃO DO PATIO E ESTACIONAMENTO E CONSTRUÇÃO DE QUADRA COBERTA COM VESTIARIO NA EBM PROFº FRIEDRICH K. KEMMELMEIER [OBRA REPROGRAMADA]",
       "logradouro": "RUA RICARDO GEORG, 2000",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.79661324378867,
+      "longitude": -49.106412180300886
     },
     {
       "codigo": "3033",
@@ -1009,7 +1259,9 @@
       "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO E REFORMA DA QUADRA EXISTENTE NA EBM LEOBERTO LEAL [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOHANN SACHSE, 2602",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.86580099269962,
+      "longitude": -49.12049801904907
     },
     {
       "codigo": "3032",
@@ -1017,7 +1269,9 @@
       "descricao": "CONSTRUÇÃO DE QUADRA COBERTA COM VESTIÁRIO E REFORMA DA QUADRA EXISTENTE DA EBM PROFª ZULMA SOUZA DA SILVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA FLORANIA, 464",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.92360672933134,
+      "longitude": -49.12290555927735
     },
     {
       "codigo": "3031",
@@ -1025,7 +1279,9 @@
       "descricao": "REFORMA DO GINÁSIO E BANHEIRO EXISTENTE, CONSTRUÇÃO DE QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM VISCONDE DE TAUNAY [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANZ VOLLES, 1930",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8384456,
+      "longitude": -49.0926237
     },
     {
       "codigo": "3012",
@@ -1033,7 +1289,9 @@
       "descricao": "REFORMA DO GINÁSIO, MELHORIAS NA INSTITUIÇÃO DE ENSINO E CONSTRUÇÃO DOS MUROS, QUADRA DE AREIA E QUADRA COBERTA COM VESTIÁRIO NA EBM VIDAL RAMOS CONSTRUÇÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTONIO TREIS, 144",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9019789027317,
+      "longitude": -49.04222032670594
     },
     {
       "codigo": "2994",
@@ -1041,7 +1299,9 @@
       "descricao": "URBANIZAÇÃO MARGEM ESQUERDA [OBRA REPROGRAMADA]",
       "logradouro": "MARGEM ESQUERDA DO RIO ITAJAI AÇU",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9186691,
+      "longitude": -49.0696893
     },
     {
       "codigo": "2992",
@@ -1049,7 +1309,9 @@
       "descricao": "RECUPERAÇÃO DA PONTE DESEMBARGADOR PEDRO SILVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA XV DE NOVEMBRO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9223911700039,
+      "longitude": -49.05965481133117
     },
     {
       "codigo": "2988",
@@ -1057,7 +1319,9 @@
       "descricao": "EXECUÇÃO DA REFORMA DAS SALAS DA SECRETARIA DE CULTURA E RELAÇÕES INSTITUCIONAIS",
       "logradouro": "R. XV DE NOVEMBRO, 161 - CENTRO",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9150926,
+      "longitude": -49.0695633
     },
     {
       "codigo": "2972",
@@ -1065,7 +1329,9 @@
       "descricao": "REFORMA COBERTURA E INSTALAÇÃO PREVENTIVA DE INCÊNDIO (VITAIS) [OBRA REPROGRAMADA]",
       "logradouro": "VARIOS ENDEREÇOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2970",
@@ -1073,7 +1339,9 @@
       "descricao": "PROJETO DE PAVIMENTAÇÃO E DRENAGEM DA RUA SÉRGIO VESTRUPP [OBRA REPROGRAMADA]",
       "logradouro": "RUA SÉRGIO VESTRUPP",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8666376,
+      "longitude": -49.1215792
     },
     {
       "codigo": "2969",
@@ -1081,7 +1349,9 @@
       "descricao": "EXECUÇÃO DE PONTE NA RUA ERICH OTTO",
       "logradouro": "RUA ERICH OTTO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.7989215,
+      "longitude": -49.0782055
     },
     {
       "codigo": "2966",
@@ -1089,7 +1359,9 @@
       "descricao": "GERENCIAMENTO, SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS DE CONSTRUÇÃO DO CENTRO DE CONVENÇÕES DE BLUMENAU",
       "logradouro": "VILA GERMÂNICA",
       "intervencao": "Supervisão",
-      "situacao": "PARALISADA"
+      "situacao": "PARALISADA",
+      "latitude": -26.914777966820015,
+      "longitude": -49.086142350540165
     },
     {
       "codigo": "2964",
@@ -1097,7 +1369,9 @@
       "descricao": "REVITALIZAÇÃO DA RUA GUSTAVO ZIMMERMANN [OBRA REPROGRAMADA]",
       "logradouro": "GUSTAVO ZIMMERMANN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8007905,
+      "longitude": -49.0851438
     },
     {
       "codigo": "2963",
@@ -1105,7 +1379,9 @@
       "descricao": "PAVIMENTAÇÃO E DRENAGEM RUA GODO DEEKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA GODO DEEKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.812348148141442,
+      "longitude": -49.10676294340515
     },
     {
       "codigo": "2962",
@@ -1113,7 +1389,9 @@
       "descricao": "REFORMA VIGILÂNCIA SANITÁRIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALWIN SCHRADER",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9215841196237,
+      "longitude": -49.056818434948724
     },
     {
       "codigo": "2958",
@@ -1121,7 +1399,9 @@
       "descricao": "INFRAESTRUTURA VIÁRIA RUA FREDERICO JENSEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA FREDERICO JENSEN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8571178,
+      "longitude": -49.1083739
     },
     {
       "codigo": "2957",
@@ -1129,7 +1409,9 @@
       "descricao": "CONSTRUÇÃO ESCOLA 06 SALAS DE AULA - FNDE [OBRA REPROGRAMADA]",
       "logradouro": "RUA ERVIN MANSKE",
       "intervencao": "Execução de Obra",
-      "situacao": "PARALISADA"
+      "situacao": "PARALISADA",
+      "latitude": -26.6937096,
+      "longitude": -49.1097392
     },
     {
       "codigo": "2955",
@@ -1137,7 +1419,9 @@
       "descricao": "PROJETO DE PAVIMENTAÇÃO E DRENAGEM DA RUA ELSA METTE [OBRA REPROGRAMADA]",
       "logradouro": "RUA ELSA METTE",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.867184110676924,
+      "longitude": -49.09855977612152
     },
     {
       "codigo": "2952",
@@ -1145,7 +1429,9 @@
       "descricao": "FAIXAS ELEVADAS - LOTE 2 [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSOS",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9529124,
+      "longitude": -49.0755632
     },
     {
       "codigo": "2945",
@@ -1153,7 +1439,9 @@
       "descricao": "PONTE RUA HELMUND TRAPP MODULAR 9M (DIVISA POMERODE) [OBRA REPROGRAMADA]",
       "logradouro": "RUA HELMUND TRAPP",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8447903,
+      "longitude": -49.1546522
     },
     {
       "codigo": "2941",
@@ -1161,7 +1449,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO, CONSTRUÇÃO DOS MUROS DE CONTENÇÃO E FECHAMENTO E QUADRA COBERTA COM VESTIÁRIO DA E.B.M. BILÍNGUE PROFº. OSCAR UNBEHAUN [OBRA REPROGRAMADA]",
       "logradouro": "RUA GAROPABA, 213",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.910553307965518,
+      "longitude": -49.12298886850892
     },
     {
       "codigo": "2936",
@@ -1169,7 +1459,9 @@
       "descricao": "GERENCIAMENTO, SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DE OBRAS DE ARTE ESPECIAL E DE CONTENÇÃO EM BLUMENAU - PROGRAMA PLANO 1000 [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSAS RUAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2933",
@@ -1177,7 +1469,9 @@
       "descricao": "GERENCIAMENTO, SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DE OBRAS VIÁRIAS E DE MACRODRENAGEM EM BLUMENAU [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSAS RUAS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2923",
@@ -1185,7 +1479,9 @@
       "descricao": "PAVIMENTAÇÃO DRENAGEM E SINALIZAÇÃO DA RUA ERICH MEYER - TRECHO 01 [OBRA REPROGRAMADA]",
       "logradouro": "RUA ERICH MEYER",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.7676438,
+      "longitude": -49.1096373
     },
     {
       "codigo": "2922",
@@ -1193,7 +1489,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM PLUVIAL E PAVIMENTAÇÃO COM LAJOTAS SEXTAVADAS RUA JOÃO NUSS [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOÃO NUSS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8651841,
+      "longitude": -49.1426552
     },
     {
       "codigo": "2917",
@@ -1201,7 +1499,9 @@
       "descricao": "CONSTRUÇÃO DE MURO (FUNDOS EBM PROFº JOÃO JOAQUIM FRONZA) [OBRA REPROGRAMADA]",
       "logradouro": "RUA PHILIPP BAUER, 1391",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8561788,
+      "longitude": -49.1342754
     },
     {
       "codigo": "2914",
@@ -1209,7 +1509,9 @@
       "descricao": "REVITALIZAÇÃO DA PONTE DOS ARCOS [OBRA REPROGRAMADA]",
       "logradouro": "Ponte Eng. Antônio Vitorino Ávila Filho",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9132311,
+      "longitude": -49.0578618
     },
     {
       "codigo": "2911",
@@ -1217,7 +1519,9 @@
       "descricao": "EXECUÇÃO DE MACRODRENAGEM COM RECUPERAÇÃO DE PAVIMENTO NA R. DIVINÓPOLIS [OBRA REPROGRAMADA]",
       "logradouro": "RUA DIVINÓPOLIS",
       "intervencao": "Execução de Obra",
-      "situacao": "PARALISADA"
+      "situacao": "PARALISADA",
+      "latitude": -26.9208053,
+      "longitude": -49.1258981
     },
     {
       "codigo": "2910",
@@ -1225,7 +1529,9 @@
       "descricao": "ELABORAÇÃO DE LEVANTAMENTOS, ANTEPROJETOS, ESTUDO DE IMPACTO DE VIZINHANÇA - EIV E O ESTUDO AMBIENTAL SIMPLIFICADO - EAS , PARA EMBASAMENTO DOS PROJETOS DE ENGENHARIA DA VIA PROJETADA Nº 128, COM PONTE; DA VIA PROJETADA Nº 04 E DAS ALÇAS DE ACESSO PARA A RUA 2 DE SETEMBRO COM TRANSPOSIÇÃO SUPERIOR PARA A RUA 4 DE FEVEREIRO [OBRA REPROGRAMADA]",
       "logradouro": "RUA SANTA CATARINA",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.887684538461635,
+      "longitude": -49.08430729586181
     },
     {
       "codigo": "2904",
@@ -1233,7 +1539,9 @@
       "descricao": "PRAÇA OSNI AMARO DE SOUZA [OBRA REPROGRAMADA]",
       "logradouro": "RUA TERESINA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.924846002387927,
+      "longitude": -49.07205316011886
     },
     {
       "codigo": "2903",
@@ -1241,7 +1549,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE IMPLANTAÇÃO DA PAVIMENTAÇÃO DA RUA ARNOLDO BECK [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARNOLDO BECK",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8142872,
+      "longitude": -49.0783672
     },
     {
       "codigo": "2902",
@@ -1249,7 +1559,9 @@
       "descricao": "PAVIMENTAÇÃO, DRENAGEM E SINALIZAÇÃO DA RUA TEREZA FISCHER [OBRA REPROGRAMADA]",
       "logradouro": "RUA TERESA FISCHER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8393728,
+      "longitude": -49.0866353
     },
     {
       "codigo": "2901",
@@ -1257,7 +1569,9 @@
       "descricao": "PAVIMENTAÇÃO, DRENAGEM E SINALIZAÇÃO DA RUA PAULO ZINGEL FILHO [OBRA REPROGRAMADA]",
       "logradouro": "RUA PAULO ZINGEL FILHO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7626049,
+      "longitude": -49.1028523
     },
     {
       "codigo": "2899",
@@ -1265,7 +1579,9 @@
       "descricao": "PRAÇA PROFº JOSÉ FERREIRA DA SILVA - REV_01 [OBRA REPROGRAMADA]",
       "logradouro": "RUA REPÚBLICA ARGENTINA, SN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9015443,
+      "longitude": -49.04202429999999
     },
     {
       "codigo": "2898",
@@ -1273,7 +1589,9 @@
       "descricao": "PRAÇA JOSIL SEBASTIÃO OLINGER REVISÃO 1 [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALFREDO KAESTNER, SN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9036993,
+      "longitude": -49.0365744
     },
     {
       "codigo": "2896",
@@ -1281,7 +1599,9 @@
       "descricao": "IMPLANTAÇÃO DA PAVIMENTAÇÃO DA RUA JOSÉ REUTER [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSÉ REUTER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.941028763261965,
+      "longitude": -49.15930907733765
     },
     {
       "codigo": "2894",
@@ -1289,7 +1609,9 @@
       "descricao": "IMPLANTAÇÃO DA PAVIMENTAÇÃO RUA PAULO ZINGEL [OBRA REPROGRAMADA]",
       "logradouro": "RUA PAULO ZINGEL",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.769480422613274,
+      "longitude": -49.08111031372527
     },
     {
       "codigo": "2891",
@@ -1297,7 +1619,9 @@
       "descricao": "MELHORIA DA DRENAGEM PLUVIAL E PAVIMENTAÇÃO ASFÁLTICA DA RUA ARARANGUÁ - MACRODRENAGEM [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARARANGUÁ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.933308751445676,
+      "longitude": -49.05506030681533
     },
     {
       "codigo": "2890",
@@ -1305,7 +1629,9 @@
       "descricao": "PRAÇA MAX HERING [OBRA REPROGRAMADA]",
       "logradouro": "MAX HERING",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.91011341944932,
+      "longitude": -49.07548272062379
     },
     {
       "codigo": "2887",
@@ -1313,7 +1639,9 @@
       "descricao": "MELHORIAS NA INFRAESTRUTURA DO PARQUE VILA GERMÂNICA [OBRA REPROGRAMADA]",
       "logradouro": "RIA ALBERTO STEIN 199",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9155433,
+      "longitude": -49.0846725
     },
     {
       "codigo": "2885",
@@ -1321,7 +1649,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE MACRODRENAGEM E REPAVIMENTAÇÃO PARCIAL DA RUA PAULO KUEHNRICH [OBRA REPROGRAMADA]",
       "logradouro": "RUA PAULO KUEHNRICH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8891715,
+      "longitude": -49.0803242
     },
     {
       "codigo": "2881",
@@ -1329,7 +1659,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA UDO DEEKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA ENGENHEIRO UDO DEEKE",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.87332656618987,
+      "longitude": -49.1046240661316
     },
     {
       "codigo": "2877",
@@ -1337,7 +1669,9 @@
       "descricao": "CONTENÇÃO DE ENCOSTAS DA RUA OTILIA PASSOLD, NO BAIRRO VILA ITOUPAVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA OTILIA PASSOLD",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.7282059,
+      "longitude": -49.0681071
     },
     {
       "codigo": "2875",
@@ -1345,7 +1679,9 @@
       "descricao": "CONTENÇÃO DE ENCOSTAS DA RUA CAÇAPAVA, NO BAIRRO GARCIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA CAÇAPAVA",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9335409,
+      "longitude": -49.052738
     },
     {
       "codigo": "2869",
@@ -1353,7 +1689,9 @@
       "descricao": "ESF FRANZ ZIMDARS (2022) [OBRA REPROGRAMADA]",
       "logradouro": "RUA ERWIN MANZKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7148165,
+      "longitude": -49.0683036
     },
     {
       "codigo": "2867",
@@ -1361,7 +1699,9 @@
       "descricao": "PRAÇA HERMELINO BORGES DE JESUS E CANTEIRO CENTRAL [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARTHUR RABE, 258",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9139546,
+      "longitude": -49.069094
     },
     {
       "codigo": "2865",
@@ -1369,7 +1709,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA PARAÍBA [OBRA REPROGRAMADA]",
       "logradouro": "RUA PARAÍBA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9131079379471,
+      "longitude": -49.07455497755432
     },
     {
       "codigo": "2860",
@@ -1377,7 +1719,9 @@
       "descricao": "OBRA - PAC 2 - CRECHE/PRÉ-ESCOLA MCMV 001- RUA ELVIRA BORNHOFEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA ELVIRA BORNHOFEN",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9056567,
+      "longitude": -49.1535316
     },
     {
       "codigo": "2859",
@@ -1385,7 +1729,9 @@
       "descricao": "REFORMA COBERTURA CEI ANTON MAX SPRANGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA WALTER WACHOLZ, 55",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8561948,
+      "longitude": -49.1543747
     },
     {
       "codigo": "2854",
@@ -1393,7 +1739,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA 7 DE SETEMBRO [OBRA REPROGRAMADA]",
       "logradouro": "RUA 7 DE SETEMBRO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.910426032951257,
+      "longitude": -49.08201113441543
     },
     {
       "codigo": "2852",
@@ -1401,7 +1749,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE PONTE E ACESSOS NA RUA SANTA TEREZINHA [OBRA REPROGRAMADA]",
       "logradouro": "RUA SANTA TEREZINHA",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.982014309628692,
+      "longitude": -49.07817192327881
     },
     {
       "codigo": "2851",
@@ -1409,7 +1759,9 @@
       "descricao": "EXECUÇÃO DE PONTE E ACESSOS NA RUA HELMUND TRAPP [OBRA REPROGRAMADA]",
       "logradouro": "RUA HELMUND TRAPP",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8447903,
+      "longitude": -49.1546522
     },
     {
       "codigo": "2850",
@@ -1417,7 +1769,9 @@
       "descricao": "EXECUÇÃO DE OBRA DA PONTE E ACESSOS NA RUA HERMANN BAEHR [OBRA REPROGRAMADA]",
       "logradouro": "RUA HERMANN BAEHR",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -27.0072781,
+      "longitude": -49.0623954
     },
     {
       "codigo": "2849",
@@ -1425,7 +1779,9 @@
       "descricao": "CENTRO COMUNITÁRIO ESPORTIVO FORTALEZA [OBRA REPROGRAMADA]",
       "logradouro": "FORTALEZA, BLUMENAU - SC, 89053-188",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8810703,
+      "longitude": -49.0683252
     },
     {
       "codigo": "2846",
@@ -1433,7 +1789,9 @@
       "descricao": "SKATEPARK PARQUE DAS ITOUPAVAS",
       "logradouro": "RUA PRIMEIRO DE JANEIRO, 2087",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.85841768167476,
+      "longitude": -49.08170059897447
     },
     {
       "codigo": "2844",
@@ -1441,7 +1799,9 @@
       "descricao": "CONSTRUÇÃO ESCOLAS DE EDUCAÇÃO INFANTIL/PRÒ-INFÃNCIA - RUA DA GLÓRIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA DA GLORIA, 1419",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9723258,
+      "longitude": -49.05080659999999
     },
     {
       "codigo": "2839",
@@ -1449,7 +1809,9 @@
       "descricao": "CONSTRUÇÃO ESCOLAS DE EDUCAÇÃO INFANTIL/PRÒ-INFÃNCIA - RUA ANTONIO TREIS [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTONIO TREIS",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.901656,
+      "longitude": -49.0421476
     },
     {
       "codigo": "2838",
@@ -1457,7 +1819,9 @@
       "descricao": "CONTRATAÇÃO DE APOIO OPERACIONAL PARA O FONPLATA [OBRA REPROGRAMADA]",
       "logradouro": "BLUMENAU",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.913724997359033,
+      "longitude": -49.06905108465576
     },
     {
       "codigo": "2837",
@@ -1465,7 +1829,9 @@
       "descricao": "VIA PROJETADA DE ACESSO AO PARQUE ALCÂNTARO CORRÊA [OBRA REPROGRAMADA]",
       "logradouro": "RUA 1º DE JANEIRO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.86031067028368,
+      "longitude": -49.08111344047545
     },
     {
       "codigo": "2835",
@@ -1473,7 +1839,9 @@
       "descricao": "REVISÃO E COMPLEMENTAÇÃO DOS PROJETOS DE ENGENHARIA DO CORREDOR ESTRUTURAL NORTE",
       "logradouro": "RUA PEDRO ZIMMERMANN",
       "intervencao": "Supervisão",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8527649351255,
+      "longitude": -49.087165506221005
     },
     {
       "codigo": "2834",
@@ -1481,7 +1849,9 @@
       "descricao": "NOVO AMBULATÓRIO GERAL DO SALTO",
       "logradouro": "VICTÓRIO FURLAN",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8735489,
+      "longitude": -49.10154070000001
     },
     {
       "codigo": "2833",
@@ -1489,7 +1859,9 @@
       "descricao": "OBRA DE CONTENÇÃO NA RUA ANTÔNIO TREISS [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTÔNIO TREISS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.901843506774433,
+      "longitude": -49.03840319364015
     },
     {
       "codigo": "2829",
@@ -1497,7 +1869,9 @@
       "descricao": "SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS REMANESCENTES DE IMPLANTAÇÃO DO TERMINAL ÁGUA VERDE [OBRA REPROGRAMADA]",
       "logradouro": "RUA GENERA OSÓRIO",
       "intervencao": "Supervisão",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.906015294009684,
+      "longitude": -49.131876842558285
     },
     {
       "codigo": "2828",
@@ -1505,7 +1879,9 @@
       "descricao": "TERRAPLENAGEM DE TERRENO DA ESCOLA BILÍNGUE DA VILA ITOUPAVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA ERWIN MANSKE, 5.517",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.7221709,
+      "longitude": -49.0653289
     },
     {
       "codigo": "2826",
@@ -1513,7 +1889,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM VISCONDE DE TAUNAY [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANZ VOLLES, 1930",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.833699198861755,
+      "longitude": -49.108136234420776
     },
     {
       "codigo": "2825",
@@ -1521,7 +1899,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM VIDAL RAMOS [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTÔNIO TREIS, 144",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.90193810114282,
+      "longitude": -49.041767654556274
     },
     {
       "codigo": "2824",
@@ -1529,7 +1909,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM LEOBERTO LEAL [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOHANN SACHSE, 2602",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.86579479571288,
+      "longitude": -49.120163259643554
     },
     {
       "codigo": "2823",
@@ -1537,7 +1919,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PROF. RODOLFO HOLLENWEGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA PROFESSOR HERMANN LANGE, 2230",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.830544666884776,
+      "longitude": -49.06153285278702
     },
     {
       "codigo": "2822",
@@ -1545,7 +1929,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PROF. FRIEDRICH K. KEMMELMEIER [OBRA REPROGRAMADA]",
       "logradouro": "RUA RICARDO GEORG, 2000",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.796528543082253,
+      "longitude": -49.10650545133972
     },
     {
       "codigo": "2821",
@@ -1553,7 +1939,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PATRÍCIA HELENA FINARDI PEGORIM [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUIZ KRUTZSCH, 474",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.85241396215683,
+      "longitude": -49.04711061491394
     },
     {
       "codigo": "2820",
@@ -1561,7 +1949,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM DUQUE DE CAXIAS [OBRA REPROGRAMADA]",
       "logradouro": "RUA DR PEDRO ZIMMERMANN, 12406",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.76677462466555,
+      "longitude": -49.07974773420715
     },
     {
       "codigo": "2819",
@@ -1569,7 +1959,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM OLGA RUTZEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA FREDERICO JENSEN, 1039",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.860468494704826,
+      "longitude": -49.096425709861755
     },
     {
       "codigo": "2818",
@@ -1577,7 +1969,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PROFª ALICE THIELE [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOÃO SCHETZ, 273",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.938132012927387,
+      "longitude": -49.05657344831848
     },
     {
       "codigo": "2817",
@@ -1585,7 +1979,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM PEDRO I [OBRA REPROGRAMADA]",
       "logradouro": "RUA DR PEDRO ZIMMERMANN, 2461",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.853993327453352,
+      "longitude": -49.08812695516968
     },
     {
       "codigo": "2816",
@@ -1593,7 +1989,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM HENRIQUE ALFARTH [OBRA REPROGRAMADA]",
       "logradouro": "RUA RUI BARBOSA, 1616",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.97153183659627,
+      "longitude": -49.09186863674545
     },
     {
       "codigo": "2815",
@@ -1601,7 +1999,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM HELLA ALTENBURG [OBRA REPROGRAMADA]",
       "logradouro": "RUA PLÁTANO, 233",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.886843911336943,
+      "longitude": -49.10482102407837
     },
     {
       "codigo": "2814",
@@ -1609,7 +2009,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS EXECUTIVOS (ARQUITETÔNICOS E COMPLEMENTARES), COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES, PARA REFORMAS, AMPLIAÇÕES, ADEQUAÇÕES E PREVENTIVOS CONTRA INCÊNDIO - EBM ALMIRANTE TAMANDARÉ [OBRA REPROGRAMADA]",
       "logradouro": "RUA SANTE FÉ, 66",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.90248201642286,
+      "longitude": -49.04886458593902
     },
     {
       "codigo": "2813",
@@ -1617,7 +2019,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM PEDRO II [OBRA REPROGRAMADA]",
       "logradouro": "RUA HELMUTH GOLL, 579",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.98660035377543,
+      "longitude": -49.08324533476257
     },
     {
       "codigo": "2812",
@@ -1625,7 +2029,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM GAL. LÚCIO ESTEVES [OBRA REPROGRAMADA]",
       "logradouro": "RUA BENJAMIN CONSTANT, 630",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.892427322125826,
+      "longitude": -49.09852856172943
     },
     {
       "codigo": "2811",
@@ -1633,7 +2039,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM LORE SITA BOLLMANN [OBRA REPROGRAMADA]",
       "logradouro": "RUA WALTER KNAESEL, S/N",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.805535071840044,
+      "longitude": -49.08298247827911
     },
     {
       "codigo": "2810",
@@ -1641,7 +2049,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM JOÃO JOAQUIM FRONZA [OBRA REPROGRAMADA]",
       "logradouro": "RUA PHILIPP BAUER, 1391",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.859080648225117,
+      "longitude": -49.13798922075653
     },
     {
       "codigo": "2809",
@@ -1649,7 +2059,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM ANNEMARIE TECHENTIN [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOHANN G. H. HADLICH, S/N",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.915547455461542,
+      "longitude": -49.150128898757934
     },
     {
       "codigo": "2808",
@@ -1657,7 +2069,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM MACHADO DE ASSIS [OBRA REPROGRAMADA]",
       "logradouro": "RUA ENGENHEIRO PAUL WERNER, 1334",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.89243210642121,
+      "longitude": -49.085806844371795
     },
     {
       "codigo": "2807",
@@ -1665,7 +2079,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM PROFª ZULMA SOUZA DA SILVA [OBRA REPROGRAMADA]",
       "logradouro": "RUA FLORANIA, 464",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.923611838045723,
+      "longitude": -49.12282132877731
     },
     {
       "codigo": "2806",
@@ -1673,7 +2089,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM PROF. OSCAR UNBEHAUN [OBRA REPROGRAMADA]",
       "logradouro": "RUA GAROPABA, 213",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.910577480737057,
+      "longitude": -49.12290179504776
     },
     {
       "codigo": "2805",
@@ -1681,7 +2099,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM NORMA DIGNART HUBER [OBRA REPROGRAMADA]",
       "logradouro": "RUA AQUIDABÁ, 77",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9026879,
+      "longitude": -49.1029783
     },
     {
       "codigo": "2804",
@@ -1689,7 +2109,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM FRANCISCO LANSER [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALFREDO LANSER, 133",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8724578,
+      "longitude": -49.0501089
     },
     {
       "codigo": "2803",
@@ -1697,7 +2119,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES - EBM FELIPE SCHMIDT [OBRA REPROGRAMADA]",
       "logradouro": "RUA FREDERICO JENSEN, 3139",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.860436,
+      "longitude": -49.086286
     },
     {
       "codigo": "2802",
@@ -1705,7 +2129,9 @@
       "descricao": "ELABORAÇÃO DE \"PROJETOS EXECUTIVOS (ARQUITETÔNICOS, COMPLEMENTARES, PREVENTIVO CONTRA INCÊNDIO, PLANILHAS DE CUSTOS, LEVANTAMENTOS E ESTUDOS DE ENGENHARIA) COM AS DEVIDAS APROVAÇÕES DOS ÓRGÃOS COMPETENTES REGULADORES- CEI DR. ARÃO REBELO E EBM CONSELHEIRO MAFRA [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANZ MUELLER, 2113",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9476176,
+      "longitude": -49.13128829999999
     },
     {
       "codigo": "2798",
@@ -1713,7 +2139,9 @@
       "descricao": "AMPLIAÇÃO DO CEI ARNO BERNARDES [OBRA REPROGRAMADA]",
       "logradouro": "RUA PAULA HOELTGEBAUN, 88",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8693728,
+      "longitude": -49.0610321
     },
     {
       "codigo": "2787",
@@ -1721,7 +2149,9 @@
       "descricao": "RECUPERAÇÃO E PAVIMENTAÇÃO ASFÁLTICA DA RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA CONTINUAÇÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.95243509639303,
+      "longitude": -49.07250234489135
     },
     {
       "codigo": "2786",
@@ -1729,7 +2159,9 @@
       "descricao": "EXECUÇÃO DA RECUPERAÇÃO ASFÁLTICA DO SITIO AEROPORTUÁRIO DO MUNICIPIO [OBRA REPROGRAMADA]",
       "logradouro": "AEROPORTO MUNICIPAL DE BLUMENAU",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8325221,
+      "longitude": -49.0933619
     },
     {
       "codigo": "2785",
@@ -1737,7 +2169,9 @@
       "descricao": "PRAÇA JOÃO FRANCISCO RAMOS [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSÉ SEIBT",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9363322,
+      "longitude": -49.1412072
     },
     {
       "codigo": "2784",
@@ -1745,7 +2179,9 @@
       "descricao": "CONTENÇÃO NA RUA ARNOLDO HEMMER [OBRA REPROGRAMADA]",
       "logradouro": "ARNOLDO HEMMER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.883062435638735,
+      "longitude": -49.162988262487794
     },
     {
       "codigo": "2782",
@@ -1753,7 +2189,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS NA RUA ARARANGUÁ [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARARANGUÁ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.937923830281314,
+      "longitude": -49.05084655645293
     },
     {
       "codigo": "2778",
@@ -1761,7 +2199,9 @@
       "descricao": "CONTENÇÃO NA RUA HELMUTH GOLL [OBRA REPROGRAMADA]",
       "logradouro": "HELMUTH GOLL",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.98756959801571,
+      "longitude": -49.08711592785569
     },
     {
       "codigo": "2776",
@@ -1769,7 +2209,9 @@
       "descricao": "PRAÇA JACOB LITZENBERGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA JACOB LITZENBERGER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8193296,
+      "longitude": -49.0787699
     },
     {
       "codigo": "2772",
@@ -1777,7 +2219,9 @@
       "descricao": "REURBANIZAÇÃO DOS PASSEIOS DA RUA HENRIQUE CONRAD - CONTINUAÇÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA HENRIQUE CONRAD",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.73443155386714,
+      "longitude": -49.06763588465575
     },
     {
       "codigo": "2770",
@@ -1785,7 +2229,9 @@
       "descricao": "REFORMA ESF ARÃO REBELLO [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANZ MULLER, 1950",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.950295463552816,
+      "longitude": -49.13281179472045
     },
     {
       "codigo": "2769",
@@ -1793,7 +2239,9 @@
       "descricao": "EXECUÇÃO DO BALIZAMENTO DO SITIO AEROPORTUÁRIO DO MUNICIPIO [OBRA REPROGRAMADA]",
       "logradouro": "AERPORTO REGIONAL DE BLUMENAU",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8325221,
+      "longitude": -49.0933619
     },
     {
       "codigo": "2766",
@@ -1801,7 +2249,9 @@
       "descricao": "EXECUÇÃO DO CERCAMENTO DO SITIO AEROPORTUÁRIO DO MUNICIPIO [OBRA REPROGRAMADA]",
       "logradouro": "AEROPORTO REGIONAL DE BLUMENAU",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8325221,
+      "longitude": -49.0933619
     },
     {
       "codigo": "2765",
@@ -1809,7 +2259,9 @@
       "descricao": "EXECUÇÃO DE PONTE NA RUA MAIKE ANDRESEN DEEKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA MAIKE ANDRESEN DEEEKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.87379577985687,
+      "longitude": -49.14203505924682
     },
     {
       "codigo": "2764",
@@ -1817,7 +2269,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. ZELINDE CARDOSO [OBRA REPROGRAMADA]",
       "logradouro": "RUA ZELINDE CARDOSO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.820489418992874,
+      "longitude": -49.089586062426754
     },
     {
       "codigo": "2763",
@@ -1825,7 +2279,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. JOSÉ FISCHER [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSÉ FISCHER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8936943,
+      "longitude": -49.10036119999999
     },
     {
       "codigo": "2762",
@@ -1833,7 +2289,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. JOSÉ DE SOUZA [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSÉ DE SOUZA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9003505,
+      "longitude": -49.1110265
     },
     {
       "codigo": "2761",
@@ -1841,7 +2299,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. ALWIN VENSKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALWIN VENSKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.820987936588264,
+      "longitude": -49.08967497895965
     },
     {
       "codigo": "2760",
@@ -1849,7 +2309,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. FRANCISCO BENIGNO [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANCISCO BENIGNO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -27.0015997,
+      "longitude": -49.05394099999999
     },
     {
       "codigo": "2758",
@@ -1857,7 +2319,9 @@
       "descricao": "AMPLIAÇÃO DA CAPACIDADE DA AV. MARTIN LUTHER [OBRA REPROGRAMADA]",
       "logradouro": "AVENIDA MARTIN LUTHER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9075184,
+      "longitude": -49.0727238
     },
     {
       "codigo": "2755",
@@ -1865,7 +2329,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO ESF ARMANDO ODEBRECHT [OBRA REPROGRAMADA]",
       "logradouro": "RUA PROF. JACOB INEICHEN, 55 - BLUMENAU / SC",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.853125803573896,
+      "longitude": -49.120311545438376
     },
     {
       "codigo": "2751",
@@ -1873,7 +2339,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. RICHARD HASS",
       "logradouro": "RUA RICHARD HASS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9879853,
+      "longitude": -49.0819864
     },
     {
       "codigo": "2749",
@@ -1881,7 +2349,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO AMBULATÓRIO GERAL DR. DIOGO VERGARA [OBRA REPROGRAMADA]",
       "logradouro": "RUA WERNER DUWE, SNº , BLUMENAU-SC.",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8797257141997,
+      "longitude": -49.14180803254091
     },
     {
       "codigo": "2748",
@@ -1889,7 +2359,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM CONCRETO - R. LARANJEIRA [OBRA REPROGRAMADA]",
       "logradouro": "RUA LARANJEIRA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.930802390999386,
+      "longitude": -49.09899972513122
     },
     {
       "codigo": "2747",
@@ -1897,7 +2369,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. RODOLFO FROTSCHNER [OBRA REPROGRAMADA]",
       "logradouro": "RUA RODOLFO FROTSCHNER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9483262,
+      "longitude": -49.13245200000001
     },
     {
       "codigo": "2746",
@@ -1905,7 +2379,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. JOSÉ RAUTENBERG [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSÉ RAUTENBERG",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9405096,
+      "longitude": -49.1528261
     },
     {
       "codigo": "2745",
@@ -1913,7 +2389,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. EMÍLIO PADARATZ [OBRA REPROGRAMADA]",
       "logradouro": "RUA EMÍLIO PADARATZ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9355975,
+      "longitude": -49.1453279
     },
     {
       "codigo": "2744",
@@ -1921,7 +2399,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. NAZARE [OBRA REPROGRAMADA]",
       "logradouro": "RUA NAZARÉ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9648627,
+      "longitude": -49.0630243
     },
     {
       "codigo": "2743",
@@ -1929,7 +2409,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO ESF. AFONSO RABE [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUIZ ELEODORO DA SILVA, 417",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.90450117288647,
+      "longitude": -49.04857992683105
     },
     {
       "codigo": "2742",
@@ -1937,7 +2419,9 @@
       "descricao": "PAVIMENTAÇÃO EM LAJOTAS DA RUA FRIDOLINO DE SOUZA [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRIDOLINO DE SOUZA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.858012,
+      "longitude": -49.0347965
     },
     {
       "codigo": "2741",
@@ -1945,7 +2429,9 @@
       "descricao": "ELABORAÇÃO DOS PROJETOS BÁSICO E EXECUTIVOS DA REFORMA E RECUPERAÇÃO DA PONTE ADOLFO KONDER E DA PASSAGEM INFERIOR [OBRA REPROGRAMADA]",
       "logradouro": "AV. PRES. CASTELO BRANCO / RUA REPÚBLICA ARGENTINA",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.7084662,
+      "longitude": -49.0553633
     },
     {
       "codigo": "2730",
@@ -1953,7 +2439,9 @@
       "descricao": "REFORMA GERAL DA ESCOLA BÁSICA MUNICIPAL CONSELHEIRO MAFRA E O CENTRO DE EDUCAÇÃO INFANTIL DR. ARÃO REBELLO. [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANZ MULLER, 2.113",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9515009,
+      "longitude": -49.1327584
     },
     {
       "codigo": "2723",
@@ -1961,7 +2449,9 @@
       "descricao": "REFORMA E ADEQUAÇÃO DO CENTRO EDUCACIONAL INFANTIL AUGUSTO KOESTER [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALMIRANTE BARROSO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9012231,
+      "longitude": -49.0886945
     },
     {
       "codigo": "2722",
@@ -1969,7 +2459,9 @@
       "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 04 - RUA AMAZONAS (ENTRE A RUA GERTRUD METZGER E TERMINAL GARCIA)_R1 [OBRA REPROGRAMADA]",
       "logradouro": "RUA AMAZONAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9387934,
+      "longitude": -49.0671035
     },
     {
       "codigo": "2711",
@@ -1977,7 +2469,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. HELMUND TRAPP [OBRA REPROGRAMADA]",
       "logradouro": "RUA HELMUND TRAPP",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8447903,
+      "longitude": -49.1546522
     },
     {
       "codigo": "2709",
@@ -1985,7 +2479,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. JOSEPHINA RAUSCH REITER [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSEPHINA RAUSCH REITER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9154318,
+      "longitude": -49.150577
     },
     {
       "codigo": "2703",
@@ -1993,7 +2489,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. LUIZ KRUTZSCH [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUIZ KRUTZSCH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8527535,
+      "longitude": -49.04909900000001
     },
     {
       "codigo": "2702",
@@ -2001,7 +2499,9 @@
       "descricao": "CONSTRUÇÃO COBERTURA QUADRA EM PRÉ-MOLDADO DA ESCOLA ISOLADA MUNICIPAL WILLY MULLER. [OBRA REPROGRAMADA]",
       "logradouro": "RUA AUGUSTO BAUER, 1294",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7195795,
+      "longitude": -49.0566343
     },
     {
       "codigo": "2701",
@@ -2009,7 +2509,9 @@
       "descricao": "REFORMA GERAL E AMPLIAÇÃO - EIM WILLY MULLER [OBRA REPROGRAMADA]",
       "logradouro": "RUA AUGUSTO BAUER, 1294",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7195795,
+      "longitude": -49.0566343
     },
     {
       "codigo": "2695",
@@ -2017,7 +2519,9 @@
       "descricao": "INTERLIGAÇÃO DA RUA ANCHIETA E RUA PAULO SCHEIDEMANTEL COM PONTE E ROTATÓRIA NA RUA ANCHIETA - CONTINUIDADE [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANCHIETA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9528045,
+      "longitude": -49.0731786
     },
     {
       "codigo": "2691",
@@ -2025,7 +2529,9 @@
       "descricao": "REFORMA GERAL EBM ALBERTO STEIN [OBRA REPROGRAMADA]",
       "logradouro": "RUA GENERAL OSÓRIO, 1785",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9092878,
+      "longitude": -49.1259923
     },
     {
       "codigo": "2690",
@@ -2033,7 +2539,9 @@
       "descricao": "MACRODRENAGEM - RUA DOS CAÇADORES COM ROTATÓRIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA DOS CAÇADORES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.91993491128424,
+      "longitude": -49.11743428252563
     },
     {
       "codigo": "2688",
@@ -2041,7 +2549,9 @@
       "descricao": "QUADRA COBERTA COM VESTIÁRIO - EBM PROFESSORA ADELAIDE STARKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA SÃO BERNARDO, 700",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.89435,
+      "longitude": -49.06727170000001
     },
     {
       "codigo": "2686",
@@ -2049,7 +2559,9 @@
       "descricao": "REFORMA COBERTURA - EBM LORE SITA BOLLMANN",
       "logradouro": "RUA WALTER KNAESEL, S/N",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8051034,
+      "longitude": -49.0828861
     },
     {
       "codigo": "2675",
@@ -2057,7 +2569,9 @@
       "descricao": "Reforma Estrutural e Geral da Escola Básica Municipal e Centro de Educação Infantil Wilhelm Theodor Schurmann [OBRA REPROGRAMADA]",
       "logradouro": "RUA PEROLA DO VALE , 377",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8350022,
+      "longitude": -49.0805206
     },
     {
       "codigo": "2670",
@@ -2065,7 +2579,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. WALTER BERNER [OBRA REPROGRAMADA]",
       "logradouro": "RUA WALTER BERNER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.898436,
+      "longitude": -49.070508
     },
     {
       "codigo": "2669",
@@ -2073,7 +2589,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO - EBM PROF.ª HELENA WINCKLER",
       "logradouro": "RUA JOÃO BISEWSKI, 100",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9320742,
+      "longitude": -49.105026
     },
     {
       "codigo": "2665",
@@ -2081,7 +2599,9 @@
       "descricao": "TERMINAL INTEGRADO OESTE [OBRA REPROGRAMADA]",
       "logradouro": "RUA GENERAL OSÓRIO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9104832,
+      "longitude": -49.1188574
     },
     {
       "codigo": "2664",
@@ -2089,7 +2609,9 @@
       "descricao": "AMPLIAÇÃO - CEI PROFª MARIA ZIMMERMANN",
       "logradouro": "RUA HENRIQUE WATSON, 70",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8995146,
+      "longitude": -49.0650059
     },
     {
       "codigo": "2663",
@@ -2097,7 +2619,9 @@
       "descricao": "REFORMA E AMPLIAÇÃO - CEI DANIEL BRESSANINI",
       "logradouro": "RUA NÉSIO ANTUNES DA SILVA, 111",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8900759,
+      "longitude": -49.05701699999999
     },
     {
       "codigo": "2662",
@@ -2105,7 +2629,9 @@
       "descricao": "REFORMA DE MURO - CEI MANOEL DA LUZ RAMPELOTTI",
       "logradouro": "RUA BENJAMIN CONSTANT, 736",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8870203,
+      "longitude": -49.0969108
     },
     {
       "codigo": "2660",
@@ -2113,7 +2639,9 @@
       "descricao": "CEI ALBERTO STEIN - AMPLIAÇÃO",
       "logradouro": "RUA MARIA BUGMANN, 88",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9133649,
+      "longitude": -49.1120344
     },
     {
       "codigo": "2657",
@@ -2121,7 +2649,9 @@
       "descricao": "PRAÇA ESCOLA RODOLFO HOLLENWEGER [OBRA REPROGRAMADA]",
       "logradouro": "R. PROF. HERMAN LANGE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8267456,
+      "longitude": -49.0620231
     },
     {
       "codigo": "2645",
@@ -2129,7 +2659,9 @@
       "descricao": "EXECUÇÃO DA REFORMA DA ESCOLA Nº01 [OBRA REPROGRAMADA]",
       "logradouro": "RUA DR. PEDRO ZIMMERMANN 8107",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8019404,
+      "longitude": -49.08934379999999
     },
     {
       "codigo": "2641",
@@ -2137,7 +2669,9 @@
       "descricao": "REFORMA DA COBERTURA, INSTALAÇÃO ELÉTRICA E AMPLIAÇÃO SALA, COZINHA E REFEITÓRIO - CEI FRANZ VOLLES [OBRA REPROGRAMADA]",
       "logradouro": "RUA LEÕNCIO JOÃO DESCHAMPS, 163",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8390148,
+      "longitude": -49.1024231
     },
     {
       "codigo": "2640",
@@ -2145,7 +2679,9 @@
       "descricao": "REFORMA DA COBERTURA ,COZINHA,REFEITÓRIO E ÁREA SERVIÇO - CEI PROFª MARTINHA RÉGIS MORETTO [OBRA REPROGRAMADA]",
       "logradouro": "RUA ENGENHEIRO ODEBRECHT, 961",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9392887,
+      "longitude": -49.0679095
     },
     {
       "codigo": "2639",
@@ -2153,7 +2689,9 @@
       "descricao": "REFORMA - MACHADO DE ASSIS [OBRA REPROGRAMADA]",
       "logradouro": "RUA ENGº PAUL WERNER, 1.334",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9021768,
+      "longitude": -49.0775972
     },
     {
       "codigo": "2638",
@@ -2161,7 +2699,9 @@
       "descricao": "REFORMA GINÁSIO - GENERAL LÚCIO ESTEVES [OBRA REPROGRAMADA]",
       "logradouro": "RUA BENJAMIN CONSTAANT, 630",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8870203,
+      "longitude": -49.0969108
     },
     {
       "codigo": "2636",
@@ -2169,7 +2709,9 @@
       "descricao": "REVITALIZAÇÃO RUA ITAJAÍ [OBRA REPROGRAMADA]",
       "logradouro": "RUA ITAJAÍ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9074942,
+      "longitude": -49.0340774
     },
     {
       "codigo": "2631",
@@ -2177,7 +2719,9 @@
       "descricao": "ATI - BAHIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA BAHIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8932039,
+      "longitude": -49.1286712
     },
     {
       "codigo": "2623",
@@ -2185,7 +2729,9 @@
       "descricao": "RECUPERAÇÃO DA PAVIMENTAÇÃO ASFÁLTICA E DRENAGEM DE TRECHO DA RUA ENGENHEIRO UDO DEEKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA ENGENHEIRO UDO DEEKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8735084,
+      "longitude": -49.10541800000001
     },
     {
       "codigo": "2621",
@@ -2193,7 +2739,9 @@
       "descricao": "REQUALIFICAÇÃO CURT HERING [OBRA REPROGRAMADA]",
       "logradouro": "CURT HERING",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9211985,
+      "longitude": -49.06524839999999
     },
     {
       "codigo": "2620",
@@ -2201,7 +2749,9 @@
       "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 04 - ENTRE RUA DEP. ANTONIO HEIL E RUA REP. ARGENTINA [OBRA REPROGRAMADA]",
       "logradouro": "RUA DAS MISSÕES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9032833,
+      "longitude": -49.0632384
     },
     {
       "codigo": "2619",
@@ -2209,7 +2759,9 @@
       "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 03 - ENTRE RUA FRITZ SPERNAU E RUA DEP. ANTONIO HEIL [OBRA REPROGRAMADA]",
       "logradouro": "RUA DAS MISSÕES",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9032833,
+      "longitude": -49.0632384
     },
     {
       "codigo": "2618",
@@ -2217,7 +2769,9 @@
       "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 02 - ENTRE RUA GUSTAVO KIRSTEN E RUA FRITZ SPERNAU [OBRA REPROGRAMADA]",
       "logradouro": "RUA 2 DE SETEMBRO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.887259,
+      "longitude": -49.0830924
     },
     {
       "codigo": "2617",
@@ -2225,7 +2779,9 @@
       "descricao": "PAC II - RUA 2 DE SETEMBRO/DAS MISSÕES - TRECHO 01 - ENTRE PONTE SANTA CATARINA E RUA GUSTAVO KIRSTEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA 2 DE SETEMBRO",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.887259,
+      "longitude": -49.0830924
     },
     {
       "codigo": "2610",
@@ -2233,7 +2789,9 @@
       "descricao": "ESPAÇO CULTURAL CENTRO HISTÓRICO BLUMENAU [OBRA REPROGRAMADA]",
       "logradouro": "RUA XV DE NOVEMBRO, 161",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9213288,
+      "longitude": -49.05805609999999
     },
     {
       "codigo": "2605",
@@ -2241,7 +2799,9 @@
       "descricao": "ADAPTAÇÃO DA BASE DO SAMU E SALA DE ODONTOLOGIA ESF ANTONIO AUGUSTO SCHWEIGERT [OBRA REPROGRAMADA]",
       "logradouro": "RUA BAHIA 4001",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8868449,
+      "longitude": -49.1173097
     },
     {
       "codigo": "2600",
@@ -2249,7 +2809,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA DA RUA CONDE DE MOTA MAIA - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA CONDE DE MOTA MAIA",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8655182,
+      "longitude": -49.06558099999999
     },
     {
       "codigo": "2599",
@@ -2257,7 +2819,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS DA RUA MANOEL HENRIQUE DE OLIVEIRA - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA MANOEL HENRIQUE DE OLIVEIRA",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8192265,
+      "longitude": -49.0796311
     },
     {
       "codigo": "2598",
@@ -2265,7 +2829,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA DA RUA AGRIPINO GRIECO - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA AGRIPINO GRIECO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8505705,
+      "longitude": -49.0705138
     },
     {
       "codigo": "2597",
@@ -2273,7 +2839,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA NA RUA IDA STEIN - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA IDA STEIN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8230706,
+      "longitude": -49.0787659
     },
     {
       "codigo": "2596",
@@ -2281,7 +2849,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA NA RUA DOS CONDES - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA DOS CONDES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8651757,
+      "longitude": -49.0614458
     },
     {
       "codigo": "2594",
@@ -2289,7 +2859,9 @@
       "descricao": "EXECUÇÃO DE OBRA DE DRENAGEM PLUVIAL E PAVIMENTAÇÃO ASFÁLTICA NA RUA GELÁSIO WOSCZAK - REGIME DE MUTIRÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA GELÁSIO WOSCZAK",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.914381,
+      "longitude": -49.1324472
     },
     {
       "codigo": "2593",
@@ -2297,7 +2869,9 @@
       "descricao": "PAC II - RUA ITAJAÍ (LADO ÍMPAR) (ENTRE RUA XV DE NOVEMBRO E SESI) [OBRA REPROGRAMADA]",
       "logradouro": "RUA ITAJAI",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.920653265537467,
+      "longitude": -49.05817365838012
     },
     {
       "codigo": "2592",
@@ -2305,7 +2879,9 @@
       "descricao": "PAC II - RUA ENG. UDO DEEKE - TRECHO ENTRE RUA DR. PEDRO ZIMERMANN E A BR-470 [OBRA REPROGRAMADA]",
       "logradouro": "RUA ENG. UDO DEEKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8735084,
+      "longitude": -49.10541800000001
     },
     {
       "codigo": "2590",
@@ -2313,7 +2889,9 @@
       "descricao": "PAC II - RUA BAHIA - TRECHO ENTRE RUA SÃO PAULO E PONTE DO SALTO [OBRA REPROGRAMADA]",
       "logradouro": "RUA BAHIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8912947,
+      "longitude": -49.1222383
     },
     {
       "codigo": "2589",
@@ -2321,7 +2899,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. CONDE DE SÃO SIMÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA CONDE DE SÃO SIMÃO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8649536,
+      "longitude": -49.065548
     },
     {
       "codigo": "2588",
@@ -2329,7 +2909,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. GAÚCHA [OBRA REPROGRAMADA]",
       "logradouro": "RUA GAUCHA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9180289,
+      "longitude": -49.1522397
     },
     {
       "codigo": "2587",
@@ -2337,7 +2919,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. FRANCISCO W. SENIOR [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANCISCO WUERGES SENIOR",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8895873,
+      "longitude": -49.0906999
     },
     {
       "codigo": "2584",
@@ -2345,7 +2929,9 @@
       "descricao": "OBRA - CONSTRUÇÃO DE ÁREA DE LAZER NA RUA AMSTERDÃ [OBRA REPROGRAMADA]",
       "logradouro": "RUA CURT SCHEIDMANTEL",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.859398,
+      "longitude": -49.1278254
     },
     {
       "codigo": "2583",
@@ -2353,7 +2939,9 @@
       "descricao": "ATI - RUA JOAQUIM NABUCO [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOAQUIM NABUCO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9158577,
+      "longitude": -49.1056349
     },
     {
       "codigo": "2582",
@@ -2361,7 +2949,9 @@
       "descricao": "ATI - RUA JOAO BISEWSKI [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOAO BISEWSKI",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9320742,
+      "longitude": -49.105026
     },
     {
       "codigo": "2581",
@@ -2369,7 +2959,9 @@
       "descricao": "ATI - RUA JOSE SEIBT [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSE SEIBT",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9363322,
+      "longitude": -49.1412072
     },
     {
       "codigo": "2580",
@@ -2377,7 +2969,9 @@
       "descricao": "ATI - PARQUE TERMINAL DA VELHA [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUCIE HERKENHOFF",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.940108,
+      "longitude": -49.1528099
     },
     {
       "codigo": "2579",
@@ -2385,7 +2979,9 @@
       "descricao": "ATI - PRAÇA PAPA JOAO PAULO I [OBRA REPROGRAMADA]",
       "logradouro": "RUA AMAZONAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9386674,
+      "longitude": -49.0669081
     },
     {
       "codigo": "2577",
@@ -2393,7 +2989,9 @@
       "descricao": "ATI - LARGO VIENA [OBRA REPROGRAMADA]",
       "logradouro": "RUA LARGO VIENA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8840503,
+      "longitude": -49.0780107
     },
     {
       "codigo": "2576",
@@ -2401,7 +2999,9 @@
       "descricao": "ATI - RUA CARLOS KRETZ [OBRA REPROGRAMADA]",
       "logradouro": "RUA CARLOS KRETZ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.878543,
+      "longitude": -49.13802030000001
     },
     {
       "codigo": "2575",
@@ -2409,7 +3009,9 @@
       "descricao": "ATI - LOTEAMENTO FRITZ KOEGLER [OBRA REPROGRAMADA]",
       "logradouro": "RUA ECLAIR MARTINS DA SILVA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8698609,
+      "longitude": -49.07535300000001
     },
     {
       "codigo": "2574",
@@ -2417,7 +3019,9 @@
       "descricao": "ATI - RUA 25 DE AGOSTO [OBRA REPROGRAMADA]",
       "logradouro": "RUA 25 DE AGOSTO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8760986,
+      "longitude": -49.078151
     },
     {
       "codigo": "2573",
@@ -2425,7 +3029,9 @@
       "descricao": "ATI - PRAÇA FIDELIS - ROTARY [OBRA REPROGRAMADA]",
       "logradouro": "RUA THEODORO PASSOLD",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8416951,
+      "longitude": -49.0570636
     },
     {
       "codigo": "2572",
@@ -2433,7 +3039,9 @@
       "descricao": "ATI - ESCOLA N° 1 [OBRA REPROGRAMADA]",
       "logradouro": "RUA DR. PEDRO ZIMMERMANN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7955841,
+      "longitude": -49.0866131
     },
     {
       "codigo": "2571",
@@ -2441,7 +3049,9 @@
       "descricao": "ATI - RUA ANGELA GRASMANN [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANGELA GRASMANN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.85592,
+      "longitude": -49.09361639999999
     },
     {
       "codigo": "2569",
@@ -2449,7 +3059,9 @@
       "descricao": "ATI - RUA DAS BROMÉLIAS [OBRA REPROGRAMADA]",
       "logradouro": "RUA DAS BROMÉLIAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8547975,
+      "longitude": -49.045549
     },
     {
       "codigo": "2567",
@@ -2457,7 +3069,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. WALTER KOPPER [OBRA REPROGRAMADA]",
       "logradouro": "RUA WALTER KOPPER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7941922,
+      "longitude": -49.1033086
     },
     {
       "codigo": "2566",
@@ -2465,7 +3079,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. BRUNO SEIBT [OBRA REPROGRAMADA]",
       "logradouro": "RUA BRUNO SEIBT",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9173323,
+      "longitude": -49.152935
     },
     {
       "codigo": "2565",
@@ -2473,7 +3089,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. RICARDO BELZ [OBRA REPROGRAMADA]",
       "logradouro": "RUA RICARDO BELZ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.793182,
+      "longitude": -49.1015238
     },
     {
       "codigo": "2564",
@@ -2481,7 +3099,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. LEONORA ZIMMER [OBRA REPROGRAMADA]",
       "logradouro": "RUA LEONORA ZIMMER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8643508,
+      "longitude": -49.0640507
     },
     {
       "codigo": "2563",
@@ -2489,7 +3109,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. JÚLIO MOSER [OBRA REPROGRAMADA]",
       "logradouro": "RUA JÚLIO MOSER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2562",
@@ -2497,7 +3119,9 @@
       "descricao": "MUTIRÃO - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - R. KAMESUKE YONAMINE [OBRA REPROGRAMADA]",
       "logradouro": "RUA KAMESUKE YONAMINE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9037374,
+      "longitude": -49.1419281
     },
     {
       "codigo": "2561",
@@ -2505,7 +3129,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA BROMBERG [OBRA REPROGRAMADA]",
       "logradouro": "RUA PROFESSOR HERIBERTO MULLER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8914003,
+      "longitude": -49.1066941
     },
     {
       "codigo": "2560",
@@ -2513,7 +3139,9 @@
       "descricao": "ATI - PÉROLA DO VALE [OBRA REPROGRAMADA]",
       "logradouro": "RUA PÉROLA DO VALE, 377",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8347907,
+      "longitude": -49.0837717
     },
     {
       "codigo": "2559",
@@ -2521,7 +3149,9 @@
       "descricao": "PROJETO DE PASSAGEM INFERIOR EM CONCRETO ARMADO SOB BR-470",
       "logradouro": "RUA THEODORO NUSS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.884219,
+      "longitude": -49.1464499
     },
     {
       "codigo": "2558",
@@ -2529,7 +3159,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA JENSEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA ERICH MEYER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7676438,
+      "longitude": -49.1096373
     },
     {
       "codigo": "2557",
@@ -2537,7 +3169,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA VITÓRIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRITZ SPERNAU",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8857582,
+      "longitude": -49.0628609
     },
     {
       "codigo": "2556",
@@ -2545,7 +3179,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS - ZEIS - VILA UNIÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA ERNST KAESTNER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8325185,
+      "longitude": -49.0941143
     },
     {
       "codigo": "2555",
@@ -2553,7 +3189,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO EM LAJOTAS SEXTAVADAS - RUA EDMUND KNOTH [OBRA REPROGRAMADA]",
       "logradouro": "RUA EDMUND KNOTH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.859039,
+      "longitude": -49.1075739
     },
     {
       "codigo": "2554",
@@ -2561,7 +3199,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA LINDA SETTER [OBRA REPROGRAMADA]",
       "logradouro": "RUA LINDA SETTER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8268567,
+      "longitude": -49.1073509
     },
     {
       "codigo": "2553",
@@ -2569,7 +3209,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA ANTÔNIO SETTER [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTÔNIO SETTER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2551",
@@ -2577,7 +3219,9 @@
       "descricao": "EXECUÇÃO DA PRAÇA RENATO LUIZ MABA, BAIRRO FIDÉLIS",
       "logradouro": "MARA APARECIDA FREITAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8490012,
+      "longitude": -49.07525589999999
     },
     {
       "codigo": "2550",
@@ -2585,7 +3229,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA ANTONIO MONTAGNA [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTONIO MONTAGNA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9988555,
+      "longitude": -49.0633057
     },
     {
       "codigo": "2549",
@@ -2593,7 +3239,9 @@
       "descricao": "PAVIMENTAÇÃO E DRENAGEM DA RUA GRÃO PARA [OBRA REPROGRAMADA]",
       "logradouro": "RUA GRÃO PARA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9287974,
+      "longitude": -49.0460269
     },
     {
       "codigo": "2542",
@@ -2601,7 +3249,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA MAX SCHREIBER [OBRA REPROGRAMADA]",
       "logradouro": "RUA MAX SCHREIBER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8051094,
+      "longitude": -49.08713600000001
     },
     {
       "codigo": "2541",
@@ -2609,7 +3259,9 @@
       "descricao": "RUA CARLOS SPLITTER - TRECHO 2 [OBRA REPROGRAMADA]",
       "logradouro": "RUA CARLOS SPLITTER",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9477991,
+      "longitude": -49.0626969
     },
     {
       "codigo": "2540",
@@ -2617,7 +3269,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA MALVINAS [OBRA REPROGRAMADA]",
       "logradouro": "RUA MALVINAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9212794,
+      "longitude": -49.1460959
     },
     {
       "codigo": "2539",
@@ -2625,7 +3279,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA AUGUSTO GROH [OBRA REPROGRAMADA]",
       "logradouro": "RUA AUGUSTO GROH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8793913,
+      "longitude": -49.0426248
     },
     {
       "codigo": "2538",
@@ -2633,7 +3289,9 @@
       "descricao": "OBRA - EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA LUXEMBURGO [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUXEMBURGO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9214912,
+      "longitude": -49.145844
     },
     {
       "codigo": "2536",
@@ -2641,7 +3299,9 @@
       "descricao": "PROJETO DE DRENAGEM DE TRECHO DA RUA DIVINÓPOLIS E RUA DOS CAÇADORES COM ROTATÓRIA",
       "logradouro": "RUA DIVINÓPOLIS E RUA DOS CAÇADORES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9205204,
+      "longitude": -49.1223103
     },
     {
       "codigo": "2535",
@@ -2649,7 +3309,9 @@
       "descricao": "REFORMA E ADAPTAÇÃO DE ESPAÇOS CULTURAIS DA FUNDAÇÃO CULTURAL DE BLUMENAU, ARQUIVO MUNICIPAL",
       "logradouro": "ALAMEDA DUQUE DE CAXIAS,64",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9216568,
+      "longitude": -49.05810349999999
     },
     {
       "codigo": "2532",
@@ -2657,7 +3319,9 @@
       "descricao": "PAVIMENTAÇÃO ASFÁLTICA RUA THEODORO NUSS [OBRA REPROGRAMADA]",
       "logradouro": "RUA THEODORO NUSS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.884219,
+      "longitude": -49.1464499
     },
     {
       "codigo": "2531",
@@ -2665,7 +3329,9 @@
       "descricao": "LOTE 02 - PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS NO MUNICÍPIO DE BLUMENAU",
       "logradouro": "RUA ZELINDE CARDOSO, RUA ALWIN VENSKE, RUA FRANCISCO BENIGNO (TRECHO FINAL), RUA JOSÉ FISCHER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8209972,
+      "longitude": -49.0895946
     },
     {
       "codigo": "2530",
@@ -2673,7 +3339,9 @@
       "descricao": "LOTE 01 - PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS NO MUNICÍPIO DE BLUMENAU [OBRA REPROGRAMADA]",
       "logradouro": "BAIRROS VELHA, VELHA GRANDE, VELHA CENTRAL, GLÓRIA E PROGRESSO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9513102,
+      "longitude": -49.1332846
     },
     {
       "codigo": "2524",
@@ -2681,7 +3349,9 @@
       "descricao": "EXECUÇÃO DE CONTENÇÃO - MURO DE GABIÃO - RUA ANTÔNIO ZENDRON [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANTÔNIO ZENDRON",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9540035,
+      "longitude": -49.0834243
     },
     {
       "codigo": "2521",
@@ -2689,7 +3359,9 @@
       "descricao": "LOTE 3 - PROJETO DE ESTRUTURAS DE CONTENÇÃO",
       "logradouro": "CEI JOHANNA CONRAD, RUA CAÇAPAVA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7281837,
+      "longitude": -49.0682043
     },
     {
       "codigo": "2520",
@@ -2697,7 +3369,9 @@
       "descricao": "LOTE 2 - PROJETO PONTES EM CONCRETO INCLUSIVE A INFRAESTRUTURA DAS VIAS DE LIGAÇÃO E DE ACESSO EM DIVERSOS LOCAIS NO MUNICÍPIO DE BLUMENAU",
       "logradouro": "RUA 7 DE SETEMBRO, RUA SANTA TEREZINHA, RUA MAIKE ANDRESEN DEEKE,",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8744944,
+      "longitude": -49.1436873
     },
     {
       "codigo": "2519",
@@ -2705,7 +3379,9 @@
       "descricao": "LOTE 1 - PROJETO PONTES EM CONCRETO INCLUSIVE A INFRAESTRUTURA DAS VIAS DE LIGAÇÃO E DE ACESSO EM DIVERSOS LOCAIS NO MUNICÍPIO DE BLUMENAU",
       "logradouro": "RUA BRUNO KIMMICHS, RUA BRUNO KIMMICHS, RUA HERMANN BAER, RUA PARAÍBA, RUA ENG. UDO DEEKE E RUA HELMUND TRAPP",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7084662,
+      "longitude": -49.0553633
     },
     {
       "codigo": "2518",
@@ -2713,7 +3389,9 @@
       "descricao": "PAC II - RECUPERAÇÃO - RUA PROF. JACOB INEICHEN - TRECHO ENTRE RUA FREDERICO JENSEN E RUA JOSÉ JANUÁRIO [OBRA REPROGRAMADA]",
       "logradouro": "RUA PROF. JACOB INEICHEN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8247426,
+      "longitude": -49.1107891
     },
     {
       "codigo": "2517",
@@ -2721,7 +3399,9 @@
       "descricao": "PAC II - RECUPERAÇÃO - RUA GUSTAVO ZIMMERMANN - TRECHO ENTRE RUA GUILHERME SCHARF E RUA FELIPE JENSEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA GUSTAVO ZIMMERMANN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8007905,
+      "longitude": -49.0851438
     },
     {
       "codigo": "2516",
@@ -2729,7 +3409,9 @@
       "descricao": "PAC II - RECUPERAÇÃO - RUA FREDERICO JENSEN - TRECHO ENTRE A RUA ARI BARROSO E A RUA PROF. JACOB INEICHEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA FREDERICO JENSEN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8569638,
+      "longitude": -49.110993
     },
     {
       "codigo": "2515",
@@ -2737,7 +3419,9 @@
       "descricao": "PAC II - RECUPERAÇÃO - RUA ARI BARROSO - TRECHO ENTRE TERMINAL ATERRO E RUA ARI BARROSO E ENTRE BR-470 E RUA FREDERICO JENSEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARI BARROSO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8667094,
+      "longitude": -49.0995731
     },
     {
       "codigo": "2514",
@@ -2745,7 +3429,9 @@
       "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 04 - MURO DE GABIÃO - RUA RUY BARBOSA [OBRA REPROGRAMADA]",
       "logradouro": "RUA RUY BARBOSA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.971657,
+      "longitude": -49.0894425
     },
     {
       "codigo": "2513",
@@ -2753,7 +3439,9 @@
       "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 03 - MURO DE GABIÃO - RUA JULIO HEIDEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA JULIO HEIDEN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9696228,
+      "longitude": -49.0751156
     },
     {
       "codigo": "2512",
@@ -2761,7 +3449,9 @@
       "descricao": "PAVIMENTAÇÃO RUA MARIA DA SILVA OLIVEIRA [OBRA REPROGRAMADA]",
       "logradouro": "RUA MARIA DA SILVA OLIVEIRA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9676934,
+      "longitude": -49.0503535
     },
     {
       "codigo": "2511",
@@ -2769,7 +3459,9 @@
       "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 02 - MURO DE GABIÃO - RUA SANTA MARIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA SANTA MARIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9929731,
+      "longitude": -49.0909075
     },
     {
       "codigo": "2510",
@@ -2777,7 +3469,9 @@
       "descricao": "EXECUÇÃO DE CONTENÇÃO - LOTE 01 - MURO DE GABIÃO - RUA PROGRESSO [OBRA REPROGRAMADA]",
       "logradouro": "RUA PROGRESSO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9801056,
+      "longitude": -49.0749191
     },
     {
       "codigo": "2507",
@@ -2785,7 +3479,9 @@
       "descricao": "PAVIMENTAÇÃO RUA PELOTAS [OBRA REPROGRAMADA]",
       "logradouro": "RUA PELOTAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8853914,
+      "longitude": -49.0978584
     },
     {
       "codigo": "2502",
@@ -2793,7 +3489,9 @@
       "descricao": "PAVIMENTAÇÃO RUA JOÃO KRAUSE [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOÃO KRAUSE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8194836,
+      "longitude": -49.0861648
     },
     {
       "codigo": "2501",
@@ -2801,7 +3499,9 @@
       "descricao": "PAVIMENTAÇÃO RUA BRUNO STARKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA BRUNO STARKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8079937,
+      "longitude": -49.0853869
     },
     {
       "codigo": "2497",
@@ -2809,7 +3509,9 @@
       "descricao": "MURO DE CONTENÇÃO DA RUA DARIO JOÃO VIEIRA [OBRA REPROGRAMADA]",
       "logradouro": "RUA DARIO JOÃO VIEIRA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.954008,
+      "longitude": -49.07433899999999
     },
     {
       "codigo": "2496",
@@ -2817,7 +3519,9 @@
       "descricao": "PAVIMENTAÇÃO EM BLOCO INTERTRAVADO DA RUA CAMPO MOURÃO [OBRA REPROGRAMADA]",
       "logradouro": "RUA CAMPO MOURÃO",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8549125,
+      "longitude": -49.1391764
     },
     {
       "codigo": "2495",
@@ -2825,7 +3529,9 @@
       "descricao": "ELABORAÇÃO DE ESTUDOS E PROJETOS DE REVITALIZAÇÃO DA PRAINHA",
       "logradouro": "PRAÇA VICTOR KONDER Nº. 02",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.909453,
+      "longitude": -49.073684
     },
     {
       "codigo": "2494",
@@ -2833,7 +3539,9 @@
       "descricao": "REFORMA E ADAPTAÇÃO DE ESPAÇOS CULTURAIS DA FUNDAÇÃO CULTURAL DE BLUMENAU, BIBLIOTECA MUNICIPAL DR. FRITZ MULLER E AUDITÓRIO EDITH GAERTNER",
       "logradouro": "RUA XV DE NOVEMBRO, 161",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9213289,
+      "longitude": -49.0580562
     },
     {
       "codigo": "2492",
@@ -2841,7 +3549,9 @@
       "descricao": "REVITALIZAÇÃO RUA 7 DE SETEMBRO, PAULO ZIMMERMANN E SÃO JOSÉ [OBRA REPROGRAMADA]",
       "logradouro": "RUA 7 DE SETEMBRO, PAULO ZIMMERMANN E SÃO JOSÉ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9149725,
+      "longitude": -49.0740099
     },
     {
       "codigo": "2489",
@@ -2849,7 +3559,9 @@
       "descricao": "REVITALIZAÇÃO VIA EXPRESSA PAUL FRITZ KUENRICH [OBRA REPROGRAMADA]",
       "logradouro": "VIA EXPRESSA PAUL FRITZ KUENRICH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8927901,
+      "longitude": -49.0719919
     },
     {
       "codigo": "2488",
@@ -2857,7 +3569,9 @@
       "descricao": "REVITALIZAÇÃO RUA BOLÍVIA RUA GUATEMALA RUA VITÓRIO ALCÂNTARA RUA MÉXICO [OBRA REPROGRAMADA]",
       "logradouro": "RUA BOLÍVIA RUA GUATEMALA RUA VITÓRIO ALCÂNTARA RUA MÉXICO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2487",
@@ -2865,7 +3579,9 @@
       "descricao": "REVITALIZAÇÃO RUA PHILLIPP BAULER [OBRA REPROGRAMADA]",
       "logradouro": "RUA PHILLIPP BAULER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8606935,
+      "longitude": -49.1372686
     },
     {
       "codigo": "2486",
@@ -2873,7 +3589,9 @@
       "descricao": "REVITALIZAÇÃO RUA JULIO MICHEL RUA HERMANN TRIBESS [OBRA REPROGRAMADA]",
       "logradouro": "RUA JULIO MICHEL RUA HERMANN TRIBESS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8804429,
+      "longitude": -49.0615805
     },
     {
       "codigo": "2485",
@@ -2881,7 +3599,9 @@
       "descricao": "REVITALIZAÇÃO RUA JOSÉ REUTER TRECHO 01 E 02 [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOSÉ REUTER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9346847,
+      "longitude": -49.12936819999999
     },
     {
       "codigo": "2483",
@@ -2889,7 +3609,9 @@
       "descricao": "REVITALIZAÇÃO RUA JOÃO PESSOA TRECHO 01 E 02, RUA MARECHAL DEODORO, RUA GUSTAVO BUDAG, RUA CARIUS E RUA CANINDÉ [OBRA REPROGRAMADA]",
       "logradouro": "RUA JOÃO PESSOA, RUA MARECHAL DEODORO, RUA GUSTAVO BUDAG, RUA CARIUS E RUA CANINDÉ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9185893,
+      "longitude": -49.0897791
     },
     {
       "codigo": "2482",
@@ -2897,7 +3619,9 @@
       "descricao": "REVITALIZAÇÃO RUA HEINRICH HOSANG [OBRA REPROGRAMADA]",
       "logradouro": "RUA HEINRICH HOSANG",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9094347,
+      "longitude": -49.0774727
     },
     {
       "codigo": "2481",
@@ -2905,7 +3629,9 @@
       "descricao": "REVITALIZAÇÃO RUA FREI ESTANISLAU SCHAETTE [OBRA REPROGRAMADA]",
       "logradouro": "RUA FREI ESTANISLAU SCHAETTE PROJETO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9115654,
+      "longitude": -49.10285469999999
     },
     {
       "codigo": "2480",
@@ -2913,7 +3639,9 @@
       "descricao": "REVITALIZAÇÃO RUA FRANZ VOLLES [OBRA REPROGRAMADA]",
       "logradouro": "RUA FRANZ VOLLES",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8367644,
+      "longitude": -49.10199840000001
     },
     {
       "codigo": "2479",
@@ -2921,7 +3649,9 @@
       "descricao": "REVITALIZAÇÃO RUA EMILLIO TALLMANN E RUA RUY BARBOSA [OBRA REPROGRAMADA]",
       "logradouro": "RUA EMILLIO TALLMANN E RUA RUY BARBOSA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9604723,
+      "longitude": -49.0739242
     },
     {
       "codigo": "2477",
@@ -2929,7 +3659,9 @@
       "descricao": "REVITALIZAÇÃO RUA BAHIA (TRECHO: SÃO PAULO ATE RUA DR. FRITZ MULLER) [OBRA REPROGRAMADA]",
       "logradouro": "RUA BAHIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8912947,
+      "longitude": -49.1222383
     },
     {
       "codigo": "2476",
@@ -2937,7 +3669,9 @@
       "descricao": "REVITALIZAÇÃO RUA ARI BARROSO E ENGENHEIRO UDO DEEKE [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARI BARROSO E ENGENHEIRO UDO DEEKE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8726927,
+      "longitude": -49.10364269999999
     },
     {
       "codigo": "2473",
@@ -2945,7 +3679,9 @@
       "descricao": "EXECUÇÃO DA MODERNIZAÇÃO DE AMPLIAÇÃO E REFORMA DO BANCO DE ALIMENTOS [OBRA REPROGRAMADA]",
       "logradouro": "R. Eng. Udo Deeke, 1650 - Salto Norte Blumenau - SC 89065-101 Brasil",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8730099,
+      "longitude": -49.1021855
     },
     {
       "codigo": "2471",
@@ -2953,7 +3689,9 @@
       "descricao": "REVITALIZAÇÃO RUA ALMIRANTE BARROSO E GUSTAVO SALINGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALMIRANTE BARROSO E GUSTAVO SALINGER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8937005,
+      "longitude": -49.0901005
     },
     {
       "codigo": "2470",
@@ -2961,7 +3699,9 @@
       "descricao": "REVITALIZAÇÃO RUA 1 DE JANEIRO [OBRA REPROGRAMADA]",
       "logradouro": "RUA 1 DE JANEIRO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8684703,
+      "longitude": -49.0849764
     },
     {
       "codigo": "2469",
@@ -2969,7 +3709,9 @@
       "descricao": "READEQUAÇÃO DE PROJETOS PARA CONSTRUÇÃO DO CENTRO DE CONVENÇÕES VILA GERMÂNICA",
       "logradouro": "RUA HUMBERTO DE CAMPOS",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.9153869,
+      "longitude": -49.0941577
     },
     {
       "codigo": "2468",
@@ -2977,7 +3719,9 @@
       "descricao": "PAVIMENTAÇÃO DA RUA ITAPUÍ, RUA CARLOS SPLITTER E RUA MARIO CABRAL E SILVA - TRECHO 1 [OBRA REPROGRAMADA]",
       "logradouro": "RUA CARLOS SPLITTER",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9477991,
+      "longitude": -49.0626969
     },
     {
       "codigo": "2467",
@@ -2985,7 +3729,9 @@
       "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 04 - VILA VITÓRIA",
       "logradouro": "DIVERSOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2466",
@@ -2993,7 +3739,9 @@
       "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 03 - VILA UNIÃO",
       "logradouro": "DIVERSOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2465",
@@ -3001,7 +3749,9 @@
       "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 02 - VILA JENSEN",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2464",
@@ -3009,7 +3759,9 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS DE SUPERVISÃO, CONTROLE E APOIO À FISCALIZAÇÃO DAS OBRAS DE DUPLICAÇÃO DA PONTE ADOLFO KONDER [OBRA REPROGRAMADA]",
       "logradouro": "RUA REPUBLICA ARGENTINA",
       "intervencao": "Supervisão",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9128064,
+      "longitude": -49.0586385
     },
     {
       "codigo": "2463",
@@ -3017,7 +3769,9 @@
       "descricao": "ELABORAÇÃO DE PROJETO BÁSICO E EXECUTIVO ZEIS - LOTE 01 - VILA BROMBERG [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2461",
@@ -3025,7 +3779,9 @@
       "descricao": "LOTE 3 - CONTRATAÇÃO DE PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS E LOCAIS NO MUNICÍPIO DE BLUMENAU /",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2460",
@@ -3033,7 +3789,9 @@
       "descricao": "LOTE 2 - CONTRATAÇÃO DE PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS E LOCAIS NO MUNICÍPIO DE BLUMENAU",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2459",
@@ -3041,7 +3799,9 @@
       "descricao": "LOTE 1 - CONTRATAÇÃO DE PROJETO EXECUTIVO DE INFRAESTRUTURA VIÁRIA PARA DIVERSAS RUAS E LOCAIS NO MUNICÍPIO DE BLUMENAU [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2458",
@@ -3049,7 +3809,9 @@
       "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 03 - ALAMEDA RIO BRANCO E RUA HERMANN HUSCHER (ENTRE RUA CEL. VIDAL RAMOS E RUA GERTRUD METZGER) [OBRA REPROGRAMADA]",
       "logradouro": "RUA HERMANN HUSCHER/ALAMEDA RIO BRANCO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9315234,
+      "longitude": -49.06338239999999
     },
     {
       "codigo": "2457",
@@ -3057,7 +3819,9 @@
       "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 05 - RUA GERTRUD METZGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA GERTRUD MEZTGER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9364712,
+      "longitude": -49.0664721
     },
     {
       "codigo": "2454",
@@ -3065,7 +3829,9 @@
       "descricao": "PAVIMENTAÇÃO RUA MARCONI [OBRA REPROGRAMADA]",
       "logradouro": "RUA MARCONI",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8514914,
+      "longitude": -49.0898525
     },
     {
       "codigo": "2452",
@@ -3073,7 +3839,9 @@
       "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 02 - TRECHO 01 - RUA AMAZONAS (ENTRE RUA 7 DE SETEMBRO E RUA GERTRUD METZGER) [OBRA REPROGRAMADA]",
       "logradouro": "RUA AMAZONAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9386674,
+      "longitude": -49.0669081
     },
     {
       "codigo": "2451",
@@ -3081,7 +3849,9 @@
       "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 03 - CORREDOR ALAMEDA RIO BRANCO (ENTRE RUA CEL. VIDAL RAMOS E RUA 7 DE SETEMBRO) [OBRA REPROGRAMADA]",
       "logradouro": "ALAMEDA RIO BRANCO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9239009,
+      "longitude": -49.06083539999999
     },
     {
       "codigo": "2446",
@@ -3089,7 +3859,9 @@
       "descricao": "CORREDOR ESTRUTURAL SUL - ETAPA 01 - CORREDOR ALAMEDA DUQUE DE CAXIAS [OBRA REPROGRAMADA]",
       "logradouro": "ALAMEDA DUQUE DE CAXIAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9225402,
+      "longitude": -49.05691770000001
     },
     {
       "codigo": "2439",
@@ -3097,7 +3869,9 @@
       "descricao": "PAVIMENTAÇÃO ASFÁLTICA DA VIA DE LIGAÇÃO DA PRAÇA DUQUE DE CAXIAS [OBRA REPROGRAMADA]",
       "logradouro": "PRAÇA DUQUE DE CAXIAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.948120608395648,
+      "longitude": -49.07225624418029
     },
     {
       "codigo": "2434",
@@ -3105,7 +3879,9 @@
       "descricao": "Contratação de estudos, levantamentos e projetos executivos de engenharia para o Cercamento e Balizamento Noturno do Aeroporto de Blumenau (SSBL)",
       "logradouro": "RUA DR PEDRO ZIMERMANN, 4505",
       "intervencao": "Projeto",
-      "situacao": "EM ANDAMENTO"
+      "situacao": "EM ANDAMENTO",
+      "latitude": -26.8704559,
+      "longitude": -49.0929221
     },
     {
       "codigo": "2433",
@@ -3113,7 +3889,9 @@
       "descricao": "PAVIMENTAÇÃO ASFÁLTICA DA RUA CAIÇARA E RUA IPIRANGA [OBRA REPROGRAMADA]",
       "logradouro": "RUA CAIÇARA E RUA IPIRANGA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9514584,
+      "longitude": -49.0702006
     },
     {
       "codigo": "2432",
@@ -3121,7 +3899,9 @@
       "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO ASFÁLTICA NA RUA CARLOS KRUEGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA CARLOS KRUEGER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7876284,
+      "longitude": -49.1090528
     },
     {
       "codigo": "2428",
@@ -3129,7 +3909,9 @@
       "descricao": "EXECUÇÃO DE PAVIMENTAÇÃO ASFÁLTICA NA RUA THEODOR KLEINE [OBRA REPROGRAMADA]",
       "logradouro": "RUA THEODOR KLEIN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8422325,
+      "longitude": -49.0486886
     },
     {
       "codigo": "2423",
@@ -3137,7 +3919,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS DE REVITALIZAÇÃO DO PAVIMENTO DE VIAS MUNICIPAIS - LOTE 03 [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2422",
@@ -3145,7 +3929,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS DE REVITALIZAÇÃO DO PAVIMENTO DE VIAS MUNICIPAIS - LOTE 02 [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2421",
@@ -3153,7 +3939,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS DE REVITALIZAÇÃO DO PAVIMENTO DE VIAS MUNICIPAIS - LOTE 01 [OBRA REPROGRAMADA]",
       "logradouro": "DIVERSOS",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2420",
@@ -3161,7 +3949,9 @@
       "descricao": "AMPLIAÇÃO DA PONTE ADOLFO KONDER [OBRA REPROGRAMADA]",
       "logradouro": "RUA REPÚBLICA ARGENTINA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.918029433718804,
+      "longitude": -49.06515308314209
     },
     {
       "codigo": "2418",
@@ -3169,7 +3959,9 @@
       "descricao": "MELHORIA E AMPLIAÇÃO DE PASSEIOS E DO SISTEMA CICLOVIÁRIO DA RUA JULIO MICHEL [OBRA REPROGRAMADA]",
       "logradouro": "RUA JULIO MICHEL",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8821831,
+      "longitude": -49.0568547
     },
     {
       "codigo": "2416",
@@ -3177,7 +3969,9 @@
       "descricao": "ESF JOÃO ROSA CAMARGO [OBRA REPROGRAMADA]",
       "logradouro": "RUA BAHIA 4001",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.886930881291264,
+      "longitude": -49.117599783467085
     },
     {
       "codigo": "2415",
@@ -3185,7 +3979,9 @@
       "descricao": "AMBULATÓRIO GERAL MARIO JORGE VIEIRA (AG FORTALEZA) [OBRA REPROGRAMADA]",
       "logradouro": "RUA PAULA HOELTGEBAUM, Nº 170",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8693728,
+      "longitude": -49.0610321
     },
     {
       "codigo": "2411",
@@ -3193,7 +3989,9 @@
       "descricao": "INTERLIGAÇÃO DA RUA ANCHIETA E RUA PAULO SCHEIDEMANTEL COM PONTE E ROTATÓRIA NA RUA ANCHIETA [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANCHIETA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9528045,
+      "longitude": -49.0731786
     },
     {
       "codigo": "2410",
@@ -3201,7 +3999,9 @@
       "descricao": "ALARGAMENTO DA PONTE DESEMBARGADOR PEDRO SILVA COM AMPLIAÇÃO DA CAPACIDADE VIÁRIA ENTRE ALAMEDA DUQUE DE CAXIAS E AVENIDA PRESIDENTE CASTELO BRANCO [OBRA REPROGRAMADA]",
       "logradouro": "ENTRE ALAMEDA DUQUE DE CAXIAS E AVENIDA PRESIDENTE CASTELO BRANCO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.922267833595075,
+      "longitude": -49.05923366165467
     },
     {
       "codigo": "2409",
@@ -3209,7 +4009,9 @@
       "descricao": "TERRAPLENAGEM, DRENAGEM, PAVIMENTAÇÃO ASFÁLTICA E SINALIZAÇÃO VIÁRIA RUA MARTIN JENSEN [OBRA REPROGRAMADA]",
       "logradouro": "TV MARTIN JENSEN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9165792,
+      "longitude": -49.0717331
     },
     {
       "codigo": "2408",
@@ -3217,7 +4019,9 @@
       "descricao": "EXECUÇÃO DE PAVIMETAÇÃO ASFÁLTICA NA RUA GUILHERME SCHARF [OBRA REPROGRAMADA]",
       "logradouro": "RUA GUILHERME SCHARF",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.849204751392538,
+      "longitude": -49.08063571383059
     },
     {
       "codigo": "2406",
@@ -3225,7 +4029,9 @@
       "descricao": "PAVIMENTAÇÃO EM BLOCO INTERTRAVADO DA RUA WALTER KNAESEL [OBRA REPROGRAMADA]",
       "logradouro": "RUA WALTER KNAESEL",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8041393,
+      "longitude": -49.0851246
     },
     {
       "codigo": "2403",
@@ -3233,7 +4039,9 @@
       "descricao": "INTERSEÇÃO VIÁRIA RUAS FREDERICO JENSEN X PROFESSOR JACOB INEICHEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA FREDERICO JENSEN X RUA PROFESSOR JACOB INEICHEN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8588317,
+      "longitude": -49.1049307
     },
     {
       "codigo": "2402",
@@ -3241,7 +4049,9 @@
       "descricao": "PROJETO PARA PAVIMENTAÇÃO COM LAJOTAS SEXTAVADAS, SINALIZAÇÃO E DRENAGEM DA RUA GONÇALVES DIAS [OBRA REPROGRAMADA]",
       "logradouro": "RUA GONÇALVES DIAS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9040277,
+      "longitude": -49.1001252
     },
     {
       "codigo": "2401",
@@ -3249,7 +4059,9 @@
       "descricao": "PROJETO DE PAVIMENTAÇÃO COM LAJOTAS, SINALIZAÇÃO E DRENAGEM DA RUA ALASKA [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALASKA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.858255,
+      "longitude": -49.117548
     },
     {
       "codigo": "2400",
@@ -3257,7 +4069,9 @@
       "descricao": "PROJETO PAVIMENTAÇÃO ASFÁLTICA, SINALIZAÇÃO E DRENAGEM DA RUA CONDE DE MESQUITA [OBRA REPROGRAMADA]",
       "logradouro": "RUA CONDE DE MESQUITA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8652798,
+      "longitude": -49.0642574
     },
     {
       "codigo": "2399",
@@ -3265,7 +4079,9 @@
       "descricao": "PROJETO PAVIMENTAÇÃO ASFÁLTICA, SINALIZAÇÃO E DRENAGEM DA RUA OSVALDO DE ANDRADE [OBRA REPROGRAMADA]",
       "logradouro": "RUA OSVALDO DE ANDRADE",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8505129,
+      "longitude": -49.07148369999999
     },
     {
       "codigo": "2398",
@@ -3273,7 +4089,9 @@
       "descricao": "PROJETO DE PAVIMENTAÇÃO ASFÁLTICA, SINALIZAÇÃO E DRENAGEM DA RUA ARNOLDO VAN DEN BYLAARDT [OBRA REPROGRAMADA]",
       "logradouro": "RUA ARNOLDO VAN DEN BYLAARDT",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7989051,
+      "longitude": -49.0826542
     },
     {
       "codigo": "2397",
@@ -3281,7 +4099,9 @@
       "descricao": "EXECUÇÃO DE INFRAESTRURA VIÁRIA - RUA GENERAL OSÓRIO [OBRA REPROGRAMADA]",
       "logradouro": "RUA GENERAL OSÓRIO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.910406663484476,
+      "longitude": -49.11864282327883
     },
     {
       "codigo": "2396",
@@ -3289,7 +4109,9 @@
       "descricao": "PROJETO PARA PAVIMENTAÇÃO LAJOTAS SEXTAVADAS, SINALIZAÇÃO E DRENAGEM DA RUA WALTRAUD VOIGT [OBRA REPROGRAMADA]",
       "logradouro": "RUA WALTRAUD VOIGT",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8792683,
+      "longitude": -49.1225337
     },
     {
       "codigo": "2394",
@@ -3297,7 +4119,9 @@
       "descricao": "PAVIMENTAÇÃO E DRENAGEM PLUVIAL DA RUA GUILHERME LUEDERS [OBRA REPROGRAMADA]",
       "logradouro": "RUA GUILHERME LUEDERS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8842965,
+      "longitude": -49.0614996
     },
     {
       "codigo": "2392",
@@ -3305,7 +4129,9 @@
       "descricao": "OBRA DE ESTABILIZAÇÃO DE ENCOSTA NA RUA WILSON BORHOFFEN [OBRA REPROGRAMADA]",
       "logradouro": "RUA WILSON BORHOFFEN",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9075199,
+      "longitude": -49.154138
     },
     {
       "codigo": "2389",
@@ -3313,7 +4139,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA GOVERNADOR PEDRO IVO CAMPOS",
       "logradouro": "RUA GOVERNADOR PEDRO IVO CAMPOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.708643929360786,
+      "longitude": -49.12735501132812
     },
     {
       "codigo": "2388",
@@ -3321,7 +4149,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - RUA JORGE ROBERTO DOS PASSOS [OBRA REPROGRAMADA]",
       "logradouro": "RUA JORGE ROBERTO DOS PASSOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9146222,
+      "longitude": -49.1332634
     },
     {
       "codigo": "2387",
@@ -3329,7 +4159,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA GOVERNADOR CELSO RAMOS [OBRA REPROGRAMADA]",
       "logradouro": "RUA GOVERNADOR CELSO RAMOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8157783,
+      "longitude": -49.10037310000001
     },
     {
       "codigo": "2386",
@@ -3337,7 +4169,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA LUIZ DE OLIVEIRA [OBRA REPROGRAMADA]",
       "logradouro": "RUA LUIZ DE OLIVEIRA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8530627,
+      "longitude": -49.1361058
     },
     {
       "codigo": "2385",
@@ -3345,7 +4179,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA ANNA HEIDRICH [OBRA REPROGRAMADA]",
       "logradouro": "RUA ANNA HEIDRICH",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9324519,
+      "longitude": -49.1250325
     },
     {
       "codigo": "2383",
@@ -3353,7 +4189,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA GERMANO KRUEGER [OBRA REPROGRAMADA]",
       "logradouro": "RUA GERMANO KRUEGER",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9505234,
+      "longitude": -49.1336713
     },
     {
       "codigo": "2372",
@@ -3361,7 +4199,9 @@
       "descricao": "PROJETO DE MELHORIA E AMPLIAÇÃO DO CORREDOR ESTRUTURAL SUL - MARIA CAVILHA [OBRA REPROGRAMADA]",
       "logradouro": "RUA MARIA CAVILHA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.945445021192043,
+      "longitude": -49.07639878095091
     },
     {
       "codigo": "2370",
@@ -3369,7 +4209,9 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO DE LAJOTAS SEXTAVADAS - RUA MATOS COSTA [OBRA REPROGRAMADA]",
       "logradouro": "RUA MATOS COSTA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9171299,
+      "longitude": -49.1522146
     },
     {
       "codigo": "2368",
@@ -3377,7 +4219,9 @@
       "descricao": "EXECUÇÃO DOS SERVIÇOS DE DUPLICAÇÃO DA RUA HUMBERTO DE CAMPOS - TRECHO 4: ENTRE A RUA MARECHAL DEODORO E A RUA 7 DE SETEMBRO, COM EXTENSÃO DE 1,3 KM [OBRA REPROGRAMADA]",
       "logradouro": "RUA HUMBERTO DE CAMPOS",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.91518980005235,
+      "longitude": -49.091433535581984
     },
     {
       "codigo": "2364",
@@ -3385,7 +4229,9 @@
       "descricao": "RECUPERAÇÃO E PAVIMENTAÇÃO ASFÁLTICA DA RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA",
       "logradouro": "RUA ANTÔNIO ZENDRON, RUA ANCHIETA, RUA LÉO DESCHAMPS E RUA DA INDEPENDÊNCIA",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.95243509639303,
+      "longitude": -49.07250234489135
     },
     {
       "codigo": "2358",
@@ -3393,7 +4239,9 @@
       "descricao": "Pavimentação em lajotas e drenagem da Rua Carlos H. Mulhmann [OBRA REPROGRAMADA]",
       "logradouro": "Rua Carlos H. Mulhmann",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.959120774213236,
+      "longitude": -49.130851668897265
     },
     {
       "codigo": "2351",
@@ -3401,7 +4249,9 @@
       "descricao": "Rua Bernardo Scheidemantel",
       "logradouro": "Rua Bernardo Scheidemantel",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.86949534734766,
+      "longitude": -49.15217550555724
     },
     {
       "codigo": "2350",
@@ -3409,7 +4259,9 @@
       "descricao": "ELABORAÇÃO DO PROJETO (BÁSICO E EXECUTIVO) DO PARQUE LINEAR DO FORTALEZA",
       "logradouro": "RUA DOIS DE SETEMBRO, N 26",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.89375590116435,
+      "longitude": -49.05975971895754
     },
     {
       "codigo": "2348",
@@ -3417,7 +4269,9 @@
       "descricao": "VIA EXPRESSA [OBRA REPROGRAMADA]",
       "logradouro": "VIA EXPRESSA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.911972913811173,
+      "longitude": -49.10124863173826
     },
     {
       "codigo": "2347",
@@ -3425,7 +4279,9 @@
       "descricao": "ELABORAÇÃO DE PROJETOS DE ENGENHARIA (BÁSICO E EXECUTIVO) PARA IMPLANTAÇÃO DO PARQUE LINEAR DA BACIA DO RIBEIRÃO DA VELHA [OBRA REPROGRAMADA]",
       "logradouro": "AVENIDA PRESIDENTE CASTELO BRANCO, S/Nº",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9134259543953,
+      "longitude": -49.069865629638684
     },
     {
       "codigo": "2345",
@@ -3433,7 +4289,9 @@
       "descricao": "RUA BAHIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA BAHIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.88972659701705,
+      "longitude": -49.12124138518067
     },
     {
       "codigo": "2340",
@@ -3441,7 +4299,9 @@
       "descricao": "Rua Wilhelm Knaesel Senior [OBRA REPROGRAMADA]",
       "logradouro": "Rua Wilhelm Knaesel Senior",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.787323101567754,
+      "longitude": -49.072764580425996
     },
     {
       "codigo": "2339",
@@ -3449,7 +4309,9 @@
       "descricao": "Rua Braço do Sul [OBRA REPROGRAMADA]",
       "logradouro": "Rua Braço do sul",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.709432527694478,
+      "longitude": -49.06748782327878
     },
     {
       "codigo": "2333",
@@ -3457,7 +4319,9 @@
       "descricao": "Implantação e Pavimentação da Rotatória do Corredor Norte (Trecho 2B) e Pavimentação da Rua Mario Giese [OBRA REPROGRAMADA]",
       "logradouro": "Rua Dr. Pedro Zimmermann",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.79721951257408,
+      "longitude": -49.08691374973756
     },
     {
       "codigo": "2329",
@@ -3465,7 +4329,9 @@
       "descricao": "PROJETO DE CICLOVIA E PASSEIO COMPARTILHADO DA RUA ITAJAÍ [OBRA REPROGRAMADA]",
       "logradouro": "RUA ITAJAI",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.912196428641764,
+      "longitude": -49.04879665566409
     },
     {
       "codigo": "2328",
@@ -3473,7 +4339,9 @@
       "descricao": "PAVIMENTAÇÃO RUA SAXÔNIA [OBRA REPROGRAMADA]",
       "logradouro": "RUA SAXÔNIA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.738882086502787,
+      "longitude": -49.06549574508284
     },
     {
       "codigo": "2325",
@@ -3481,7 +4349,9 @@
       "descricao": "TERRAPLANGEM, DRENAGEM, PAVIMENTAÇÃO ASFÁLTICA E SINALIZAÇÃO VIÁRIA",
       "logradouro": "RUA MAURINO VALENTIN JACINTO",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.89195587054951,
+      "longitude": -49.05725930674589
     },
     {
       "codigo": "2320",
@@ -3489,7 +4359,9 @@
       "descricao": "PAVIMENTAÇÃO RUA WILLY SCHULZ [OBRA REPROGRAMADA]",
       "logradouro": "RUA WILLY SCHULZ",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9214649,
+      "longitude": -49.1231514
     },
     {
       "codigo": "2319",
@@ -3497,7 +4369,9 @@
       "descricao": "PAVIMENTAÇÃO RUA LARANJEIRA",
       "logradouro": "RUA LARANJEIRA",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.92994155822195,
+      "longitude": -49.099346658930244
     },
     {
       "codigo": "2318",
@@ -3505,7 +4379,9 @@
       "descricao": "ROTATÓRIA RUA PROGRESSO X RUA SANTA MARIA [OBRA REPROGRAMADA]",
       "logradouro": "Rua Progresso",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.98320962326859,
+      "longitude": -49.07722626406252
     },
     {
       "codigo": "2316",
@@ -3513,7 +4389,9 @@
       "descricao": "ENTRONCAMENTO RUA DAS MISSÕES X DEP. ANTONIO HEIL [OBRA REPROGRAMADA]",
       "logradouro": "Rua das Missões",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.903283300000002,
+      "longitude": -49.063109653967274
     },
     {
       "codigo": "2314",
@@ -3521,7 +4399,9 @@
       "descricao": "PAVIMENTAÇÃO RUA JOÃO BISEWSKI",
       "logradouro": "RUA JOÃO BISEWSKI",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.931015689392403,
+      "longitude": -49.1051867460327
     },
     {
       "codigo": "2313",
@@ -3529,7 +4409,9 @@
       "descricao": "INTERSECÃO VIÁRIA RUA JOHANN OHF X JOSÉ REUTER",
       "logradouro": "RUA JOHANN OHF",
       "intervencao": "Execução de Obra",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9193443,
+      "longitude": -49.1345529
     },
     {
       "codigo": "2312",
@@ -3537,7 +4419,9 @@
       "descricao": "PAVIMENTAÇÃO RUA ALFREDO HERING [OBRA REPROGRAMADA]",
       "logradouro": "RUA ALFREDO HERING",
       "intervencao": "Projeto",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8894015753954,
+      "longitude": -49.08535169999999
     },
     {
       "codigo": "C1043",
@@ -3545,7 +4429,9 @@
       "descricao": "Execução de terraplanagem, drenagem, pavimentação asfáltica e sinalização viária da Rua Antônio Bitelbrunn",
       "logradouro": "Rua Antonio Bittelbrunn",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.912681,
+      "longitude": -49.0855514
     },
     {
       "codigo": "C1042",
@@ -3553,7 +4439,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Zenaide Santos de Souza",
       "logradouro": "Rua Zenaide Santos de Souza",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.912657,
+      "longitude": -49.0876107
     },
     {
       "codigo": "C1041",
@@ -3561,7 +4449,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua Rio Bonito",
       "logradouro": "Rua Rio Bonito",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.7583534,
+      "longitude": -49.0636803
     },
     {
       "codigo": "C1040",
@@ -3569,7 +4459,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Erich Belz",
       "logradouro": "Rua Erich Belz",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8209936,
+      "longitude": -49.1001754
     },
     {
       "codigo": "C1039",
@@ -3577,7 +4469,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da rua Rodolfo Bretzke",
       "logradouro": "Rua Rodolfo Bretzke",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.94619,
+      "longitude": -49.1327438
     },
     {
       "codigo": "C1038",
@@ -3585,7 +4479,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação asfáltica e sinalização viária da Rua Vale do Selke",
       "logradouro": "Rua Vale do Selke",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.842207,
+      "longitude": -49.1393551
     },
     {
       "codigo": "C1037",
@@ -3593,7 +4489,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua João José Ferreira e Transversais",
       "logradouro": "Rua João José Ferreira",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8500233,
+      "longitude": -49.1087003
     },
     {
       "codigo": "C1036",
@@ -3601,7 +4499,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação asfáltica e sinalização viária na Rua Norberto Seara Heusi",
       "logradouro": "Rua Norberto Seara Heusi",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8962212,
+      "longitude": -49.1053149
     },
     {
       "codigo": "C1035",
@@ -3609,7 +4509,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua João José Ferreira e Transversais",
       "logradouro": "Rua João José Ferreira",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8500233,
+      "longitude": -49.1087003
     },
     {
       "codigo": "C1034",
@@ -3617,7 +4519,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Joel Bernardes",
       "logradouro": "Rua Joel Bernardes",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9285485,
+      "longitude": -49.127197
     },
     {
       "codigo": "C1033",
@@ -3625,7 +4529,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Ananias da Silva",
       "logradouro": "Rua Ananias da Silva",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9087134,
+      "longitude": -49.0202527
     },
     {
       "codigo": "C1032",
@@ -3633,7 +4539,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária da Rua Nestor Justino da Silva",
       "logradouro": "Rua Nestor Justino da Silva",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9087134,
+      "longitude": -49.0202527
     },
     {
       "codigo": "C1031",
@@ -3641,7 +4549,9 @@
       "descricao": "Execução de obras de terraplanagem, drenagem, pavimentação e sinalização viária na Rua Augustinho Rodolfo da Silva",
       "logradouro": "Rua Augustinho Rodolfo da Silva",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9334658,
+      "longitude": -49.0540743
     },
     {
       "codigo": "C1030",
@@ -3649,7 +4559,9 @@
       "descricao": "Implantação de novos abrigos para passageiros do transporte coletivo e calçadas em 113 pontos de parada, no Município de Blumenau",
       "logradouro": "Diversas Vias",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.874607,
+      "longitude": -49.1145331
     },
     {
       "codigo": "C1029",
@@ -3657,7 +4569,9 @@
       "descricao": "Implantação e pavimentação do prolongamento da Rua Humberto de Campos - VP 07",
       "logradouro": "Rua Humberto de Campos",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9153869,
+      "longitude": -49.0941577
     },
     {
       "codigo": "C1027",
@@ -3665,7 +4579,9 @@
       "descricao": "Execução dos serviços de implantação e pavimentação do Binário da Rua Chile e da Rua República Argentina",
       "logradouro": "Rua República Argentina",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9111414,
+      "longitude": -49.0554113
     },
     {
       "codigo": "C1026",
@@ -3673,7 +4589,9 @@
       "descricao": "Execução de obras de terraplanagen, drenagem, pavimentação asfáltica e sinalização viária na Rua Arnoldo Hemmer",
       "logradouro": "Rua Arnoldo Hemmer",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8891484,
+      "longitude": -49.1558214
     },
     {
       "codigo": "C1025",
@@ -3681,7 +4599,9 @@
       "descricao": "Projeto EBM Quintino Bocaiuva: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
       "logradouro": "Rua Valter Wacholz, 265",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8766004,
+      "longitude": -49.1209567
     },
     {
       "codigo": "C1024",
@@ -3689,7 +4609,9 @@
       "descricao": "Projeto EBM Profª Nemesia Margarida: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
       "logradouro": "Rua Oscar João Rausch, 100",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8781289,
+      "longitude": -49.1674758
     },
     {
       "codigo": "C1023",
@@ -3697,7 +4619,9 @@
       "descricao": "Projeto EBM Profª Adelaide Starke: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
       "logradouro": "Rua São Bernardo, 700",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.89435,
+      "longitude": -49.06727170000001
     },
     {
       "codigo": "C1022",
@@ -3705,7 +4629,9 @@
       "descricao": "Projeto EBM Lauro Muller: Contratação de empresa especializada para projetos arquitetônicos, plantas, para construção, reformas ou ampliação para as EBM's Quintino Bocaiuva, Profª Nemesia Margarida, Profª Adelaide Starke e Lauro Mueller",
       "logradouro": "Rua Heinrich Hemmer, 2876",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8766004,
+      "longitude": -49.1209567
     },
     {
       "codigo": "C1021",
@@ -3713,7 +4639,9 @@
       "descricao": "Reforma Cobertura, parte elétrica e forro na EBM Vidal Ramos",
       "logradouro": "Rua Antônio Treis, 144",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9015293,
+      "longitude": -49.0441163
     },
     {
       "codigo": "C1020",
@@ -3721,7 +4649,9 @@
       "descricao": "Reforma Cobertura elétrica, forro de PVC e esquadrias na EIM Capitão Euclides de Castro",
       "logradouro": "Rua Jordão, 2.269",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9969683,
+      "longitude": -49.069513
     },
     {
       "codigo": "C1019",
@@ -3729,7 +4659,9 @@
       "descricao": "Reforma Cobertura e construção de cobertura metálica, nivelamento do contra piso e assentamento de novo piso cerâmico, instalações de calhas, rufos, e portas do CEI Frei Odorico Durieux",
       "logradouro": "Rua Jacob Ineichen, s/n",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8536379,
+      "longitude": -49.1200621
     },
     {
       "codigo": "C1018",
@@ -3737,7 +4669,9 @@
       "descricao": "Construção de quadra poliesportiva na EBM Bilíngue Profª Hella Altenburg",
       "logradouro": "Rua Plátano, 233",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8874828,
+      "longitude": -49.1039999
     },
     {
       "codigo": "C1017",
@@ -3745,7 +4679,9 @@
       "descricao": "Reforma geral na EBM Bilíngue Prof. Fernando Ostermann",
       "logradouro": "Rua Otto Stutzer, 43",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8994715,
+      "longitude": -49.06546489999999
     },
     {
       "codigo": "C1016",
@@ -3753,7 +4689,9 @@
       "descricao": "Reforma Cobertura em estrutura metálica na EBM Conselheiro Mafra e CEI Dr.Arão Rebello",
       "logradouro": "Rua Franz Muller, 2.113",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9519588,
+      "longitude": -49.1333742
     },
     {
       "codigo": "C1015",
@@ -3761,7 +4699,9 @@
       "descricao": "Reforma Cobertura, elétrica e forro da EBM Anita Garibaldi",
       "logradouro": "Rua Dr. Pedro Zimmermann, 5.900",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8291873,
+      "longitude": -49.0900034
     },
     {
       "codigo": "C1014",
@@ -3769,7 +4709,9 @@
       "descricao": "Execução de estrutura de contenção e drenagem de taludes no CEI Elfrida Fischer Vieira (Jardim Germânico)",
       "logradouro": "Rua Jardim Germânico, s/n",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8573687,
+      "longitude": -49.0944322
     },
     {
       "codigo": "C1013",
@@ -3777,7 +4719,9 @@
       "descricao": "REFORÇO ESTRUTURAL E REFORMA DA POLICLÍNICA LINDOLF BELL",
       "logradouro": "RUA DOIS DE NOVEMBRO 1298",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8958863,
+      "longitude": -49.0698733
     },
     {
       "codigo": "C1012",
@@ -3785,7 +4729,9 @@
       "descricao": "CONSTRUÇÃO DO AMBULATORIO GERAL ESCOLA AGRICOLA",
       "logradouro": "RUA NORBERTO SEARA HEUSI",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8962212,
+      "longitude": -49.1053149
     },
     {
       "codigo": "C1011",
@@ -3793,7 +4739,9 @@
       "descricao": "CONSTRUÇÃO DO CENTRO DE REFERÊNCIA EM ASSISTENCIA SOCIAL - CRAS",
       "logradouro": "RUA MARGARIDA WALDRICH, 230",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9129655,
+      "longitude": -49.125438
     },
     {
       "codigo": "C1010",
@@ -3801,7 +4749,9 @@
       "descricao": "REFORMA E ADAPTAÇÃO DA UNIDADE DE SAÚDE LÉO DE CARVALHO",
       "logradouro": "RUA ENGENHEIRO ODEBRECHT 961",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9388635,
+      "longitude": -49.0590231
     },
     {
       "codigo": "C1009",
@@ -3809,7 +4759,9 @@
       "descricao": "Reforma de Cobertura, elétrica e forro da EBM Paulina Wagner",
       "logradouro": "Rua Ana Felisbino, 125",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8785313,
+      "longitude": -49.1372145
     },
     {
       "codigo": "C1008",
@@ -3817,7 +4769,9 @@
       "descricao": "Construção da Quadra Poliesportiva na EBM Almirante Tamandaré",
       "logradouro": "Rua: Santa Fé, 66",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9025611,
+      "longitude": -49.0481685
     },
     {
       "codigo": "C1007",
@@ -3825,7 +4779,9 @@
       "descricao": "ADAPTAÇÃO DE EDIFICAÇÃO PARA ESF GENERAL OSÓRIO I E II",
       "logradouro": "RUA GENERAL OSORIO 660",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9199567,
+      "longitude": -49.106176
     },
     {
       "codigo": "C1006",
@@ -3833,7 +4789,9 @@
       "descricao": "Reforma Cobertura, elétrica e forro na EBM General Lúcio Esteves",
       "logradouro": "Rua: Benjamin Constant, 630",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8870203,
+      "longitude": -49.0969108
     },
     {
       "codigo": "C1005",
@@ -3841,7 +4799,9 @@
       "descricao": "ADAPTAÇÃO E ADEQUAÇÃO DA EDIFICAÇÃO PARA CENTRO DE ATENÇÃO PSICOSSOCIAL",
       "logradouro": "RUA NORBERTO SEARA HEUSI",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8962212,
+      "longitude": -49.1053149
     },
     {
       "codigo": "C1004",
@@ -3849,7 +4809,9 @@
       "descricao": "Reforma e Ampliação na EBM Bilíngue Pastor Faulhaber",
       "logradouro": "Rua Pastor Oswaldo Hesse, 1.090",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9282299,
+      "longitude": -49.04580660000001
     },
     {
       "codigo": "C1003",
@@ -3857,7 +4819,9 @@
       "descricao": "RECUPERAÇÃO DA PISTA DE ESPORTES RADICAIS PARQUE RAMIRO RUEDIGER",
       "logradouro": "Alberto Stein, 416",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.9168687,
+      "longitude": -49.08316019999999
     },
     {
       "codigo": "C1002",
@@ -3865,7 +4829,9 @@
       "descricao": "Reforma Geral Prédio Manutenção/Depósito - SEMED",
       "logradouro": "Rua Carl Dettmer, n. 137",
       "intervencao": "",
-      "situacao": "CONCLUÍDA"
+      "situacao": "CONCLUÍDA",
+      "latitude": -26.8119065,
+      "longitude": -49.0894261
     },
     {
       "codigo": "LISTA DE OBRAS DISPONÍVEIS",
