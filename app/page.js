@@ -35,6 +35,10 @@ export default function Home() {
   const [obraAberta, setObraAberta] = useState(null);
   const [carregandoDetalhes, setCarregandoDetalhes] = useState(null);
   const [erroDetalhes, setErroDetalhes] = useState('');
+  const [perguntaAnalise, setPerguntaAnalise] = useState('');
+  const [analise, setAnalise] = useState(null);
+  const [carregandoAnalise, setCarregandoAnalise] = useState(false);
+  const [erroAnalise, setErroAnalise] = useState('');
 
   const situacoes = useMemo(() => [...new Set(dados.obras.map((obra) => obra.situacao).filter(Boolean))].sort(), []);
   const secretarias = useMemo(() => [...new Set(dados.obras.map((obra) => obra.secretaria).filter(Boolean))].sort(), []);
@@ -104,6 +108,23 @@ export default function Home() {
     }
   }
 
+  async function gerarAnalise(event) {
+    event.preventDefault();
+    if (perguntaAnalise.trim().length < 5) { setErroAnalise('Escreva o que você deseja comparar.'); return; }
+    setCarregandoAnalise(true); setErroAnalise('');
+    try {
+      const response = await fetch('/api/analise', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ pergunta: perguntaAnalise }) });
+      const resultado = await response.json();
+      if (!response.ok) throw new Error(resultado.erro);
+      setAnalise(resultado);
+      requestAnimationFrame(() => document.getElementById('painel-comparativo')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    } catch (error) {
+      setErroAnalise(error.message || 'Não foi possível gerar a comparação.');
+    } finally {
+      setCarregandoAnalise(false);
+    }
+  }
+
   const limparFiltros = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSituacao('Todas'); setSecretaria('Todas'); };
   const totalPaginas = Math.max(1, Math.ceil(filtradas.length / POR_PAGINA));
   const obrasDaPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
@@ -115,9 +136,14 @@ export default function Home() {
     <section className="hero">
       <div className="tag">OBRAS PÚBLICAS DE BLUMENAU</div><h1>O que está acontecendo<br/><em>perto de você?</em></h1>
       <p>Digite o nome da sua rua, bairro ou o código da obra para consultar as informações públicas.</p>
-      <form className="search" onSubmit={pesquisar}><span aria-hidden="true">⌕</span><label className="srOnly" htmlFor="busca-obras">Pesquisar rua, bairro ou código da obra</label><input id="busca-obras" value={digitado} onChange={(event) => setDigitado(event.target.value)} placeholder="Ex.: Rua Cuba, Garcia ou 3913..." autoComplete="off" inputMode="search"/><button type="submit" disabled={carregando}>{carregando ? 'Buscando...' : 'Buscar'}</button></form>
+      <div className="heroTools">
+        <form className="toolCard" onSubmit={pesquisar}><label htmlFor="busca-obras"><b>Encontre uma obra</b><span>Por rua, bairro ou código</span></label><div className="search"><span aria-hidden="true">⌕</span><input id="busca-obras" value={digitado} onChange={(event) => setDigitado(event.target.value)} placeholder="Ex.: Rua Cuba, Garcia ou 3913..." autoComplete="off" inputMode="search"/><button type="submit" disabled={carregando}>{carregando ? 'Buscando...' : 'Buscar'}</button></div></form>
+        <form className="toolCard aiTool" onSubmit={gerarAnalise}><label htmlFor="pergunta-analise"><b>Compare os dados</b><span>Faça uma pergunta ao painel</span></label><div className="aiSearch"><textarea id="pergunta-analise" value={perguntaAnalise} onChange={(event) => setPerguntaAnalise(event.target.value)} placeholder="Ex.: compare obras em andamento, concluídas e paralisadas" maxLength={400}/><button type="submit" disabled={carregandoAnalise}>{carregandoAnalise ? 'Analisando...' : 'Gerar painel'}</button></div>{erroAnalise && <small className="aiError">{erroAnalise}</small>}</form>
+      </div>
       <div className="sourceNote">Dados reais do Portal de Transparência em Obras Públicas · Sincronizados em {sincronizadoEm}</div>
     </section>
+
+    {analise && <section className="analysisDashboard" id="painel-comparativo" aria-live="polite"><div className="analysisInner"><div className="analysisHead"><div><span className="analysisEyebrow">PAINEL COMPARATIVO</span><h2>{analise.titulo}</h2><p>“{analise.pergunta}”</p></div><span className="analysisMode">{analise.modo}</span></div><p className="analysisSummary">{analise.resumo}</p><div className="analysisGrid">{analise.cards.map((card) => <article key={card.situacao}><small>{card.rotulo}</small><b>{card.quantidade}</b><span>{card.percentual}% do total</span><div><i style={{ width: `${card.percentual}%` }}/></div></article>)}</div><div className="analysisRankings"><div><h3>Órgãos com mais registros</h3>{analise.secretarias.map((item) => <p key={item.nome}><span>{item.nome}</span><b>{item.quantidade}</b></p>)}</div><div><h3>Principais tipos publicados</h3>{analise.tipos.map((item) => <p key={item.nome}><span>{item.nome}</span><b>{item.quantidade}</b></p>)}</div></div><small className="analysisNotice">Comparação calculada sobre {analise.total} registros da base oficial. A explicação não substitui a consulta aos documentos do EngeGOV.</small></div></section>}
 
     <section className="content" id="obras">
       <div className="cards"><article><small>TODAS AS OBRAS</small><b>{dados.total}</b><span>Registros publicados</span></article><article><small>EM ANDAMENTO</small><b>{contagens['EM ANDAMENTO'] || 0}</b><span>Obras e projetos ativos</span></article><article><small>CONCLUÍDAS</small><b>{contagens['CONCLUÍDA'] || 0}</b><span>Marcadas como finalizadas</span></article><article className="warn"><small>PARALISADAS</small><b>{contagens.PARALISADA || 0}</b><span>Precisam de atenção</span></article></div>

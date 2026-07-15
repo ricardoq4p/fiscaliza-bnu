@@ -24,4 +24,10 @@ npm install
 npm run dev
 ```
 
-A aplicação usa Next.js 14 e não exige banco de dados nesta fase.
+A aplicação usa Next.js 16 e não exige banco de dados nesta fase.
+
+## Painel comparativo e IA opcional
+
+O campo **Compare os dados** transforma perguntas em um painel com contagens e percentuais calculados diretamente sobre a base oficial. Ele funciona sem serviços externos, usando uma explicação automática determinística.
+
+Para habilitar também uma explicação em linguagem natural pela OpenAI, copie `.env.example` para `.env.local`, informe `OPENAI_API_KEY` e reinicie o servidor. A chave fica somente no servidor e nunca deve ser enviada ao navegador ou versionada. O modelo pode ser alterado por `OPENAI_MODEL`.
