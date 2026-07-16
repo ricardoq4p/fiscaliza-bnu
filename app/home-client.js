@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 
 const POR_PAGINA = 12;
-const RAIO_KM = 1;
+const RAIO_PADRAO_KM = 5;
 const normalizar = (texto = '') => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const titulo = (texto = '') => texto.toLocaleLowerCase('pt-BR').replace(/(^|\s)(\p{L})/gu, (_, espaco, letra) => `${espaco}${letra.toLocaleUpperCase('pt-BR')}`);
 const rotuloSituacao = (situacao) => situacao ? titulo(situacao) : 'Não informada';
@@ -29,6 +29,7 @@ export default function HomeClient({ dados }) {
   const [carregando, setCarregando] = useState(false);
   const [situacao, setSituacao] = useState('Todas');
   const [secretaria, setSecretaria] = useState('Todas');
+  const [raio, setRaio] = useState(String(RAIO_PADRAO_KM));
   const [pagina, setPagina] = useState(1);
   const [detalhes, setDetalhes] = useState({});
   const [obraAberta, setObraAberta] = useState(null);
@@ -51,19 +52,22 @@ export default function HomeClient({ dados }) {
   const filtradas = useMemo(() => {
     const termo = normalizar(busca);
     let resultado = dados.obras.map((obra) => ({ ...obra }));
-    if (local) {
+    if (raio === 'todas') {
+      resultado = resultado.sort((a, b) => String(a.codigo).localeCompare(String(b.codigo), 'pt-BR', { numeric: true }));
+    } else if (local) {
+      const limiteKm = Number(raio);
       resultado = resultado
         .filter((obra) => Number.isFinite(obra.latitude) && Number.isFinite(obra.longitude))
         .map((obra) => ({ ...obra, distancia: distanciaKm(local, obra) }))
-        .filter((obra) => obra.distancia <= RAIO_KM)
+        .filter((obra) => obra.distancia <= limiteKm)
         .sort((a, b) => a.distancia - b.distancia);
     } else if (termo) {
       resultado = resultado.filter((obra) => normalizar(`${obra.codigo} ${obra.descricao} ${obra.logradouro} ${obra.secretaria} ${obra.intervencao} ${obra.situacao}`).includes(termo));
     }
     return resultado.filter((obra) => (situacao === 'Todas' || obra.situacao === situacao) && (secretaria === 'Todas' || obra.secretaria === secretaria));
-  }, [busca, dados.obras, local, situacao, secretaria]);
+  }, [busca, dados.obras, local, raio, situacao, secretaria]);
 
-  useEffect(() => setPagina(1), [busca, local, situacao, secretaria]);
+  useEffect(() => setPagina(1), [busca, local, raio, situacao, secretaria]);
 
   useEffect(() => {
     if (!mapaAberto) return undefined;
@@ -90,8 +94,8 @@ export default function HomeClient({ dados }) {
       const response = await fetch(`/api/geocodificar?q=${encodeURIComponent(termo)}`);
       const resultado = await response.json();
       if (resultado.encontrado) {
-        setLocal({ latitude: resultado.latitude, longitude: resultado.longitude });
-        setMensagem(`Mostrando obras em um raio de ${RAIO_KM} km de ${resultado.nome}${resultado.bairro ? `, ${resultado.bairro}` : ''}.`);
+        setLocal({ latitude: resultado.latitude, longitude: resultado.longitude, nome: `${resultado.nome}${resultado.bairro ? `, ${resultado.bairro}` : ''}` });
+        setMensagem('');
       } else {
         setMensagem('Endereço não localizado. Mostrando correspondências de texto na base oficial.');
       }
@@ -221,10 +225,16 @@ export default function HomeClient({ dados }) {
     }
   }
 
-  const limparFiltros = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSituacao('Todas'); setSecretaria('Todas'); };
+  const limparFiltros = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSituacao('Todas'); setSecretaria('Todas'); setRaio(String(RAIO_PADRAO_KM)); };
+  const verTodasAsObras = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem('Mostrando todas as obras publicadas em Blumenau.'); setRaio('todas'); };
   const totalPaginas = Math.max(1, Math.ceil(filtradas.length / POR_PAGINA));
   const obrasDaPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
   const sincronizadoEm = new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'America/Sao_Paulo' }).format(new Date(dados.sincronizadoEm));
+  const descricaoBusca = local
+    ? raio === 'todas'
+      ? 'Mostrando todas as obras publicadas em Blumenau.'
+      : `Mostrando obras em um raio de ${raio} km de ${local.nome}.`
+    : mensagem || 'Pesquise pelo endereço e refine por situação, órgão responsável ou área da busca.';
   const linkMapa = (obra) => `https://www.openstreetmap.org/?mlat=${obra.latitude}&mlon=${obra.longitude}#map=18/${obra.latitude}/${obra.longitude}`;
   const mapaIncorporado = (obra) => {
     const margem = 0.004;
@@ -248,8 +258,8 @@ export default function HomeClient({ dados }) {
 
     <section className="content" id="obras">
       <div className="cards"><article><small>TODAS AS OBRAS</small><b>{dados.total}</b><span>Registros publicados</span></article><article><small>EM ANDAMENTO</small><b>{contagens['EM ANDAMENTO'] || 0}</b><span>Obras e projetos ativos</span></article><article><small>CONCLUÍDAS</small><b>{contagens['CONCLUÍDA'] || 0}</b><span>Marcadas como finalizadas</span></article><article className="warn"><small>PARALISADAS</small><b>{contagens.PARALISADA || 0}</b><span>Precisam de atenção</span></article></div>
-      <div className="sectionTitle"><div><h2>{local ? 'Obras próximas ao endereço' : 'Encontre uma obra'}</h2><p>{mensagem || 'Pesquise pelo endereço e refine por situação ou órgão responsável.'}</p></div></div>
-      <div className="filters" aria-label="Filtros de obras"><label>Situação<select value={situacao} onChange={(event) => setSituacao(event.target.value)}><option>Todas</option>{situacoes.map((item) => <option key={item} value={item}>{rotuloSituacao(item)}</option>)}</select></label><label>Órgão responsável<select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label><button className="clear" type="button" onClick={limparFiltros}>Limpar busca</button><strong className="resultCount">{filtradas.length} {filtradas.length === 1 ? 'obra encontrada' : 'obras encontradas'}</strong></div>
+      <div className="sectionTitle"><div><h2>{local && raio !== 'todas' ? 'Obras próximas ao endereço' : 'Encontre uma obra'}</h2><p>{descricaoBusca}</p></div></div>
+      <div className="filters" aria-label="Filtros de obras"><label>Situação<select value={situacao} onChange={(event) => setSituacao(event.target.value)}><option>Todas</option>{situacoes.map((item) => <option key={item} value={item}>{rotuloSituacao(item)}</option>)}</select></label><label>Órgão responsável<select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label><label>Área da busca<select value={raio} onChange={(event) => setRaio(event.target.value)}><option value="1">Até 1 km</option><option value="5">Até 5 km</option><option value="10">Até 10 km</option><option value="todas">Toda Blumenau</option></select></label><button className="clear" type="button" onClick={limparFiltros}>Limpar busca</button><strong className="resultCount">{filtradas.length} {filtradas.length === 1 ? 'obra encontrada' : 'obras encontradas'}</strong></div>
 
       {obrasDaPagina.length > 0 ? <><div className="grid">{obrasDaPagina.map((obra, indice) => {
         const orientacao = orientacaoSituacao[obra.situacao] || { titulo: 'Confira a informação', texto: 'Use o código da obra para consultar documentos e detalhes no portal oficial.' };
@@ -277,7 +287,7 @@ export default function HomeClient({ dados }) {
           </section>}
           <footer><button className="mapLink" type="button" onClick={() => { setMapaAberto(obra); setMapaMaximizado(false); }}>Ver no mapa</button><a href={dados.fonte} target="_blank" rel="noreferrer">Abrir EngeGOV ↗</a></footer>
         </article>;
-      })}</div><nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav></> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Não há obra publicada nesse raio com os filtros selecionados.</p><button type="button" onClick={limparFiltros}>Limpar busca</button></div>}
+      })}</div><nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav></> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Não há obra publicada com os filtros selecionados.</p><div className="emptyActions"><button type="button" onClick={limparFiltros}>Limpar busca</button><button type="button" onClick={verTodasAsObras}>Ver todas as {dados.total} obras</button></div></div>}
     </section>
     <section className="citizenGuide"><div><h2>Fiscalizar pode ser simples</h2><div><article><b>1. Localize</b><p>Pesquise uma rua e veja primeiro as obras realmente mais próximas.</p></article><article><b>2. Observe</b><p>Compare a situação publicada com o que você vê no local.</p></article><article><b>3. Confira</b><p>Use o código para consultar contrato, valores, prazos, medições e fotos no EngeGOV.</p></article></div></div></section>
     <section className="about" id="fonte"><div><h2>De onde vêm essas informações?</h2><p>Os registros e as coordenadas das obras são publicados pela Prefeitura de Blumenau no EngeGOV. A localização do endereço pesquisado usa dados do OpenStreetMap; a distância é aproximada, em linha reta.</p><p><b>Importante:</b> consulte o portal oficial para documentos e informações detalhadas.</p><a href={dados.fonte} target="_blank" rel="noreferrer">Acessar a fonte oficial ↗</a></div></section>
