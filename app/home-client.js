@@ -11,6 +11,19 @@ const dataBrTimestamp = (valor) => {
   const partes = String(valor || '').match(/(\d{2})\/(\d{2})\/(\d{4})/);
   return partes ? Date.UTC(Number(partes[3]), Number(partes[2]) - 1, Number(partes[1])) : null;
 };
+const obraNoPeriodo = (obra, campoData, dataDe, dataAte) => {
+  if (!dataDe && !dataAte) return true;
+  const inicioSelecionado = dataDe ? Date.parse(`${dataDe}T00:00:00Z`) : -Infinity;
+  const fimSelecionado = dataAte ? Date.parse(`${dataAte}T23:59:59Z`) : Infinity;
+  if (inicioSelecionado > fimSelecionado) return false;
+  if (campoData === 'periodoExecucao') {
+    const inicioObra = dataBrTimestamp(obra.inicioObra) ?? dataBrTimestamp(obra.dataContrato);
+    const fimObra = dataBrTimestamp(obra.terminoContrato) ?? dataBrTimestamp(obra.dataLimiteExecucao) ?? inicioObra;
+    return inicioObra !== null && fimObra !== null && inicioObra <= fimSelecionado && fimObra >= inicioSelecionado;
+  }
+  const dataObra = dataBrTimestamp(obra[campoData]);
+  return dataObra !== null && dataObra >= inicioSelecionado && dataObra <= fimSelecionado;
+};
 const orientacaoSituacao = {
   'EM ANDAMENTO': { titulo: 'Acompanhe o avanço', texto: 'Compare o andamento observado no local com as medições e o prazo publicados no portal oficial.' },
   'CONCLUÍDA': { titulo: 'Confira a entrega', texto: 'Observe acabamento, acessibilidade e se a obra entregue corresponde ao que foi anunciado.' },
@@ -51,10 +64,11 @@ export default function HomeClient({ dados }) {
 
   const situacoes = useMemo(() => [...new Set(dados.obras.map((obra) => obra.situacao).filter(Boolean))].sort(), [dados.obras]);
   const secretarias = useMemo(() => [...new Set(dados.obras.map((obra) => obra.secretaria).filter(Boolean))].sort(), [dados.obras]);
-  const contagens = useMemo(() => dados.obras.reduce((acc, obra) => {
+  const obrasDoPeriodo = useMemo(() => dados.obras.filter((obra) => obraNoPeriodo(obra, campoData, dataDe, dataAte)), [campoData, dados.obras, dataAte, dataDe]);
+  const contagens = useMemo(() => obrasDoPeriodo.reduce((acc, obra) => {
     acc[obra.situacao || 'NÃO INFORMADA'] = (acc[obra.situacao || 'NÃO INFORMADA'] || 0) + 1;
     return acc;
-  }, {}), [dados.obras]);
+  }, {}), [obrasDoPeriodo]);
 
   const filtradas = useMemo(() => {
     const termo = normalizar(busca);
@@ -72,19 +86,7 @@ export default function HomeClient({ dados }) {
       resultado = resultado.filter((obra) => normalizar(`${obra.codigo} ${obra.descricao} ${obra.logradouro} ${obra.secretaria} ${obra.intervencao} ${obra.situacao}`).includes(termo));
     }
     resultado = resultado.filter((obra) => (situacao === 'Todas' || obra.situacao === situacao) && (secretaria === 'Todas' || obra.secretaria === secretaria));
-    if (!dataDe && !dataAte) return resultado;
-    const inicioSelecionado = dataDe ? Date.parse(`${dataDe}T00:00:00Z`) : -Infinity;
-    const fimSelecionado = dataAte ? Date.parse(`${dataAte}T23:59:59Z`) : Infinity;
-    if (inicioSelecionado > fimSelecionado) return [];
-    return resultado.filter((obra) => {
-      if (campoData === 'periodoExecucao') {
-        const inicioObra = dataBrTimestamp(obra.inicioObra) ?? dataBrTimestamp(obra.dataContrato);
-        const fimObra = dataBrTimestamp(obra.terminoContrato) ?? dataBrTimestamp(obra.dataLimiteExecucao) ?? inicioObra;
-        return inicioObra !== null && fimObra !== null && inicioObra <= fimSelecionado && fimObra >= inicioSelecionado;
-      }
-      const dataObra = dataBrTimestamp(obra[campoData]);
-      return dataObra !== null && dataObra >= inicioSelecionado && dataObra <= fimSelecionado;
-    });
+    return resultado.filter((obra) => obraNoPeriodo(obra, campoData, dataDe, dataAte));
   }, [busca, campoData, dados.obras, dataAte, dataDe, local, raio, situacao, secretaria]);
 
   useEffect(() => setPagina(1), [busca, campoData, dataAte, dataDe, local, raio, situacao, secretaria]);
@@ -248,7 +250,7 @@ export default function HomeClient({ dados }) {
   const limparFiltros = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSituacao('Todas'); setSecretaria('Todas'); setRaio(String(RAIO_PADRAO_KM)); setCampoData('inicioObra'); setDataDe(''); setDataAte(''); };
   const verTodasAsObras = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem('Mostrando todas as obras publicadas em Blumenau.'); setRaio('todas'); };
   const filtrarPeloResumo = (novaSituacao) => {
-    setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSecretaria('Todas'); setRaio('todas'); setCampoData('inicioObra'); setDataDe(''); setDataAte(''); setSituacao(novaSituacao);
+    setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSecretaria('Todas'); setRaio('todas'); setSituacao(novaSituacao);
     requestAnimationFrame(() => document.getElementById('obras')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
   };
   const totalPaginas = Math.max(1, Math.ceil(filtradas.length / POR_PAGINA));
@@ -285,10 +287,11 @@ export default function HomeClient({ dados }) {
     {analise && <section className="analysisDashboard" id="painel-comparativo" aria-live="polite"><div className="analysisInner"><div className="analysisHead"><div><span className="analysisEyebrow">PAINEL COMPARATIVO</span><h2>{analise.titulo}</h2><p>“{analise.pergunta}”</p></div><span className="analysisMode">{analise.modo}</span></div><p className="analysisSummary">{analise.resumo}</p><div className="analysisGrid">{analise.cards.map((card) => <article key={card.situacao}><small>{card.rotulo}</small><b>{card.quantidade}</b><span>{card.percentual}% do total</span><div><i style={{ width: `${card.percentual}%` }}/></div></article>)}</div>{analise.contratos?.cobertura > 0 && <><div className="financeSummary"><article><small>VALOR CONTRATADO</small><b>{analise.contratos.valorContratado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</b></article><article><small>VALOR MEDIDO</small><b>{analise.contratos.valorExecutado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</b></article><article><small>PERÍODO PUBLICADO</small><b>{analise.contratos.inicioMaisAntigo || 'Não informado'} — {analise.contratos.terminoMaisRecente || 'Não informado'}</b></article></div><div className="yearTimeline"><h3>Obras por ano de início ou contratação</h3>{analise.contratos.obrasPorAno.map((item) => <p key={item.ano}><span>{item.ano}</span><i style={{ width: `${Math.max(4, item.quantidade / analise.contratos.cobertura * 100)}%` }}/><b>{item.quantidade}</b></p>)}</div></>}<div className="analysisRankings"><div><h3>Órgãos com mais registros</h3>{analise.secretarias.map((item) => <p key={item.nome}><span>{item.nome}</span><b>{item.quantidade}</b></p>)}</div><div><h3>Principais tipos publicados</h3>{analise.tipos.map((item) => <p key={item.nome}><span>{item.nome}</span><b>{item.quantidade}</b></p>)}</div></div><small className="analysisNotice">Comparação calculada sobre {analise.total} registros da base oficial. Dados de prazo e valores disponíveis para {analise.contratos?.cobertura || 0} obras sincronizadas; os totais financeiros consideram somente essa cobertura. A explicação não substitui a consulta aos documentos do EngeGOV.</small></div></section>}
 
     <section className="content" id="obras">
-      <div className="cards" aria-label="Atalhos por situação"><button type="button" className={situacao === 'Todas' ? 'active' : ''} aria-pressed={situacao === 'Todas'} onClick={() => filtrarPeloResumo('Todas')}><small>TODAS AS OBRAS</small><b>{dados.total}</b><span>Ver todos os registros</span></button><button type="button" className={situacao === 'EM ANDAMENTO' ? 'active' : ''} aria-pressed={situacao === 'EM ANDAMENTO'} onClick={() => filtrarPeloResumo('EM ANDAMENTO')}><small>EM ANDAMENTO</small><b>{contagens['EM ANDAMENTO'] || 0}</b><span>Filtrar obras ativas</span></button><button type="button" className={situacao === 'CONCLUÍDA' ? 'active' : ''} aria-pressed={situacao === 'CONCLUÍDA'} onClick={() => filtrarPeloResumo('CONCLUÍDA')}><small>CONCLUÍDAS</small><b>{contagens['CONCLUÍDA'] || 0}</b><span>Filtrar obras finalizadas</span></button><button type="button" className={`warn ${situacao === 'PARALISADA' ? 'active' : ''}`} aria-pressed={situacao === 'PARALISADA'} onClick={() => filtrarPeloResumo('PARALISADA')}><small>PARALISADAS</small><b>{contagens.PARALISADA || 0}</b><span>Filtrar obras que precisam de atenção</span></button></div>
+      <div className="summaryHead"><div><h2>Resumo das obras</h2><p>{periodoAtivo ? 'Indicadores calculados para o período selecionado.' : 'Selecione um período para recalcular os indicadores.'}</p></div></div>
+      <div className="periodFilters summaryPeriod" aria-label="Período dos indicadores"><label>Data considerada<select value={campoData} onChange={(event) => setCampoData(event.target.value)}><option value="inicioObra">Início da obra</option><option value="dataContrato">Data do contrato</option><option value="dataLimiteExecucao">Limite de execução</option><option value="terminoContrato">Término do contrato</option><option value="periodoExecucao">Período de execução</option></select></label><label>De<input type="date" value={dataDe} onChange={(event) => setDataDe(event.target.value)} /></label><label>Até<input type="date" value={dataAte} onChange={(event) => setDataAte(event.target.value)} /></label>{periodoAtivo && <button type="button" onClick={() => { setDataDe(''); setDataAte(''); }}>Limpar período</button>}<small className={periodoInvalido ? 'periodError' : ''}>{periodoInvalido ? 'A data inicial deve ser anterior à data final.' : `${coberturaDatas} de ${dados.total} obras possuem ${rotulosData[campoData]}.`}</small></div>
+      <div className="cards" aria-label="Atalhos por situação"><button type="button" className={situacao === 'Todas' ? 'active' : ''} aria-pressed={situacao === 'Todas'} onClick={() => filtrarPeloResumo('Todas')}><small>TODAS AS OBRAS</small><b>{obrasDoPeriodo.length}</b><span>{periodoAtivo ? 'Registros no período' : 'Ver todos os registros'}</span></button><button type="button" className={situacao === 'EM ANDAMENTO' ? 'active' : ''} aria-pressed={situacao === 'EM ANDAMENTO'} onClick={() => filtrarPeloResumo('EM ANDAMENTO')}><small>EM ANDAMENTO</small><b>{contagens['EM ANDAMENTO'] || 0}</b><span>Filtrar obras ativas</span></button><button type="button" className={situacao === 'CONCLUÍDA' ? 'active' : ''} aria-pressed={situacao === 'CONCLUÍDA'} onClick={() => filtrarPeloResumo('CONCLUÍDA')}><small>CONCLUÍDAS</small><b>{contagens['CONCLUÍDA'] || 0}</b><span>Filtrar obras finalizadas</span></button><button type="button" className={`warn ${situacao === 'PARALISADA' ? 'active' : ''}`} aria-pressed={situacao === 'PARALISADA'} onClick={() => filtrarPeloResumo('PARALISADA')}><small>PARALISADAS</small><b>{contagens.PARALISADA || 0}</b><span>Filtrar obras que precisam de atenção</span></button></div>
       <div className="sectionTitle"><div><h2>{local && raio !== 'todas' ? 'Obras próximas ao endereço' : 'Encontre uma obra'}</h2><p>{descricaoBusca}</p></div></div>
       <div className="filters" aria-label="Filtros de obras"><label>Situação<select value={situacao} onChange={(event) => setSituacao(event.target.value)}><option>Todas</option>{situacoes.map((item) => <option key={item} value={item}>{rotuloSituacao(item)}</option>)}</select></label><label>Órgão responsável<select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label><label>Área da busca<select value={raio} onChange={(event) => setRaio(event.target.value)}><option value="1">Até 1 km</option><option value="5">Até 5 km</option><option value="10">Até 10 km</option><option value="todas">Toda Blumenau</option></select></label><button className="clear" type="button" onClick={limparFiltros}>Limpar busca</button><strong className="resultCount">{filtradas.length} {filtradas.length === 1 ? 'obra encontrada' : 'obras encontradas'}</strong></div>
-      <div className="periodFilters" aria-label="Filtro por período"><label>Data considerada<select value={campoData} onChange={(event) => setCampoData(event.target.value)}><option value="inicioObra">Início da obra</option><option value="dataContrato">Data do contrato</option><option value="dataLimiteExecucao">Limite de execução</option><option value="terminoContrato">Término do contrato</option><option value="periodoExecucao">Período de execução</option></select></label><label>De<input type="date" value={dataDe} onChange={(event) => setDataDe(event.target.value)} /></label><label>Até<input type="date" value={dataAte} onChange={(event) => setDataAte(event.target.value)} /></label>{periodoAtivo && <button type="button" onClick={() => { setDataDe(''); setDataAte(''); }}>Limpar período</button>}<small className={periodoInvalido ? 'periodError' : ''}>{periodoInvalido ? 'A data inicial deve ser anterior à data final.' : `${coberturaDatas} de ${dados.total} obras possuem ${rotulosData[campoData]}.`}</small></div>
 
       {obrasDaPagina.length > 0 ? <><div className="grid">{obrasDaPagina.map((obra, indice) => {
         const orientacao = orientacaoSituacao[obra.situacao] || { titulo: 'Confira a informação', texto: 'Use o código da obra para consultar documentos e detalhes no portal oficial.' };
