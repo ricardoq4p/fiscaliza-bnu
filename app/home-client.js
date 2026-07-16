@@ -7,6 +7,10 @@ const RAIO_PADRAO_KM = 5;
 const normalizar = (texto = '') => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const titulo = (texto = '') => texto.toLocaleLowerCase('pt-BR').replace(/(^|\s)(\p{L})/gu, (_, espaco, letra) => `${espaco}${letra.toLocaleUpperCase('pt-BR')}`);
 const rotuloSituacao = (situacao) => situacao ? titulo(situacao) : 'Não informada';
+const dataBrTimestamp = (valor) => {
+  const partes = String(valor || '').match(/(\d{2})\/(\d{2})\/(\d{4})/);
+  return partes ? Date.UTC(Number(partes[3]), Number(partes[2]) - 1, Number(partes[1])) : null;
+};
 const orientacaoSituacao = {
   'EM ANDAMENTO': { titulo: 'Acompanhe o avanço', texto: 'Compare o andamento observado no local com as medições e o prazo publicados no portal oficial.' },
   'CONCLUÍDA': { titulo: 'Confira a entrega', texto: 'Observe acabamento, acessibilidade e se a obra entregue corresponde ao que foi anunciado.' },
@@ -30,6 +34,9 @@ export default function HomeClient({ dados }) {
   const [situacao, setSituacao] = useState('Todas');
   const [secretaria, setSecretaria] = useState('Todas');
   const [raio, setRaio] = useState(String(RAIO_PADRAO_KM));
+  const [campoData, setCampoData] = useState('inicioObra');
+  const [dataDe, setDataDe] = useState('');
+  const [dataAte, setDataAte] = useState('');
   const [pagina, setPagina] = useState(1);
   const [detalhes, setDetalhes] = useState({});
   const [obraAberta, setObraAberta] = useState(null);
@@ -64,10 +71,23 @@ export default function HomeClient({ dados }) {
     } else if (termo) {
       resultado = resultado.filter((obra) => normalizar(`${obra.codigo} ${obra.descricao} ${obra.logradouro} ${obra.secretaria} ${obra.intervencao} ${obra.situacao}`).includes(termo));
     }
-    return resultado.filter((obra) => (situacao === 'Todas' || obra.situacao === situacao) && (secretaria === 'Todas' || obra.secretaria === secretaria));
-  }, [busca, dados.obras, local, raio, situacao, secretaria]);
+    resultado = resultado.filter((obra) => (situacao === 'Todas' || obra.situacao === situacao) && (secretaria === 'Todas' || obra.secretaria === secretaria));
+    if (!dataDe && !dataAte) return resultado;
+    const inicioSelecionado = dataDe ? Date.parse(`${dataDe}T00:00:00Z`) : -Infinity;
+    const fimSelecionado = dataAte ? Date.parse(`${dataAte}T23:59:59Z`) : Infinity;
+    if (inicioSelecionado > fimSelecionado) return [];
+    return resultado.filter((obra) => {
+      if (campoData === 'periodoExecucao') {
+        const inicioObra = dataBrTimestamp(obra.inicioObra) ?? dataBrTimestamp(obra.dataContrato);
+        const fimObra = dataBrTimestamp(obra.terminoContrato) ?? dataBrTimestamp(obra.dataLimiteExecucao) ?? inicioObra;
+        return inicioObra !== null && fimObra !== null && inicioObra <= fimSelecionado && fimObra >= inicioSelecionado;
+      }
+      const dataObra = dataBrTimestamp(obra[campoData]);
+      return dataObra !== null && dataObra >= inicioSelecionado && dataObra <= fimSelecionado;
+    });
+  }, [busca, campoData, dados.obras, dataAte, dataDe, local, raio, situacao, secretaria]);
 
-  useEffect(() => setPagina(1), [busca, local, raio, situacao, secretaria]);
+  useEffect(() => setPagina(1), [busca, campoData, dataAte, dataDe, local, raio, situacao, secretaria]);
 
   useEffect(() => {
     if (!mapaAberto) return undefined;
@@ -225,7 +245,7 @@ export default function HomeClient({ dados }) {
     }
   }
 
-  const limparFiltros = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSituacao('Todas'); setSecretaria('Todas'); setRaio(String(RAIO_PADRAO_KM)); };
+  const limparFiltros = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem(''); setSituacao('Todas'); setSecretaria('Todas'); setRaio(String(RAIO_PADRAO_KM)); setCampoData('inicioObra'); setDataDe(''); setDataAte(''); };
   const verTodasAsObras = () => { setDigitado(''); setBusca(''); setLocal(null); setMensagem('Mostrando todas as obras publicadas em Blumenau.'); setRaio('todas'); };
   const totalPaginas = Math.max(1, Math.ceil(filtradas.length / POR_PAGINA));
   const obrasDaPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
@@ -235,6 +255,10 @@ export default function HomeClient({ dados }) {
       ? 'Mostrando todas as obras publicadas em Blumenau.'
       : `Mostrando obras em um raio de ${raio} km de ${local.nome}.`
     : mensagem || 'Pesquise pelo endereço e refine por situação, órgão responsável ou área da busca.';
+  const periodoAtivo = Boolean(dataDe || dataAte);
+  const periodoInvalido = Boolean(dataDe && dataAte && dataDe > dataAte);
+  const rotulosData = { dataContrato: 'data do contrato', inicioObra: 'início da obra', dataLimiteExecucao: 'limite de execução', terminoContrato: 'término do contrato', periodoExecucao: 'período de execução' };
+  const coberturaDatas = dados.obras.filter((obra) => campoData === 'periodoExecucao' ? obra.inicioObra || obra.dataContrato : obra[campoData]).length;
   const linkMapa = (obra) => `https://www.openstreetmap.org/?mlat=${obra.latitude}&mlon=${obra.longitude}#map=18/${obra.latitude}/${obra.longitude}`;
   const mapaIncorporado = (obra) => {
     const margem = 0.004;
@@ -260,6 +284,7 @@ export default function HomeClient({ dados }) {
       <div className="cards"><article><small>TODAS AS OBRAS</small><b>{dados.total}</b><span>Registros publicados</span></article><article><small>EM ANDAMENTO</small><b>{contagens['EM ANDAMENTO'] || 0}</b><span>Obras e projetos ativos</span></article><article><small>CONCLUÍDAS</small><b>{contagens['CONCLUÍDA'] || 0}</b><span>Marcadas como finalizadas</span></article><article className="warn"><small>PARALISADAS</small><b>{contagens.PARALISADA || 0}</b><span>Precisam de atenção</span></article></div>
       <div className="sectionTitle"><div><h2>{local && raio !== 'todas' ? 'Obras próximas ao endereço' : 'Encontre uma obra'}</h2><p>{descricaoBusca}</p></div></div>
       <div className="filters" aria-label="Filtros de obras"><label>Situação<select value={situacao} onChange={(event) => setSituacao(event.target.value)}><option>Todas</option>{situacoes.map((item) => <option key={item} value={item}>{rotuloSituacao(item)}</option>)}</select></label><label>Órgão responsável<select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label><label>Área da busca<select value={raio} onChange={(event) => setRaio(event.target.value)}><option value="1">Até 1 km</option><option value="5">Até 5 km</option><option value="10">Até 10 km</option><option value="todas">Toda Blumenau</option></select></label><button className="clear" type="button" onClick={limparFiltros}>Limpar busca</button><strong className="resultCount">{filtradas.length} {filtradas.length === 1 ? 'obra encontrada' : 'obras encontradas'}</strong></div>
+      <div className="periodFilters" aria-label="Filtro por período"><label>Data considerada<select value={campoData} onChange={(event) => setCampoData(event.target.value)}><option value="inicioObra">Início da obra</option><option value="dataContrato">Data do contrato</option><option value="dataLimiteExecucao">Limite de execução</option><option value="terminoContrato">Término do contrato</option><option value="periodoExecucao">Período de execução</option></select></label><label>De<input type="date" value={dataDe} onChange={(event) => setDataDe(event.target.value)} /></label><label>Até<input type="date" value={dataAte} onChange={(event) => setDataAte(event.target.value)} /></label>{periodoAtivo && <button type="button" onClick={() => { setDataDe(''); setDataAte(''); }}>Limpar período</button>}<small className={periodoInvalido ? 'periodError' : ''}>{periodoInvalido ? 'A data inicial deve ser anterior à data final.' : `${coberturaDatas} de ${dados.total} obras possuem ${rotulosData[campoData]}.`}</small></div>
 
       {obrasDaPagina.length > 0 ? <><div className="grid">{obrasDaPagina.map((obra, indice) => {
         const orientacao = orientacaoSituacao[obra.situacao] || { titulo: 'Confira a informação', texto: 'Use o código da obra para consultar documentos e detalhes no portal oficial.' };
