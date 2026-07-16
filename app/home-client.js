@@ -33,6 +33,7 @@ export default function HomeClient({ dados }) {
   const [detalhes, setDetalhes] = useState({});
   const [obraAberta, setObraAberta] = useState(null);
   const [mapaAberto, setMapaAberto] = useState(null);
+  const [mapaMaximizado, setMapaMaximizado] = useState(false);
   const [carregandoDetalhes, setCarregandoDetalhes] = useState(null);
   const [erroDetalhes, setErroDetalhes] = useState('');
   const [perguntaAnalise, setPerguntaAnalise] = useState('');
@@ -274,15 +275,15 @@ export default function HomeClient({ dados }) {
               <button className="pdfButton" type="button" onClick={() => gerarPdfContrato(obra, detalhes[obra.codigo])}>Gerar PDF deste contrato</button>
             </>}
           </section>}
-          <footer><button className="mapLink" type="button" onClick={() => setMapaAberto(obra)}>Ver no mapa</button><a href={dados.fonte} target="_blank" rel="noreferrer">Abrir EngeGOV ↗</a></footer>
+          <footer><button className="mapLink" type="button" onClick={() => { setMapaAberto(obra); setMapaMaximizado(false); }}>Ver no mapa</button><a href={dados.fonte} target="_blank" rel="noreferrer">Abrir EngeGOV ↗</a></footer>
         </article>;
       })}</div><nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav></> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Não há obra publicada nesse raio com os filtros selecionados.</p><button type="button" onClick={limparFiltros}>Limpar busca</button></div>}
     </section>
     <section className="citizenGuide"><div><h2>Fiscalizar pode ser simples</h2><div><article><b>1. Localize</b><p>Pesquise uma rua e veja primeiro as obras realmente mais próximas.</p></article><article><b>2. Observe</b><p>Compare a situação publicada com o que você vê no local.</p></article><article><b>3. Confira</b><p>Use o código para consultar contrato, valores, prazos, medições e fotos no EngeGOV.</p></article></div></div></section>
     <section className="about" id="fonte"><div><h2>De onde vêm essas informações?</h2><p>Os registros e as coordenadas das obras são publicados pela Prefeitura de Blumenau no EngeGOV. A localização do endereço pesquisado usa dados do OpenStreetMap; a distância é aproximada, em linha reta.</p><p><b>Importante:</b> consulte o portal oficial para documentos e informações detalhadas.</p><a href={dados.fonte} target="_blank" rel="noreferrer">Acessar a fonte oficial ↗</a></div></section>
     {mapaAberto && <div className="mapModalBackdrop" role="presentation" onMouseDown={() => setMapaAberto(null)}>
-      <section className="mapModal" role="dialog" aria-modal="true" aria-labelledby="mapa-titulo" onMouseDown={(event) => event.stopPropagation()}>
-        <header><div><small>LOCALIZAÇÃO DA OBRA</small><h2 id="mapa-titulo">{titulo(mapaAberto.logradouro || mapaAberto.descricao)}</h2></div><button type="button" aria-label="Fechar mapa" onClick={() => setMapaAberto(null)}>×</button></header>
+      <section className={`mapModal ${mapaMaximizado ? 'maximized' : ''}`} role="dialog" aria-modal="true" aria-labelledby="mapa-titulo" onMouseDown={(event) => event.stopPropagation()}>
+        <header><div><small>LOCALIZAÇÃO DA OBRA</small><h2 id="mapa-titulo">{titulo(mapaAberto.logradouro || mapaAberto.descricao)}</h2></div><div className="mapModalActions"><button type="button" aria-label={mapaMaximizado ? 'Restaurar tamanho do mapa' : 'Maximizar mapa'} title={mapaMaximizado ? 'Restaurar' : 'Maximizar'} onClick={() => setMapaMaximizado((atual) => !atual)}>{mapaMaximizado ? '❐' : '⛶'}</button><button type="button" aria-label="Fechar mapa" title="Fechar" onClick={() => setMapaAberto(null)}>×</button></div></header>
         <iframe title={`Mapa da obra ${mapaAberto.codigo}`} src={mapaIncorporado(mapaAberto)} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
         <footer><span>Código {mapaAberto.codigo}</span><a href={linkMapa(mapaAberto)} target="_blank" rel="noreferrer">Abrir mapa completo ↗</a></footer>
       </section>
