@@ -6,7 +6,9 @@ Uso: python scripts/sync_obras.py
 from __future__ import annotations
 
 import json
+import os
 import re
+import ssl
 import unicodedata
 import urllib.parse
 import urllib.request
@@ -22,6 +24,17 @@ PORTAL_URL = "https://engegov.blumenau.sc.gov.br/portal-engegov/dashboard.xhtml?
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "obras.json"
 
 
+def criar_opener() -> urllib.request.OpenerDirector:
+    handlers: list[object] = [urllib.request.HTTPCookieProcessor(CookieJar())]
+    if os.environ.get("ENGEGOV_INSECURE_SSL") == "1":
+        contexto = ssl.create_default_context()
+        contexto.check_hostname = False
+        contexto.verify_mode = ssl.CERT_NONE
+        handlers.append(urllib.request.HTTPSHandler(context=contexto))
+        print("AVISO: validação SSL desativada somente para esta sincronização do EngeGOV.")
+    return urllib.request.build_opener(*handlers)
+
+
 def texto(value: object) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
@@ -32,7 +45,7 @@ def chave(value: object) -> str:
 
 
 def baixar_planilha() -> bytes:
-    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(CookieJar()))
+    opener = criar_opener()
     with opener.open(PORTAL_URL, timeout=45) as response:
         page = response.read()
 
@@ -56,7 +69,7 @@ def baixar_planilha() -> bytes:
 
 def baixar_coordenadas() -> dict[str, tuple[float, float]]:
     """Lê, em uma única resposta Ajax, os marcadores do mapa público."""
-    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(CookieJar()))
+    opener = criar_opener()
     with opener.open(PORTAL_URL, timeout=45) as response:
         page = response.read()
 
@@ -142,3 +155,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
