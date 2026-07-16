@@ -119,6 +119,90 @@ export default function HomeClient({ dados }) {
     }
   }
 
+  async function gerarPdfContrato(obra, detalhe) {
+    const { jsPDF } = await import('jspdf');
+    const documento = new jsPDF({ unit: 'mm', format: 'a4' });
+    const margem = 18;
+    const largura = 210 - margem * 2;
+    let y = 20;
+
+    const novaPaginaSeNecessario = (altura = 12) => {
+      if (y + altura <= 278) return;
+      documento.addPage();
+      y = 20;
+    };
+    const adicionarCampo = (rotulo, valor) => {
+      novaPaginaSeNecessario(16);
+      documento.setFont('helvetica', 'bold');
+      documento.setFontSize(9);
+      documento.setTextColor(8, 122, 101);
+      documento.text(rotulo.toUpperCase(), margem, y);
+      y += 5;
+      documento.setFont('helvetica', 'normal');
+      documento.setFontSize(11);
+      documento.setTextColor(21, 38, 59);
+      const linhas = documento.splitTextToSize(String(valor || 'Não informado'), largura);
+      documento.text(linhas, margem, y);
+      y += linhas.length * 5 + 5;
+    };
+
+    documento.setFillColor(8, 122, 101);
+    documento.rect(0, 0, 210, 8, 'F');
+    documento.setFont('helvetica', 'bold');
+    documento.setFontSize(20);
+    documento.setTextColor(21, 38, 59);
+    documento.text('Fiscaliza BNU', margem, y);
+    y += 9;
+    documento.setFontSize(14);
+    const descricao = documento.splitTextToSize(titulo(obra.descricao), largura);
+    documento.text(descricao, margem, y);
+    y += descricao.length * 6 + 5;
+    documento.setDrawColor(223, 231, 237);
+    documento.line(margem, y, 210 - margem, y);
+    y += 8;
+
+    adicionarCampo('Código da obra', obra.codigo);
+    adicionarCampo('Situação', rotuloSituacao(obra.situacao));
+    adicionarCampo('Endereço', `${titulo(obra.logradouro || 'Não informado')} — Blumenau, SC`);
+    adicionarCampo('Órgão responsável', obra.secretaria);
+    adicionarCampo('Tipo de intervenção', obra.intervencao);
+    adicionarCampo('Execução publicada', `${detalhe.percentualExecutado || '0'}%`);
+    adicionarCampo('Valor contratado', `R$ ${detalhe.valorContratado || 'Não informado'}`);
+    adicionarCampo('Valor medido', `R$ ${detalhe.valorExecutado || 'Não informado'}`);
+    adicionarCampo('Saldo do contrato', `R$ ${detalhe.saldoContrato || 'Não informado'}`);
+    adicionarCampo('Empresa', detalhe.empresa);
+    adicionarCampo('CNPJ', detalhe.cnpj);
+    adicionarCampo('Contrato', detalhe.contrato);
+    adicionarCampo('Licitação', detalhe.licitacao);
+    adicionarCampo('Início da obra', detalhe.inicioObra);
+    adicionarCampo('Limite de execução', detalhe.dataLimiteExecucao);
+    adicionarCampo('Término do contrato', detalhe.terminoContrato);
+    adicionarCampo('Ordem de serviço', detalhe.ordemServico);
+    adicionarCampo('Origem do recurso', detalhe.tipoRecurso);
+
+    if (detalhe.medicoes?.length) {
+      novaPaginaSeNecessario(18);
+      documento.setFont('helvetica', 'bold');
+      documento.setFontSize(13);
+      documento.text('Medições publicadas', margem, y);
+      y += 8;
+      detalhe.medicoes.forEach((medicao) => {
+        adicionarCampo(`Medição ${medicao.numero}`, `${medicao.data || 'Data não informada'} · ${medicao.percentual || 'Percentual não informado'} · R$ ${medicao.valor || 'Valor não informado'}`);
+      });
+    }
+
+    novaPaginaSeNecessario(24);
+    documento.setDrawColor(223, 231, 237);
+    documento.line(margem, y, 210 - margem, y);
+    y += 6;
+    documento.setFont('helvetica', 'normal');
+    documento.setFontSize(8);
+    documento.setTextColor(96, 113, 128);
+    const aviso = documento.splitTextToSize('Documento informativo gerado pelo Fiscaliza BNU com dados consultados no EngeGOV. Confirme contratos, aditivos, prazos, medições e demais documentos na fonte oficial.', largura);
+    documento.text(aviso, margem, y);
+    documento.save(`fiscaliza-bnu-obra-${obra.codigo}.pdf`);
+  }
+
   async function gerarAnalise(event) {
     event.preventDefault();
     if (perguntaAnalise.trim().length < 5) { setErroAnalise('Escreva o que você deseja comparar.'); return; }
@@ -187,6 +271,7 @@ export default function HomeClient({ dados }) {
               <div className="resource"><small>Origem do recurso</small><b>{detalhes[obra.codigo].tipoRecurso || 'Não informada'}</b></div>
               {detalhes[obra.codigo].medicoes?.length > 0 && <><h4>Medições publicadas</h4>{detalhes[obra.codigo].medicoes.map((medicao) => <div className="measurement" key={medicao.numero}><b>Medição {medicao.numero}</b><span>{medicao.data}</span><span>{medicao.percentual} · R$ {medicao.valor}</span></div>)}</>}
               <small className="detailSource">Consulta realizada no EngeGOV. Confirme documentos, aditivos, paralisações, etapas e fotos na fonte oficial.</small>
+              <button className="pdfButton" type="button" onClick={() => gerarPdfContrato(obra, detalhes[obra.codigo])}>Gerar PDF deste contrato</button>
             </>}
           </section>}
           <footer><button className="mapLink" type="button" onClick={() => setMapaAberto(obra)}>Ver no mapa</button><a href={dados.fonte} target="_blank" rel="noreferrer">Abrir EngeGOV ↗</a></footer>
@@ -205,4 +290,5 @@ export default function HomeClient({ dados }) {
     <footer className="footer"><b>Fiscaliza BNU</b><p>Informação pública em linguagem simples para fortalecer a participação cidadã.</p></footer>
   </main>;
 }
+
 
