@@ -1,6 +1,6 @@
 {
   "fonte": "https://engegov.blumenau.sc.gov.br/portal-engegov/dashboard.xhtml?cidade=4898",
-  "sincronizadoEm": "2026-07-15T12:37:54+00:00",
+  "sincronizadoEm": "2026-07-16T14:22:51+00:00",
   "total": 483,
   "obras": [
     {
@@ -2469,7 +2469,7 @@
       "descricao": "EXECUÇÃO DE DRENAGEM E PAVIMENTAÇÃO ASFÁLTICA - R. HELMUND TRAPP [OBRA REPROGRAMADA]",
       "logradouro": "RUA HELMUND TRAPP",
       "intervencao": "Execução de Obra",
-      "situacao": "EM ANDAMENTO",
+      "situacao": "PARALISADA",
       "latitude": -26.8447903,
       "longitude": -49.1546522
     },
