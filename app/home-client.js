@@ -32,6 +32,7 @@ export default function HomeClient({ dados }) {
   const [pagina, setPagina] = useState(1);
   const [detalhes, setDetalhes] = useState({});
   const [obraAberta, setObraAberta] = useState(null);
+  const [mapaAberto, setMapaAberto] = useState(null);
   const [carregandoDetalhes, setCarregandoDetalhes] = useState(null);
   const [erroDetalhes, setErroDetalhes] = useState('');
   const [perguntaAnalise, setPerguntaAnalise] = useState('');
@@ -62,6 +63,17 @@ export default function HomeClient({ dados }) {
   }, [busca, dados.obras, local, situacao, secretaria]);
 
   useEffect(() => setPagina(1), [busca, local, situacao, secretaria]);
+
+  useEffect(() => {
+    if (!mapaAberto) return undefined;
+    const fecharComEscape = (event) => { if (event.key === 'Escape') setMapaAberto(null); };
+    document.addEventListener('keydown', fecharComEscape);
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', fecharComEscape);
+      document.body.style.overflow = '';
+    };
+  }, [mapaAberto]);
 
   async function pesquisar(event) {
     event.preventDefault();
@@ -129,6 +141,11 @@ export default function HomeClient({ dados }) {
   const obrasDaPagina = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
   const sincronizadoEm = new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'America/Sao_Paulo' }).format(new Date(dados.sincronizadoEm));
   const linkMapa = (obra) => `https://www.openstreetmap.org/?mlat=${obra.latitude}&mlon=${obra.longitude}#map=18/${obra.latitude}/${obra.longitude}`;
+  const mapaIncorporado = (obra) => {
+    const margem = 0.004;
+    const bbox = [obra.longitude - margem, obra.latitude - margem, obra.longitude + margem, obra.latitude + margem].join(',');
+    return `https://www.openstreetmap.org/export/embed.html?bbox=${encodeURIComponent(bbox)}&layer=mapnik&marker=${obra.latitude},${obra.longitude}`;
+  };
 
   return <main>
     <header><div className="nav"><strong>Fiscaliza <span>BNU</span></strong><nav><a href="#obras">Pesquisar obras</a><a href="#fonte">Sobre os dados</a></nav></div></header>
@@ -172,12 +189,20 @@ export default function HomeClient({ dados }) {
               <small className="detailSource">Consulta realizada no EngeGOV. Confirme documentos, aditivos, paralisações, etapas e fotos na fonte oficial.</small>
             </>}
           </section>}
-          <footer><a href={linkMapa(obra)} target="_blank" rel="noreferrer">Ver no mapa</a><a href={dados.fonte} target="_blank" rel="noreferrer">Abrir EngeGOV ↗</a></footer>
+          <footer><button className="mapLink" type="button" onClick={() => setMapaAberto(obra)}>Ver no mapa</button><a href={dados.fonte} target="_blank" rel="noreferrer">Abrir EngeGOV ↗</a></footer>
         </article>;
       })}</div><nav className="pagination" aria-label="Paginação"><button type="button" disabled={pagina === 1} onClick={() => setPagina((atual) => atual - 1)}>← Anterior</button><span>Página <b>{pagina}</b> de {totalPaginas}</span><button type="button" disabled={pagina === totalPaginas} onClick={() => setPagina((atual) => atual + 1)}>Próxima →</button></nav></> : <div className="empty"><b>Nenhuma obra encontrada</b><p>Não há obra publicada nesse raio com os filtros selecionados.</p><button type="button" onClick={limparFiltros}>Limpar busca</button></div>}
     </section>
     <section className="citizenGuide"><div><h2>Fiscalizar pode ser simples</h2><div><article><b>1. Localize</b><p>Pesquise uma rua e veja primeiro as obras realmente mais próximas.</p></article><article><b>2. Observe</b><p>Compare a situação publicada com o que você vê no local.</p></article><article><b>3. Confira</b><p>Use o código para consultar contrato, valores, prazos, medições e fotos no EngeGOV.</p></article></div></div></section>
     <section className="about" id="fonte"><div><h2>De onde vêm essas informações?</h2><p>Os registros e as coordenadas das obras são publicados pela Prefeitura de Blumenau no EngeGOV. A localização do endereço pesquisado usa dados do OpenStreetMap; a distância é aproximada, em linha reta.</p><p><b>Importante:</b> consulte o portal oficial para documentos e informações detalhadas.</p><a href={dados.fonte} target="_blank" rel="noreferrer">Acessar a fonte oficial ↗</a></div></section>
+    {mapaAberto && <div className="mapModalBackdrop" role="presentation" onMouseDown={() => setMapaAberto(null)}>
+      <section className="mapModal" role="dialog" aria-modal="true" aria-labelledby="mapa-titulo" onMouseDown={(event) => event.stopPropagation()}>
+        <header><div><small>LOCALIZAÇÃO DA OBRA</small><h2 id="mapa-titulo">{titulo(mapaAberto.logradouro || mapaAberto.descricao)}</h2></div><button type="button" aria-label="Fechar mapa" onClick={() => setMapaAberto(null)}>×</button></header>
+        <iframe title={`Mapa da obra ${mapaAberto.codigo}`} src={mapaIncorporado(mapaAberto)} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+        <footer><span>Código {mapaAberto.codigo}</span><a href={linkMapa(mapaAberto)} target="_blank" rel="noreferrer">Abrir mapa completo ↗</a></footer>
+      </section>
+    </div>}
     <footer className="footer"><b>Fiscaliza BNU</b><p>Informação pública em linguagem simples para fortalecer a participação cidadã.</p></footer>
   </main>;
 }
+
