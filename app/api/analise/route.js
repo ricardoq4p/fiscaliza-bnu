@@ -65,36 +65,20 @@ function formatarDataBrasil(data) {
 }
 
 function extrairPeriodo(pergunta) {
-  const texto = normalizar(pergunta);
-  const matchMeses = texto.match(/ultim(?:o|os|a|as)\s+(\d+|um|uma|dois|duas|tres|quatro|cinco|seis|sete|oito|nove|dez|onze|doze)\s+mes(?:es)?/);
-  if (matchMeses) {
-    const bruto = matchMeses[1];
-    const meses = Number(bruto) || palavrasNumero[bruto] || null;
-    if (meses) return { meses, rotulo: `últimos ${meses} meses` };
-  }
-
-  if (/ultim(?:o|os|a|as)\s+ano/.test(texto)) {
-    return { meses: 12, rotulo: 'últimos 12 meses' };
-  }
-
-  if (/ultim(?:o|os|a|as)\s+semestre/.test(texto)) {
-    return { meses: 6, rotulo: 'últimos 6 meses' };
-  }
-
+  const texto=normalizar(pergunta),agora=new Date(),hoje=new Date(Date.UTC(agora.getUTCFullYear(),agora.getUTCMonth(),agora.getUTCDate(),23,59,59,999));
+  const nomes='janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro',indices={janeiro:0,fevereiro:1,marco:2,abril:3,maio:4,junho:5,julho:6,agosto:7,setembro:8,outubro:9,novembro:10,dezembro:11};
+  const encontrados=[...texto.matchAll(new RegExp(`\\b(${nomes})\\s+(?:de\\s+)?(\\d{4})\\b`,'g'))];
+  if(encontrados.length){const primeiro=encontrados[0],inicio=new Date(Date.UTC(Number(primeiro[2]),indices[primeiro[1]],1)),ultimo=encontrados.at(-1),fim=/ate agora|ate hoje|atualmente|momento/.test(texto)?hoje:new Date(Date.UTC(Number(ultimo[2]),indices[ultimo[1]]+1,0,23,59,59,999));return{inicio:inicio.toISOString(),fim:fim.toISOString(),rotulo:`${formatarDataBrasil(inicio)} a ${formatarDataBrasil(fim)}`}}
+  const anos=[...texto.matchAll(/\b(20\d{2})\b/g)].map(x=>Number(x[1]));if(anos.length){const inicio=new Date(Date.UTC(anos[0],0,1)),fim=/ate agora|ate hoje|atualmente|momento/.test(texto)?hoje:new Date(Date.UTC(anos.at(-1),11,31,23,59,59,999));return{inicio:inicio.toISOString(),fim:fim.toISOString(),rotulo:`${formatarDataBrasil(inicio)} a ${formatarDataBrasil(fim)}`}}
+  const m=texto.match(/ultim(?:o|os|a|as)\s+(\d+|um|uma|dois|duas|tres|quatro|cinco|seis|sete|oito|nove|dez|onze|doze)\s+mes(?:es)?/);if(m){const meses=Number(m[1])||palavrasNumero[m[1]]||null;if(meses)return{meses,rotulo:`últimos ${meses} meses`}}
+  if(/ultim(?:o|os|a|as)\s+ano/.test(texto))return{meses:12,rotulo:'últimos 12 meses'};
+  if(/ultim(?:o|os|a|as)\s+semestre/.test(texto))return{meses:6,rotulo:'últimos 6 meses'};
   return null;
 }
 
-function obraDentroDoPeriodo(obra, periodo, referencia) {
-  if (!periodo) return true;
-  const dataBase = dataBrasilParaDate(obra.inicioObra) || dataBrasilParaDate(obra.dataContrato);
-  if (!dataBase) return false;
-  const inicioJanela = new Date(Date.UTC(
-    referencia.getUTCFullYear(),
-    referencia.getUTCMonth() - periodo.meses,
-    referencia.getUTCDate()
-  ));
-  return dataBase >= inicioJanela && dataBase <= referencia;
-}
+function limitesPeriodo(periodo,referencia){if(!periodo)return null;if(periodo.inicio&&periodo.fim)return{inicio:new Date(periodo.inicio),fim:new Date(periodo.fim)};return{inicio:new Date(Date.UTC(referencia.getUTCFullYear(),referencia.getUTCMonth()-periodo.meses,referencia.getUTCDate())),fim:referencia}}
+function obraDentroDoPeriodo(obra,periodo,referencia){if(!periodo)return true;const dataBase=dataBrasilParaDate(obra.inicioObra)||dataBrasilParaDate(obra.dataContrato);if(!dataBase)return false;const limites=limitesPeriodo(periodo,referencia);return dataBase>=limites.inicio&&dataBase<=limites.fim}
+function filtrarObrasPeriodo(dados,detalhes,periodo){if(!periodo)return dados;const referencia=dados.sincronizadoEm?new Date(dados.sincronizadoEm):new Date();return{...dados,obras:dados.obras.filter(obra=>obraDentroDoPeriodo(detalhes.obras?.[obra.codigo]||{},periodo,referencia))}}
 
 function resumoContratos(dados, detalhes, situacoes, periodo) {
   const permitidas = new Set(situacoes);
@@ -114,16 +98,7 @@ function resumoContratos(dados, detalhes, situacoes, periodo) {
   const terminos = registros.map((obra) => obra.terminoContrato || obra.dataLimiteExecucao).filter(dataOrdenavel).sort((a, b) => dataOrdenavel(a).localeCompare(dataOrdenavel(b)));
   return {
     cobertura: registros.length,
-    periodo: periodo ? {
-      meses: periodo.meses,
-      rotulo: periodo.rotulo,
-      de: formatarDataBrasil(new Date(Date.UTC(
-        referencia.getUTCFullYear(),
-        referencia.getUTCMonth() - periodo.meses,
-        referencia.getUTCDate()
-      ))),
-      ate: formatarDataBrasil(referencia)
-    } : null,
+    periodo: periodo ? (() => { const limites=limitesPeriodo(periodo,referencia); return { ...periodo, de:formatarDataBrasil(limites.inicio), ate:formatarDataBrasil(limites.fim) }; })() : null,
     inicioMaisAntigo: inicios[0] || null,
     terminoMaisRecente: terminos.at(-1) || null,
     valorContratado: somar('valorContratado'),
@@ -174,7 +149,7 @@ async function explicarComIA(pergunta, fatos) {
       model: process.env.OPENAI_MODEL || 'gpt-5.6-luna',
       max_output_tokens: 220,
       input: [
-        { role: 'system', content: 'Você explica dados públicos de obras para cidadãos. Use somente os fatos fornecidos, não invente causas, prazos ou valores. Escreva um parágrafo curto, objetivo e em português do Brasil. Diferencie claramente contagem de interpretação. Quando houver um período em contratos.periodo, trate esse recorte temporal como referência principal da resposta.' },
+        { role: 'system', content: 'Você explica dados públicos de obras para cidadãos. Use somente os fatos fornecidos, não invente causas, prazos ou valores. Escreva um parágrafo curto, objetivo e em português do Brasil. Diferencie claramente contagem de interpretação. Quando houver periodoAplicado, os totais e cartões já estarão filtrados por esse intervalo; informe o período aplicado e nunca diga que ele está vazio.' },
         { role: 'user', content: JSON.stringify({ pergunta, fatos }) }
       ]
     }),
@@ -195,20 +170,16 @@ export async function POST(request) {
       getDetalhesDataset(),
     ]);
 
-    const total = dados.obras.length;
-    const todasSituacoes = contagemPor(dados, 'situacao');
-    const cards = selecionarSituacoes(pergunta, todasSituacoes).map(([situacao, quantidade]) => ({
-      situacao,
-      rotulo: rotulos[situacao] || situacao,
-      quantidade,
-      percentual: Number(((quantidade / total) * 100).toFixed(1))
-    }));
-    const secretarias = contagemPor(dados, 'secretaria').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
-    const tipos = contagemPor(dados, 'intervencao').slice(0, 5).map(([nome, quantidade]) => ({ nome, quantidade }));
-    const periodo = extrairPeriodo(pergunta);
-    const contratos = resumoContratos(dados, detalhes, cards.map((card) => card.situacao), periodo);
-    const fatos = { total, situacoes: cards, maioresSecretarias: secretarias, principaisTipos: tipos, contratos, periodo, sincronizadoEm: dados.sincronizadoEm };
-    let resumo = resumoLocalComContratos(cards, total, contratos);
+    const periodo=extrairPeriodo(pergunta);
+    const dadosPeriodo=filtrarObrasPeriodo(dados,detalhes,periodo);
+    const total=dadosPeriodo.obras.length;
+    const todasSituacoes=contagemPor(dadosPeriodo,'situacao');
+    const cards=selecionarSituacoes(pergunta,todasSituacoes).map(([situacao,quantidade])=>({situacao,rotulo:rotulos[situacao]||situacao,quantidade,percentual:total?Number(((quantidade/total)*100).toFixed(1)):0}));
+    const secretarias=contagemPor(dadosPeriodo,'secretaria').slice(0,5).map(([nome,quantidade])=>({nome,quantidade}));
+    const tipos=contagemPor(dadosPeriodo,'intervencao').slice(0,5).map(([nome,quantidade])=>({nome,quantidade}));
+    const contratos=resumoContratos(dados,detalhes,cards.map(card=>card.situacao),periodo);
+    const fatos={total,totalBase:dados.obras.length,situacoes:cards,maioresSecretarias:secretarias,principaisTipos:tipos,contratos,periodoAplicado:periodo,sincronizadoEm:dados.sincronizadoEm};
+    let resumo=total?resumoLocalComContratos(cards,total,contratos):`Não foram encontradas obras com data oficial no período ${periodo?.rotulo||'solicitado'}.`;
     let modo = 'análise automática';
     try {
       const textoIA = await explicarComIA(pergunta, fatos);
@@ -217,8 +188,10 @@ export async function POST(request) {
       console.error('Falha opcional na explicação por IA:', error.message);
     }
 
-    return Response.json({ titulo: 'Comparação solicitada', pergunta, resumo, modo, total, cards, secretarias, tipos, contratos, sincronizadoEm: dados.sincronizadoEm });
-  } catch {
+    const titulo=periodo?`Comparação de ${periodo.rotulo}`:'Comparação solicitada';
+    return Response.json({titulo,pergunta,resumo,modo,total,cards,secretarias,tipos,contratos,periodo,sincronizadoEm:dados.sincronizadoEm});
+  } catch(error){
+    console.error('Falha ao analisar solicitação:',error);
     return Response.json({ erro: 'Não foi possível analisar a solicitação.' }, { status: 400 });
   }
 }
