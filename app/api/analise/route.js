@@ -135,6 +135,59 @@ function resumoLocalComContratos(cards, total, contratos) {
   return `${base} Para ${contratos.periodo.rotulo}, considerando obras com início ou contrato entre ${contratos.periodo.de} e ${contratos.periodo.ate}, a cobertura é de ${contratos.cobertura} obras, com valor contratado de R$ ${formatarMoeda(contratos.valorContratado)} e valor executado de R$ ${formatarMoeda(contratos.valorExecutado)}.`;
 }
 
+function analisarEmpresas(pergunta, dados, detalhes, periodo) {
+  const texto = normalizar(pergunta);
+  if (!/cnpj|empresa|fornecedor|contratada|empreiteira/.test(texto)) return null;
+  const referencia = dados.sincronizadoEm ? new Date(dados.sincronizadoEm) : new Date();
+  const cadastro = new Map(dados.obras.map((obra) => [obra.codigo, obra]));
+  const registrosComEmpresa = Object.values(detalhes.obras || {}).filter((detalhe) =>
+    (detalhe.empresa || detalhe.cnpj) && obraDentroDoPeriodo(detalhe, periodo, referencia)
+  );
+  const cnpjConsultado = pergunta.match(/\b\d{2}[.\s]?\d{3}[.\s]?\d{3}[\s/]?(?:\d{4})[-\s]?\d{2}\b/)?.[0] || null;
+  const digitosConsultados = cnpjConsultado?.replace(/\D/g, '') || '';
+  const nomesConhecidos = [...new Set(registrosComEmpresa.map((item) => item.empresa).filter(Boolean))];
+  const nomesCitados = nomesConhecidos.filter((nome) => texto.includes(normalizar(nome)));
+  const termos = texto.split(/\s+/).filter((termo) => termo.length >= 4 && !/empresa|cnpj|fornecedor|contratada|empreiteira|quanto|quais|qual|valor|valores|dados|sobre|dessa|desta|contrato|prefeitura|blumenau|ganhou|recebeu|pagou|obras|total/.test(termo));
+  let encontrados = registrosComEmpresa.filter((detalhe) => {
+    if (digitosConsultados) return String(detalhe.cnpj || '').replace(/\D/g, '') === digitosConsultados;
+    if (nomesCitados.length) return nomesCitados.includes(detalhe.empresa);
+    const nome = normalizar(detalhe.empresa || '');
+    return termos.length > 0 && termos.filter((termo) => nome.includes(termo)).length >= Math.min(2, termos.length);
+  });
+  if (!digitosConsultados && !nomesCitados.length && !encontrados.length && /quais|maiores|todas|ranking|mais contratos|mais obras/.test(texto)) encontrados = registrosComEmpresa;
+
+  const grupos = new Map();
+  encontrados.forEach((detalhe) => {
+    const cnpj = String(detalhe.cnpj || '').replace(/\D/g, '');
+    const chave = cnpj || normalizar(detalhe.empresa || 'empresa não informada');
+    if (!grupos.has(chave)) grupos.set(chave, { empresa: detalhe.empresa || 'Empresa não informada', cnpj: detalhe.cnpj || null, quantidade: 0, valorContratado: 0, valorExecutado: 0, saldoContrato: 0, obras: [] });
+    const grupo = grupos.get(chave);
+    const obra = cadastro.get(detalhe.codigo);
+    grupo.quantidade += 1;
+    grupo.valorContratado += numeroMoeda(detalhe.valorContratado) || 0;
+    grupo.valorExecutado += numeroMoeda(detalhe.valorExecutado) || 0;
+    grupo.saldoContrato += numeroMoeda(detalhe.saldoContrato) || 0;
+    grupo.obras.push({ codigo: detalhe.codigo, descricao: obra?.descricao || 'Obra não identificada', situacao: obra?.situacao || 'NÃO INFORMADA', contrato: detalhe.contrato || null, valorContratado: numeroMoeda(detalhe.valorContratado) || 0, valorExecutado: numeroMoeda(detalhe.valorExecutado) || 0 });
+  });
+  const resultados = [...grupos.values()].sort((a, b) => b.valorContratado - a.valorContratado).slice(0, 20);
+  return {
+    consulta: cnpjConsultado || nomesCitados[0] || termos.join(' '),
+    coberturaEmpresarial: registrosComEmpresa.length,
+    empresasEncontradas: resultados.length,
+    contratosEncontrados: resultados.reduce((total, item) => total + item.quantidade, 0),
+    valorContratado: resultados.reduce((total, item) => total + item.valorContratado, 0),
+    valorExecutado: resultados.reduce((total, item) => total + item.valorExecutado, 0),
+    saldoContrato: resultados.reduce((total, item) => total + item.saldoContrato, 0),
+    resultados
+  };
+}
+
+function resumoEmpresarial(empresas) {
+  if (!empresas.coberturaEmpresarial) return 'A base consolidada ainda não possui empresa e CNPJ. Execute a atualização dos detalhes para habilitar a consulta empresarial.';
+  if (!empresas.empresasEncontradas) return `Nenhuma empresa ou CNPJ correspondente a “${empresas.consulta || 'consulta informada'}” foi encontrado nos ${empresas.coberturaEmpresarial} contratos com fornecedor identificado.`;
+  return `Foram encontradas ${empresas.empresasEncontradas} empresa(s), relacionadas a ${empresas.contratosEncontrados} obra(s). O valor contratado soma R$ ${formatarMoeda(empresas.valorContratado)} e o valor medido soma R$ ${formatarMoeda(empresas.valorExecutado)}. Esses valores não devem ser interpretados como pagamentos efetivamente realizados.`;
+}
+
 function extrairTexto(resposta) {
   if (typeof resposta.output_text === 'string') return resposta.output_text.trim();
   return resposta.output?.flatMap((item) => item.content || []).map((item) => item.text).filter(Boolean).join('\n').trim();
@@ -149,7 +202,7 @@ async function explicarComIA(pergunta, fatos) {
       model: process.env.OPENAI_MODEL || 'gpt-5.6-luna',
       max_output_tokens: 220,
       input: [
-        { role: 'system', content: 'Você explica dados públicos de obras para cidadãos. Use somente os fatos fornecidos, não invente causas, prazos ou valores. Escreva um parágrafo curto, objetivo e em português do Brasil. Diferencie claramente contagem de interpretação. Quando houver periodoAplicado, os totais e cartões já estarão filtrados por esse intervalo; informe o período aplicado e nunca diga que ele está vazio.' },
+        { role: 'system', content: 'Você explica dados públicos de obras para cidadãos. Use somente os fatos fornecidos, não invente causas, prazos ou valores. Escreva um parágrafo curto, objetivo e em português do Brasil. Diferencie claramente contagem de interpretação. Quando houver periodoAplicado, os totais e cartões já estarão filtrados por esse intervalo; informe o período aplicado e nunca diga que ele está vazio. Em consultas empresariais, diferencie valor contratado, valor medido e pagamento: nunca afirme que uma empresa recebeu ou ganhou o valor quando a fonte informa somente contratação ou medição.' },
         { role: 'user', content: JSON.stringify({ pergunta, fatos }) }
       ]
     }),
@@ -171,6 +224,13 @@ export async function POST(request) {
     ]);
 
     const periodo=extrairPeriodo(pergunta);
+    const empresas=analisarEmpresas(pergunta,dados,detalhes,periodo);
+    if(empresas){
+      const fatos={tipo:'consulta empresarial',empresas,periodoAplicado:periodo,sincronizadoEm:dados.sincronizadoEm,nota:'valorExecutado é medido, não necessariamente pago'};
+      let resumo=resumoEmpresarial(empresas),modo='análise automática';
+      try{const textoIA=await explicarComIA(pergunta,fatos);if(textoIA){resumo=textoIA;modo='IA + dados oficiais'}}catch(error){console.error('Falha opcional na explicação empresarial por IA:',error.message)}
+      return Response.json({titulo:'Consulta de empresas e CNPJs',pergunta,resumo,modo,total:empresas.contratosEncontrados,cards:[],secretarias:[],tipos:[],contratos:null,periodo,empresas,sincronizadoEm:dados.sincronizadoEm});
+    }
     const dadosPeriodo=filtrarObrasPeriodo(dados,detalhes,periodo);
     const total=dadosPeriodo.obras.length;
     const todasSituacoes=contagemPor(dadosPeriodo,'situacao');

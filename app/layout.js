@@ -1,6 +1,7 @@
 import './globals.css';
 import 'leaflet/dist/leaflet.css';
 import './map.css';
+import './business.css';
 
 export const metadata = {
   title: 'Fiscaliza BNU',

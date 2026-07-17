@@ -41,3 +41,5 @@ npm run sync:details -- --limit 20
 ```
 
 Para completar toda a base, execute `npm run sync:details -- --all`. O arquivo `data/detalhes-obras.json` guarda o progresso e alimenta o painel com datas de contrato, início, limite de execução, término, valores contratado/medido, saldo e percentual executado. O painel sempre informa a cobertura usada nos totais.
+
+Para atualizar registros antigos com empresa, CNPJ, licitação e contrato, execute `npm run sync:details -- --refresh --all`. A consulta empresarial do painel agrupa os registros por CNPJ e diferencia valor contratado, valor medido e saldo; ela não trata medição como pagamento realizado.

@@ -52,6 +52,10 @@ def analisar(resposta: bytes, codigo: str) -> dict[str, object]:
         "valorContratado": dinheiro(texto, "Valor Total Contratado"),
         "valorExecutado": dinheiro(texto, r"Valor Executado \(Medido\)"),
         "saldoContrato": dinheiro(texto, "Saldo do Contrato"),
+        "empresa": entre(texto, "Empresa:", "CNPJ:"),
+        "cnpj": entre(texto, "CNPJ:", "Dados da contrataÃ§Ã£o"),
+        "licitacao": entre(texto, "NÃºmero da licitaÃ§Ã£o:", "NÃºmero do Contrato:"),
+        "contrato": entre(texto, "NÃºmero do Contrato:", "Data do Contrato:"),
         "dataContrato": entre(texto, "Data do Contrato:", r"N[º°]? Ordem de Serviço:"),
         "inicioObra": entre(texto, "Início da obra:", "Data Limite Execução:"),
         "dataLimiteExecucao": entre(texto, "Data Limite Execução:", "Término Contrato:"),
@@ -64,6 +68,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=20, help="Quantidade máxima nesta execução")
     parser.add_argument("--all", action="store_true", help="Sincroniza todas as obras ainda pendentes")
+    parser.add_argument("--refresh", action="store_true", help="Atualiza novamente registros existentes para incluir novos campos")
     parser.add_argument("--delay", type=float, default=0.8, help="Intervalo entre requisições")
     args = parser.parse_args()
 
@@ -72,7 +77,7 @@ def main() -> None:
     detalhes = atual.get("obras", {})
     codigos_validos = {obra["codigo"] for obra in lista if re.fullmatch(r"(?:\d+|C\d+)", obra.get("codigo", ""), re.I)}
     detalhes = {codigo: detalhe for codigo, detalhe in detalhes.items() if codigo in codigos_validos}
-    pendentes = [obra for obra in lista if obra.get("codigo") in codigos_validos and obra["codigo"] not in detalhes]
+    pendentes = [obra for obra in lista if obra.get("codigo") in codigos_validos and (args.refresh or obra["codigo"] not in detalhes)]
     if not args.all:
         pendentes = pendentes[:max(args.limit, 0)]
     if not pendentes:
