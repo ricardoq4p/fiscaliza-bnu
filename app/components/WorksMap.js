@@ -25,11 +25,12 @@ const categoria = (obra) => {
   return 'Outros estabelecimentos';
 };
 
-export default function WorksMap({ works, sourceUrl }) {
+export default function WorksMap({ works, sourceUrl, onSelect }) {
   const mapNodeRef = useRef(null);
   const mapRef = useRef(null);
   const leafletRef = useRef(null);
   const markersLayerRef = useRef(null);
+  const onSelectRef = useRef(onSelect);
   const [status, setStatus] = useState('Todas');
   const [secretaria, setSecretaria] = useState('Todas');
   const [tipo, setTipo] = useState('Todas');
@@ -40,6 +41,8 @@ export default function WorksMap({ works, sourceUrl }) {
   const categorias = useMemo(() => [...new Set(geolocalizadas.map(categoria))].sort(), [geolocalizadas]);
   const contagens = useMemo(() => geolocalizadas.reduce((total, obra) => ({ ...total, [obra.situacao]: (total[obra.situacao] || 0) + 1 }), {}), [geolocalizadas]);
   const visiveis = useMemo(() => geolocalizadas.filter((obra) => (status === 'Todas' || obra.situacao === status) && (secretaria === 'Todas' || obra.secretaria === secretaria) && (tipo === 'Todas' || categoria(obra) === tipo)), [geolocalizadas, secretaria, status, tipo]);
+
+  useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
 
   useEffect(() => {
     let ativo = true;
@@ -71,6 +74,7 @@ export default function WorksMap({ works, sourceUrl }) {
       const marcador = L.marker([obra.latitude, obra.longitude], { icon: L.divIcon({ className: 'obraMapMarkerIcon', html: `<span class="obraMapMarker obraMapMarker--${configuracao.classe}">${configuracao.simbolo}</span>`, iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -15] }) });
       const osmUrl = `https://www.openstreetmap.org/?mlat=${obra.latitude}&mlon=${obra.longitude}#map=18/${obra.latitude}/${obra.longitude}`;
       marcador.bindPopup(`<article class="obraMapPopup"><small>${escaparHtml(rotuloSituacao(obra.situacao))} · Código ${escaparHtml(obra.codigo)}</small><strong>${escaparHtml(titulo(obra.descricao))}</strong><span>${escaparHtml(titulo(obra.logradouro || 'Endereço não informado'))}</span><span>${escaparHtml(obra.secretaria || 'Órgão não informado')}</span><div><a href="${osmUrl}" target="_blank" rel="noreferrer">Abrir no mapa</a><a href="${escaparHtml(sourceUrl)}" target="_blank" rel="noreferrer">Ver no EngeGOV</a></div></article>`, { maxWidth: 310, minWidth: 240 });
+      marcador.on('click', () => onSelectRef.current?.(obra));
       marcador.addTo(layer);
       limites.push([obra.latitude, obra.longitude]);
     });

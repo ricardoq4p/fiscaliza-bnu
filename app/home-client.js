@@ -55,6 +55,7 @@ export default function HomeClient({ dados }) {
   const [detalhes, setDetalhes] = useState({});
   const [obraAberta, setObraAberta] = useState(null);
   const [mapaAberto, setMapaAberto] = useState(null);
+  const [obraPinAberta, setObraPinAberta] = useState(null);
   const [mapaMaximizado, setMapaMaximizado] = useState(false);
   const [carregandoDetalhes, setCarregandoDetalhes] = useState(null);
   const [erroDetalhes, setErroDetalhes] = useState('');
@@ -140,6 +141,23 @@ export default function HomeClient({ dados }) {
       const resultado = await response.json();
       if (!response.ok) throw new Error(resultado.erro);
       setDetalhes((atuais) => ({ ...atuais, [codigo]: resultado }));
+    } catch (error) {
+      setErroDetalhes(error.message || 'Não foi possível carregar os detalhes.');
+    } finally {
+      setCarregandoDetalhes(null);
+    }
+  }
+
+  async function abrirObraDoMapa(obra) {
+    setObraPinAberta(obra);
+    setErroDetalhes('');
+    if (detalhes[obra.codigo]) return;
+    setCarregandoDetalhes(obra.codigo);
+    try {
+      const response = await fetch(`/api/obras/${obra.codigo}`);
+      const resultado = await response.json();
+      if (!response.ok) throw new Error(resultado.erro);
+      setDetalhes((atuais) => ({ ...atuais, [obra.codigo]: resultado }));
     } catch (error) {
       setErroDetalhes(error.message || 'Não foi possível carregar os detalhes.');
     } finally {
@@ -324,7 +342,8 @@ export default function HomeClient({ dados }) {
     </section>
     <section className="citizenGuide"><div><h2>Fiscalizar pode ser simples</h2><div><article><b>1. Localize</b><p>Pesquise uma rua e veja primeiro as obras realmente mais próximas.</p></article><article><b>2. Observe</b><p>Compare a situação publicada com o que você vê no local.</p></article><article><b>3. Confira</b><p>Use o código para consultar contrato, valores, prazos, medições e fotos no EngeGOV.</p></article></div></div></section>
     <section className="about" id="fonte"><div><h2>De onde vêm essas informações?</h2><p>Os registros e as coordenadas das obras são publicados pela Prefeitura de Blumenau no EngeGOV. A localização do endereço pesquisado usa dados do OpenStreetMap; a distância é aproximada, em linha reta.</p><p><b>Importante:</b> consulte o portal oficial para documentos e informações detalhadas.</p><a href={dados.fonte} target="_blank" rel="noreferrer">Acessar a fonte oficial ↗</a></div></section>
-    <section className="mapSection" id="mapa-obras"><div className="mapSectionIntro"><span>VISÃO POR TERRITÓRIO</span><h2>Localização<br/>real das<br/>obras</h2><p>Filtre o mapa por situação, secretaria ou tipo de estabelecimento. Use o zoom, mova o mapa e clique em um ícone para abrir os detalhes.</p><div className="mapIntroLegend"><span><i className="andamento">↗</i>Em andamento</span><span><i className="concluida">✓</i>Concluída</span><span><i className="paralisada">×</i>Paralisada</span></div><a href="#obras">Alterar filtros da consulta →</a></div><WorksMap works={dados.obras} sourceUrl={dados.fonte}/></section>
+    <section className="mapSection" id="mapa-obras"><div className="mapSectionIntro"><span>VISÃO POR TERRITÓRIO</span><h2>Localização<br/>real das<br/>obras</h2><p>Filtre o mapa por situação, secretaria ou tipo de estabelecimento. Use o zoom, mova o mapa e clique em um ícone para abrir os detalhes.</p><div className="mapIntroLegend"><span><i className="andamento">↗</i>Em andamento</span><span><i className="concluida">✓</i>Concluída</span><span><i className="paralisada">×</i>Paralisada</span></div><a href="#obras">Alterar filtros da consulta →</a></div><WorksMap works={dados.obras} sourceUrl={dados.fonte} onSelect={abrirObraDoMapa}/></section>
+    {obraPinAberta && <div className="mapModalBackdrop" role="presentation" onMouseDown={() => setObraPinAberta(null)}><section className="pinDetailsModal" role="dialog" aria-modal="true" aria-labelledby="pin-obra-titulo" onMouseDown={(event) => event.stopPropagation()}><header><div><small>{rotuloSituacao(obraPinAberta.situacao)} · CÓDIGO {obraPinAberta.codigo}</small><h2 id="pin-obra-titulo">{titulo(obraPinAberta.descricao)}</h2><p>{titulo(obraPinAberta.logradouro || 'Endereço não informado')} · Blumenau, SC</p></div><button type="button" aria-label="Fechar detalhes" onClick={() => setObraPinAberta(null)}>×</button></header><div className="pinDetailsBody"><div className="pinBasicGrid"><article><small>TIPO</small><b>{obraPinAberta.intervencao || 'Não informado'}</b></article><article><small>RESPONSÁVEL</small><b>{obraPinAberta.secretaria || 'Não informado'}</b></article></div>{carregandoDetalhes === obraPinAberta.codigo && <p>Consultando contrato e andamento no EngeGOV...</p>}{erroDetalhes && <p className="detailsError">{erroDetalhes}</p>}{detalhes[obraPinAberta.codigo] && <><div className="progressTitle"><span>Execução publicada</span><b>{detalhes[obraPinAberta.codigo].percentualExecutado || '0'}%</b></div><div className="progressTrack"><i style={{width:`${Math.min(Number(String(detalhes[obraPinAberta.codigo].percentualExecutado).replace(',', '.')) || 0,100)}%`}}/></div><div className="moneyGrid"><div><small>Valor contratado</small><b>R$ {detalhes[obraPinAberta.codigo].valorContratado || 'Não informado'}</b></div><div><small>Valor medido</small><b>R$ {detalhes[obraPinAberta.codigo].valorExecutado || 'Não informado'}</b></div><div><small>Saldo do contrato</small><b>R$ {detalhes[obraPinAberta.codigo].saldoContrato || 'Não informado'}</b></div></div><div className="contractGrid"><div><small>Empresa</small><b>{detalhes[obraPinAberta.codigo].empresa || 'Não informada'}</b></div><div><small>Contrato</small><b>{detalhes[obraPinAberta.codigo].contrato || 'Não informado'}</b></div><div><small>Início da obra</small><b>{detalhes[obraPinAberta.codigo].inicioObra || 'Não informado'}</b></div><div><small>Limite de execução</small><b>{detalhes[obraPinAberta.codigo].dataLimiteExecucao || 'Não informado'}</b></div></div></>}</div><footer><a href={linkMapa(obraPinAberta)} target="_blank" rel="noreferrer">Abrir no OpenStreetMap ↗</a><a href={dados.fonte} target="_blank" rel="noreferrer">Ver documentos no EngeGOV ↗</a></footer></section></div>}
     {mapaAberto && <div className="mapModalBackdrop" role="presentation" onMouseDown={() => setMapaAberto(null)}>
       <section className={`mapModal ${mapaMaximizado ? 'maximized' : ''}`} role="dialog" aria-modal="true" aria-labelledby="mapa-titulo" onMouseDown={(event) => event.stopPropagation()}>
         <header><div><small>LOCALIZAÇÃO DA OBRA</small><h2 id="mapa-titulo">{titulo(mapaAberto.logradouro || mapaAberto.descricao)}</h2></div><div className="mapModalActions"><button type="button" aria-label={mapaMaximizado ? 'Restaurar tamanho do mapa' : 'Maximizar mapa'} title={mapaMaximizado ? 'Restaurar' : 'Maximizar'} onClick={() => setMapaMaximizado((atual) => !atual)}>{mapaMaximizado ? '❐' : '⛶'}</button><button type="button" aria-label="Fechar mapa" title="Fechar" onClick={() => setMapaAberto(null)}>×</button></div></header>
