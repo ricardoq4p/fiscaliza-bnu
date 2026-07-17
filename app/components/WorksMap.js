@@ -2,10 +2,28 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 
-const CORES = { 'EM ANDAMENTO': '#087a65', 'CONCLUÍDA': '#246b9c', PARALISADA: '#d97706' };
+const STATUS = [
+  { valor: 'Todas', rotulo: 'Todas', simbolo: '', classe: '' },
+  { valor: 'EM ANDAMENTO', rotulo: 'Em andamento', simbolo: '↗', classe: 'andamento' },
+  { valor: 'CONCLUÍDA', rotulo: 'Concluída', simbolo: '✓', classe: 'concluida' },
+  { valor: 'PARALISADA', rotulo: 'Paralisada', simbolo: '×', classe: 'paralisada' }
+];
 const escaparHtml = (valor = '') => String(valor).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
 const titulo = (texto = '') => texto.toLocaleLowerCase('pt-BR').replace(/(^|\s)(\p{L})/gu, (_, espaco, letra) => `${espaco}${letra.toLocaleUpperCase('pt-BR')}`);
 const rotuloSituacao = (situacao) => titulo(situacao || 'Não informada');
+const normalizar = (texto = '') => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR');
+const categoria = (obra) => {
+  const texto = normalizar(`${obra.descricao} ${obra.logradouro}`);
+  if (/mercado|feira|comerc|abastecimento/.test(texto)) return 'Mercados e comércio';
+  if (/escola|educa|creche|cei\b|ebm\b|quadra escolar|centro infantil/.test(texto)) return 'Escolas e educação';
+  if (/saude|hospital|ambulator|ubs\b|esf\b|policlin|farmacia/.test(texto)) return 'Saúde';
+  if (/parque|praca|esport|ginasio|campo|lazer|pista|ciclov/.test(texto)) return 'Lazer e esporte';
+  if (/rua|ponte|passarela|viaduto|paviment|drenagem|calcada|sinaliza|terminal|corredor|ribeirao/.test(texto)) return 'Mobilidade e infraestrutura';
+  if (/centro comunit|assistencia|cras\b|abrigo|habitacao/.test(texto)) return 'Atendimento social';
+  if (/museu|teatro|cultura|turismo|biblioteca/.test(texto)) return 'Cultura e turismo';
+  if (/sede|predio|administr|secretaria|arquivo publico/.test(texto)) return 'Prédios públicos';
+  return 'Outros estabelecimentos';
+};
 
 export default function WorksMap({ works, sourceUrl }) {
   const mapNodeRef = useRef(null);
@@ -14,11 +32,14 @@ export default function WorksMap({ works, sourceUrl }) {
   const markersLayerRef = useRef(null);
   const [status, setStatus] = useState('Todas');
   const [secretaria, setSecretaria] = useState('Todas');
+  const [tipo, setTipo] = useState('Todas');
   const [fullscreen, setFullscreen] = useState(false);
   const [mapReady, setMapReady] = useState(false);
   const geolocalizadas = useMemo(() => works.filter((obra) => Number.isFinite(obra.latitude) && Number.isFinite(obra.longitude)), [works]);
   const secretarias = useMemo(() => [...new Set(geolocalizadas.map((obra) => obra.secretaria).filter(Boolean))].sort(), [geolocalizadas]);
-  const visiveis = useMemo(() => geolocalizadas.filter((obra) => (status === 'Todas' || obra.situacao === status) && (secretaria === 'Todas' || obra.secretaria === secretaria)), [geolocalizadas, secretaria, status]);
+  const categorias = useMemo(() => [...new Set(geolocalizadas.map(categoria))].sort(), [geolocalizadas]);
+  const contagens = useMemo(() => geolocalizadas.reduce((total, obra) => ({ ...total, [obra.situacao]: (total[obra.situacao] || 0) + 1 }), {}), [geolocalizadas]);
+  const visiveis = useMemo(() => geolocalizadas.filter((obra) => (status === 'Todas' || obra.situacao === status) && (secretaria === 'Todas' || obra.secretaria === secretaria) && (tipo === 'Todas' || categoria(obra) === tipo)), [geolocalizadas, secretaria, status, tipo]);
 
   useEffect(() => {
     let ativo = true;
@@ -46,8 +67,8 @@ export default function WorksMap({ works, sourceUrl }) {
     layer.clearLayers();
     const limites = [];
     visiveis.forEach((obra) => {
-      const cor = CORES[obra.situacao] || '#64748b';
-      const marcador = L.marker([obra.latitude, obra.longitude], { icon: L.divIcon({ className: 'obraMapMarkerWrapper', html: `<span class="obraMapMarker" style="--marker-color:${cor}"><i></i></span>`, iconSize: [28, 36], iconAnchor: [14, 34], popupAnchor: [0, -31] }) });
+      const configuracao = STATUS.find((item) => item.valor === obra.situacao) || { simbolo: '•', classe: 'outra' };
+      const marcador = L.marker([obra.latitude, obra.longitude], { icon: L.divIcon({ className: `obraMapMarker obraMapMarker--${configuracao.classe}`, html: `<span>${configuracao.simbolo}</span>`, iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -15] }) });
       const osmUrl = `https://www.openstreetmap.org/?mlat=${obra.latitude}&mlon=${obra.longitude}#map=18/${obra.latitude}/${obra.longitude}`;
       marcador.bindPopup(`<article class="obraMapPopup"><small>${escaparHtml(rotuloSituacao(obra.situacao))} · Código ${escaparHtml(obra.codigo)}</small><strong>${escaparHtml(titulo(obra.descricao))}</strong><span>${escaparHtml(titulo(obra.logradouro || 'Endereço não informado'))}</span><span>${escaparHtml(obra.secretaria || 'Órgão não informado')}</span><div><a href="${osmUrl}" target="_blank" rel="noreferrer">Abrir no mapa</a><a href="${escaparHtml(sourceUrl)}" target="_blank" rel="noreferrer">Ver no EngeGOV</a></div></article>`, { maxWidth: 310, minWidth: 240 });
       marcador.addTo(layer);
@@ -65,8 +86,10 @@ export default function WorksMap({ works, sourceUrl }) {
   }, [fullscreen]);
 
   return <div className={`worksMapShell ${fullscreen ? 'fullscreen' : ''}`}>
-    <div className="worksMapToolbar"><div><b>{visiveis.length} obras no mapa</b><span>{geolocalizadas.length} registros possuem coordenadas publicadas</span></div><label>Situação<select value={status} onChange={(event) => setStatus(event.target.value)}><option>Todas</option><option value="EM ANDAMENTO">Em andamento</option><option value="CONCLUÍDA">Concluídas</option><option value="PARALISADA">Paralisadas</option></select></label><label>Órgão responsável<select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label><button type="button" onClick={() => setFullscreen((atual) => !atual)}>{fullscreen ? 'Sair da tela cheia' : 'Ampliar mapa'}</button></div>
+    <div className="worksMapToolbar">
+      <div className="mapStatusButtons">{STATUS.map((item) => <button type="button" key={item.valor} className={status === item.valor ? 'active' : ''} onClick={() => setStatus(item.valor)}>{item.simbolo && <i className={item.classe}>{item.simbolo}</i>}<span>{item.rotulo}<small>{item.valor === 'Todas' ? geolocalizadas.length : contagens[item.valor] || 0}</small></span></button>)}</div>
+      <div className="mapSelectFilters"><label><span>Secretaria</span><select value={secretaria} onChange={(event) => setSecretaria(event.target.value)}><option>Todas</option>{secretarias.map((item) => <option key={item}>{item}</option>)}</select></label><label><span>Tipo de estabelecimento</span><select value={tipo} onChange={(event) => setTipo(event.target.value)}><option>Todas</option>{categorias.map((item) => <option key={item}>{item}</option>)}</select><small>Categoria estimada pelo nome da obra.</small></label><button className="mapFullscreenButton" type="button" onClick={() => setFullscreen((atual) => !atual)}>⛶ {fullscreen ? 'Sair da tela cheia' : 'Tela cheia'}</button><button className="mapClearButton" type="button" onClick={() => { setStatus('Todas'); setSecretaria('Todas'); setTipo('Todas'); }}>Limpar filtros</button><strong>{visiveis.length} no mapa</strong></div>
+    </div>
     <div ref={mapNodeRef} className="worksMapCanvas" aria-label="Mapa interativo das obras públicas de Blumenau" />
-    <div className="worksMapLegend" aria-label="Legenda do mapa"><span><i className="andamento"/>Em andamento</span><span><i className="concluida"/>Concluída</span><span><i className="paralisada"/>Paralisada</span></div>
   </div>;
 }
