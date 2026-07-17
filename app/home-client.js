@@ -6,6 +6,12 @@ import BusinessPanel from './components/BusinessPanel';
 
 const POR_PAGINA = 12;
 const RAIO_PADRAO_KM = 5;
+const SUGESTOES_IA = [
+  'Compare obras em andamento, concluídas e paralisadas',
+  'Quais órgãos possuem mais obras em andamento?',
+  'Compare os valores contratados e medidos das obras',
+  'Quais empresas possuem os maiores valores contratados?'
+];
 const normalizar = (texto = '') => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const titulo = (texto = '') => texto.toLocaleLowerCase('pt-BR').replace(/(^|\s)(\p{L})/gu, (_, espaco, letra) => `${espaco}${letra.toLocaleUpperCase('pt-BR')}`);
 const rotuloSituacao = (situacao) => situacao ? titulo(situacao) : 'Não informada';
@@ -60,7 +66,7 @@ export default function HomeClient({ dados }) {
   const [mapaMaximizado, setMapaMaximizado] = useState(false);
   const [carregandoDetalhes, setCarregandoDetalhes] = useState(null);
   const [erroDetalhes, setErroDetalhes] = useState('');
-  const [perguntaAnalise, setPerguntaAnalise] = useState('');
+  const [perguntaAnalise, setPerguntaAnalise] = useState(SUGESTOES_IA[0]);
   const [analise, setAnalise] = useState(null);
   const [carregandoAnalise, setCarregandoAnalise] = useState(false);
   const [erroAnalise, setErroAnalise] = useState('');
@@ -299,7 +305,7 @@ export default function HomeClient({ dados }) {
       <p>Digite o nome da sua rua, bairro ou o código da obra para consultar as informações públicas.</p>
       <div className="heroTools">
         <form className="toolCard" onSubmit={pesquisar}><label htmlFor="busca-obras"><b>Encontre uma obra</b><span>Por rua, bairro ou código</span></label><div className="search"><span aria-hidden="true">⌕</span><input id="busca-obras" value={digitado} onChange={(event) => setDigitado(event.target.value)} placeholder="Ex.: Rua Cuba, Garcia ou 3913..." autoComplete="off" inputMode="search"/><button type="submit" disabled={carregando}>{carregando ? 'Buscando...' : 'Buscar'}</button></div></form>
-        <form className="toolCard aiTool" onSubmit={gerarAnalise}><label htmlFor="pergunta-analise"><b>Compare os dados</b><span>Faça uma pergunta ao painel</span></label><div className="aiSearch"><textarea id="pergunta-analise" value={perguntaAnalise} onChange={(event) => setPerguntaAnalise(event.target.value)} placeholder="Ex.: busque uma empresa ou CNPJ e some seus contratos" maxLength={400}/><button type="submit" disabled={carregandoAnalise}>{carregandoAnalise ? 'Analisando...' : 'Gerar painel'}</button></div>{erroAnalise && <small className="aiError">{erroAnalise}</small>}</form>
+        <form className="toolCard aiTool" onSubmit={gerarAnalise}><label htmlFor="pergunta-analise"><b>Compare os dados</b><span>Faça uma pergunta ao painel</span></label><div className="aiSearch"><textarea id="pergunta-analise" value={perguntaAnalise} onChange={(event) => setPerguntaAnalise(event.target.value)} placeholder="Ex.: busque uma empresa ou CNPJ e some seus contratos" maxLength={400}/><button type="submit" disabled={carregandoAnalise}>{carregandoAnalise ? 'Analisando...' : 'Gerar painel'}</button></div><div className="aiSuggestions" aria-label="Perguntas sugeridas"><small>SUGESTÕES</small>{SUGESTOES_IA.map((sugestao)=><button type="button" key={sugestao} className={perguntaAnalise===sugestao?'active':''} onClick={()=>setPerguntaAnalise(sugestao)}>{sugestao}</button>)}</div>{erroAnalise && <small className="aiError">{erroAnalise}</small>}</form>
       </div>
       <div className="sourceNote">Dados reais do Portal de Transparência em Obras Públicas · Sincronizados em {sincronizadoEm}</div>
     </section>
