@@ -68,7 +68,7 @@ export default function WorksMap({ works, sourceUrl }) {
     const limites = [];
     visiveis.forEach((obra) => {
       const configuracao = STATUS.find((item) => item.valor === obra.situacao) || { simbolo: '•', classe: 'outra' };
-      const marcador = L.marker([obra.latitude, obra.longitude], { icon: L.divIcon({ className: `obraMapMarker obraMapMarker--${configuracao.classe}`, html: `<span>${configuracao.simbolo}</span>`, iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -15] }) });
+      const marcador = L.marker([obra.latitude, obra.longitude], { icon: L.divIcon({ className: 'obraMapMarkerIcon', html: `<span class="obraMapMarker obraMapMarker--${configuracao.classe}">${configuracao.simbolo}</span>`, iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -15] }) });
       const osmUrl = `https://www.openstreetmap.org/?mlat=${obra.latitude}&mlon=${obra.longitude}#map=18/${obra.latitude}/${obra.longitude}`;
       marcador.bindPopup(`<article class="obraMapPopup"><small>${escaparHtml(rotuloSituacao(obra.situacao))} · Código ${escaparHtml(obra.codigo)}</small><strong>${escaparHtml(titulo(obra.descricao))}</strong><span>${escaparHtml(titulo(obra.logradouro || 'Endereço não informado'))}</span><span>${escaparHtml(obra.secretaria || 'Órgão não informado')}</span><div><a href="${osmUrl}" target="_blank" rel="noreferrer">Abrir no mapa</a><a href="${escaparHtml(sourceUrl)}" target="_blank" rel="noreferrer">Ver no EngeGOV</a></div></article>`, { maxWidth: 310, minWidth: 240 });
       marcador.addTo(layer);
