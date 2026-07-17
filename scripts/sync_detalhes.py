@@ -56,6 +56,7 @@ def analisar(resposta: bytes, codigo: str) -> dict[str, object]:
         "cnpj": entre(texto, "CNPJ:", "Dados da contrataÃ§Ã£o"),
         "licitacao": entre(texto, "NÃºmero da licitaÃ§Ã£o:", "NÃºmero do Contrato:"),
         "contrato": entre(texto, "NÃºmero do Contrato:", "Data do Contrato:"),
+        "fornecedorConsultado": True,
         "dataContrato": entre(texto, "Data do Contrato:", r"N[º°]? Ordem de Serviço:"),
         "inicioObra": entre(texto, "Início da obra:", "Data Limite Execução:"),
         "dataLimiteExecucao": entre(texto, "Data Limite Execução:", "Término Contrato:"),
@@ -77,7 +78,7 @@ def main() -> None:
     detalhes = atual.get("obras", {})
     codigos_validos = {obra["codigo"] for obra in lista if re.fullmatch(r"(?:\d+|C\d+)", obra.get("codigo", ""), re.I)}
     detalhes = {codigo: detalhe for codigo, detalhe in detalhes.items() if codigo in codigos_validos}
-    pendentes = [obra for obra in lista if obra.get("codigo") in codigos_validos and (args.refresh or obra["codigo"] not in detalhes)]
+    pendentes = [obra for obra in lista if obra.get("codigo") in codigos_validos and (obra["codigo"] not in detalhes or (args.refresh and not detalhes.get(obra["codigo"], {}).get("fornecedorConsultado")))]
     if not args.all:
         pendentes = pendentes[:max(args.limit, 0)]
     if not pendentes:
